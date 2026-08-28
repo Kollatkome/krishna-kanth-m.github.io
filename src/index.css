@@ -1,0 +1,263 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ─────────────────────────────────────────────────────────────
+   BLACK & WHITE DESIGN SYSTEM
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --bg-canvas:      #000000;
+  --bg-surface:     rgba(15, 15, 15, 0.75);
+  --border-subtle:  rgba(255, 255, 255, 0.08);
+  --border-glow:    rgba(255, 255, 255, 0.25);
+  --accent-primary: #ffffff;
+  --accent-mid:     #a3a3a3;
+  --accent-dim:     #525252;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: #e5e5e5;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   GLASSMORPHISM — Pure B&W Edition
+   ───────────────────────────────────────────────────────────── */
+.glass-panel {
+  background: rgba(12, 12, 12, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+}
+
+.glass-panel-elevated {
+  background: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow:
+    0 20px 45px -10px rgba(0, 0, 0, 0.7),
+    0 0 30px -8px rgba(255, 255, 255, 0.04);
+}
+
+.glass-card-interactive {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-interactive:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 20px 40px -10px rgba(0, 0, 0, 0.75),
+    0 0 20px -2px rgba(255, 255, 255, 0.06);
+}
+
+.glass-nav {
+  background: rgba(6, 6, 6, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   TEXT GRADIENTS — Monochrome
+   ───────────────────────────────────────────────────────────── */
+.gradient-text-primary {
+  background: linear-gradient(135deg, #ffffff 0%, #d4d4d4 40%, #a3a3a3 75%, #e5e5e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #f5f5f5 0%, #d4d4d4 50%, #a3a3a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   GRADIENT BORDER GLOW — Monochrome shimmer
+   ───────────────────────────────────────────────────────────── */
+.gradient-border-glow {
+  position: relative;
+}
+
+.gradient-border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.2)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   AMBIENT BLOBS — Monochrome
+   ───────────────────────────────────────────────────────────── */
+.blob-violet {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.blob-indigo {
+  background: radial-gradient(circle, rgba(200, 200, 200, 0.03) 0%, rgba(200, 200, 200, 0) 70%);
+}
+
+.blob-cyan {
+  background: radial-gradient(circle, rgba(180, 180, 180, 0.025) 0%, rgba(180, 180, 180, 0) 70%);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   SCROLLBAR — Monochrome
+   ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a4a;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   SELECTION
+   ───────────────────────────────────────────────────────────── */
+::selection {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   ANIMATIONS
+   ───────────────────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PROSE (MARKDOWN NOTE RENDER)
+   ───────────────────────────────────────────────────────────── */
+.prose-invert a {
+  color: #d4d4d4;
+  text-decoration: underline;
+}
+.prose-invert a:hover {
+  color: #ffffff;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PRINT
+   ───────────────────────────────────────────────────────────── */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .glass-panel, .glass-panel-elevated {
+    background: #ffffff !important;
+    border: 1px solid #e5e5e5 !important;
+    box-shadow: none !important;
+    color: #000000 !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   GLOBAL B&W COLOUR OVERRIDE
+   All Tailwind named colour utilities → monochrome greyscale.
+   ───────────────────────────────────────────────────────────── */
+
+/* Emerald / Green */
+[class*="bg-emerald-4"],[class*="bg-green-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-emerald-5"],[class*="bg-green-5"] { background-color: rgba(212,212,212,0.15) !important; }
+[class*="bg-emerald-6"],[class*="bg-green-6"] { background-color: #404040 !important; }
+[class*="text-emerald-2"],[class*="text-green-2"] { color: #e5e5e5 !important; }
+[class*="text-emerald-3"],[class*="text-green-3"] { color: #d4d4d4 !important; }
+[class*="text-emerald-4"],[class*="text-green-4"] { color: #a3a3a3 !important; }
+[class*="border-emerald-4"],[class*="border-green-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-emerald-5"],[class*="border-green-5"] { border-color: rgba(163,163,163,0.25) !important; }
+[class*="shadow-emerald"],[class*="shadow-green"]   { --tw-shadow-color: rgba(0,0,0,0) !important; box-shadow: none !important; }
+
+/* Rose / Red / Pink */
+[class*="bg-rose-4"],[class*="bg-red-4"],[class*="bg-pink-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-rose-5"],[class*="bg-red-5"],[class*="bg-pink-5"] { background-color: rgba(212,212,212,0.15) !important; }
+[class*="bg-rose-6"],[class*="bg-red-6"],[class*="bg-pink-6"] { background-color: #404040 !important; }
+[class*="text-rose-3"],[class*="text-red-3"],[class*="text-pink-3"] { color: #d4d4d4 !important; }
+[class*="text-rose-4"],[class*="text-red-4"],[class*="text-pink-4"] { color: #a3a3a3 !important; }
+[class*="border-rose-4"],[class*="border-red-4"],[class*="border-pink-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-rose-5"],[class*="border-red-5"],[class*="border-pink-5"] { border-color: rgba(163,163,163,0.25) !important; }
+[class*="shadow-rose"],[class*="shadow-red"],[class*="shadow-pink"] { box-shadow: none !important; }
+
+/* Purple / Violet */
+[class*="bg-purple-4"],[class*="bg-violet-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-purple-5"],[class*="bg-violet-5"] { background-color: rgba(212,212,212,0.15) !important; }
+[class*="bg-purple-6"],[class*="bg-violet-6"] { background-color: #404040 !important; }
+[class*="text-purple-2"],[class*="text-violet-2"] { color: #e5e5e5 !important; }
+[class*="text-purple-3"],[class*="text-violet-3"] { color: #d4d4d4 !important; }
+[class*="text-purple-4"],[class*="text-violet-4"] { color: #a3a3a3 !important; }
+[class*="border-purple-4"],[class*="border-violet-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-purple-5"],[class*="border-violet-5"] { border-color: rgba(163,163,163,0.25) !important; }
+[class*="shadow-purple"],[class*="shadow-violet"] { box-shadow: none !important; }
+
+/* Amber / Yellow / Orange */
+[class*="bg-amber-4"],[class*="bg-yellow-4"],[class*="bg-orange-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-amber-5"],[class*="bg-yellow-5"],[class*="bg-orange-5"] { background-color: rgba(212,212,212,0.12) !important; }
+[class*="bg-amber-6"],[class*="bg-yellow-6"],[class*="bg-orange-6"] { background-color: #404040 !important; }
+[class*="text-amber-2"],[class*="text-yellow-2"],[class*="text-orange-2"] { color: #e5e5e5 !important; }
+[class*="text-amber-3"],[class*="text-yellow-3"],[class*="text-orange-3"] { color: #d4d4d4 !important; }
+[class*="text-amber-4"],[class*="text-yellow-4"],[class*="text-orange-4"] { color: #a3a3a3 !important; }
+[class*="border-amber-4"],[class*="border-yellow-4"],[class*="border-orange-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-amber-5"],[class*="border-yellow-5"],[class*="border-orange-5"] { border-color: rgba(163,163,163,0.25) !important; }
+[class*="shadow-amber"],[class*="shadow-yellow"],[class*="shadow-orange"] { box-shadow: none !important; }
+
+/* Cyan / Teal / Sky */
+[class*="bg-cyan-4"],[class*="bg-teal-4"],[class*="bg-sky-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-cyan-5"],[class*="bg-teal-5"],[class*="bg-sky-5"] { background-color: rgba(212,212,212,0.12) !important; }
+[class*="text-cyan-2"],[class*="text-teal-2"],[class*="text-sky-2"] { color: #e5e5e5 !important; }
+[class*="text-cyan-3"],[class*="text-teal-3"],[class*="text-sky-3"] { color: #d4d4d4 !important; }
+[class*="text-cyan-4"],[class*="text-teal-4"],[class*="text-sky-4"] { color: #a3a3a3 !important; }
+[class*="border-cyan-4"],[class*="border-teal-4"],[class*="border-sky-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-cyan-5"],[class*="border-teal-5"],[class*="border-sky-5"] { border-color: rgba(163,163,163,0.25) !important; }
+
+/* Indigo / Blue */
+[class*="bg-indigo-4"],[class*="bg-blue-4"] { background-color: rgba(229,229,229,0.15) !important; }
+[class*="bg-indigo-5"],[class*="bg-blue-5"] { background-color: rgba(212,212,212,0.15) !important; }
+[class*="bg-indigo-6"],[class*="bg-blue-6"] { background-color: #404040 !important; }
+[class*="text-indigo-2"],[class*="text-blue-2"] { color: #e5e5e5 !important; }
+[class*="text-indigo-3"],[class*="text-blue-3"] { color: #d4d4d4 !important; }
+[class*="text-indigo-4"],[class*="text-blue-4"] { color: #a3a3a3 !important; }
+[class*="border-indigo-4"],[class*="border-blue-4"] { border-color: rgba(163,163,163,0.35) !important; }
+[class*="border-indigo-5"],[class*="border-blue-5"] { border-color: rgba(163,163,163,0.25) !important; }
+[class*="shadow-indigo"],[class*="shadow-blue"] { box-shadow: none !important; }
+

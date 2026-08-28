@@ -1,0 +1,2 @@
+// MediaGallery section removed
+export {};
