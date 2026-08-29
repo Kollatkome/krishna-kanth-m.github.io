@@ -30,7 +30,7 @@ import {
   BookOpen
 } from 'lucide-react';
 import { usePortfolio } from '../../context/portfolioStore';
-import type { ProtoSemWeek, ProtoSemDateEntry, ProtoSemAttachment } from '../../types/protosem';
+import type { ProtoSemWeek, ProtoSemDateEntry } from '../../types/protosem';
 import { generateWeekPDF } from '../../utils/pdfReportGenerator';
 
 interface WeekWorkspaceProps {

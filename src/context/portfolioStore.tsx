@@ -143,7 +143,6 @@ export const PortfolioProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       evidenceItems,
       certifications,
       achievements,
-      mediaItems,
       ...overrides
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
