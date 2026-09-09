@@ -1,0 +1,288 @@
+{
+  "compiledAt": "2026-09-09T09:35:14.113Z",
+  "days": {
+    "Week_00/01_Monday": {
+      "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
+      "weekId": "week-00",
+      "date": "2026-08-24",
+      "title": "Problem Discovery & Field Investigation",
+      "notes": "# Problem Discovery & Field Investigation\n\n## 🎯 Topics Covered\n- Stakeholder interview methodology\n- Industry pain-point mapping\n- Hardware telemetry protocol setup\n\n## 🛠️ Activities & Implementation\nConducted on-site surveys with manufacturing floor technicians. Documented initial system diagrams and architecture layout.\n\n## 📸 System Architecture Diagram\n![High-Level Architecture Schematic](/assets/weekly/Week_00/01_Monday/system_architecture.svg)\n\n## 💡 Key Learnings & Reflections\n- First-hand field observations reveal friction points that theoretical models overlook.\n- Communication latency must be factored into low-power IoT node designs.\n\n\n## Media & Evidence Gallery\n\n![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)",
+      "status": "PUBLISHED",
+      "attachments": [
+        {
+          "id": "att-week-00-01_Monday-system-architecture-svg",
+          "type": "IMAGE",
+          "name": "system_architecture.svg",
+          "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+          "size": "1 KB",
+          "uploadedAt": "2026-09-09T09:35:14.034Z",
+          "description": "Evidence linked in Problem Discovery & Field Investigation"
+        },
+        {
+          "id": "att-week-00-01_Monday-sensor-telemetry-svg",
+          "type": "IMAGE",
+          "name": "sensor_telemetry.svg",
+          "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+          "size": "538 B",
+          "uploadedAt": "2026-09-09T09:35:14.038Z",
+          "description": "Media asset from 01_Monday"
+        }
+      ],
+      "createdAt": "2026-09-09T09:35:14.038Z",
+      "updatedAt": "2026-09-09T09:35:14.038Z"
+    }
+  },
+  "weeks": [
+    {
+      "id": "week-00",
+      "weekNumber": 0,
+      "slug": "week-00",
+      "name": "PRICE Innovation Fellowship Orientation",
+      "order": 0,
+      "entries": [
+        {
+          "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
+          "weekId": "week-00",
+          "date": "2026-08-24",
+          "title": "Problem Discovery & Field Investigation",
+          "notes": "# Problem Discovery & Field Investigation\n\n## 🎯 Topics Covered\n- Stakeholder interview methodology\n- Industry pain-point mapping\n- Hardware telemetry protocol setup\n\n## 🛠️ Activities & Implementation\nConducted on-site surveys with manufacturing floor technicians. Documented initial system diagrams and architecture layout.\n\n## 📸 System Architecture Diagram\n![High-Level Architecture Schematic](/assets/weekly/Week_00/01_Monday/system_architecture.svg)\n\n## 💡 Key Learnings & Reflections\n- First-hand field observations reveal friction points that theoretical models overlook.\n- Communication latency must be factored into low-power IoT node designs.\n\n\n## Media & Evidence Gallery\n\n![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)",
+          "status": "PUBLISHED",
+          "attachments": [
+            {
+              "id": "att-week-00-01_Monday-system-architecture-svg",
+              "type": "IMAGE",
+              "name": "system_architecture.svg",
+              "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+              "size": "1 KB",
+              "uploadedAt": "2026-09-09T09:35:14.034Z",
+              "description": "Evidence linked in Problem Discovery & Field Investigation"
+            },
+            {
+              "id": "att-week-00-01_Monday-sensor-telemetry-svg",
+              "type": "IMAGE",
+              "name": "sensor_telemetry.svg",
+              "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+              "size": "538 B",
+              "uploadedAt": "2026-09-09T09:35:14.038Z",
+              "description": "Media asset from 01_Monday"
+            }
+          ],
+          "createdAt": "2026-09-09T09:35:14.038Z",
+          "updatedAt": "2026-09-09T09:35:14.038Z"
+        }
+      ],
+      "createdAt": "2026-09-09T09:35:14.041Z",
+      "updatedAt": "2026-09-09T09:35:14.041Z"
+    },
+    {
+      "id": "week-01",
+      "weekNumber": 1,
+      "slug": "week-01",
+      "name": "",
+      "order": 1,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.051Z",
+      "updatedAt": "2026-09-09T09:35:14.051Z"
+    },
+    {
+      "id": "week-02",
+      "weekNumber": 2,
+      "slug": "week-02",
+      "name": "",
+      "order": 2,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.069Z",
+      "updatedAt": "2026-09-09T09:35:14.069Z"
+    },
+    {
+      "id": "week-03",
+      "weekNumber": 3,
+      "slug": "week-03",
+      "name": "",
+      "order": 3,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.072Z",
+      "updatedAt": "2026-09-09T09:35:14.072Z"
+    },
+    {
+      "id": "week-04",
+      "weekNumber": 4,
+      "slug": "week-04",
+      "name": "",
+      "order": 4,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.075Z",
+      "updatedAt": "2026-09-09T09:35:14.075Z"
+    },
+    {
+      "id": "week-05",
+      "weekNumber": 5,
+      "slug": "week-05",
+      "name": "",
+      "order": 5,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.083Z",
+      "updatedAt": "2026-09-09T09:35:14.083Z"
+    },
+    {
+      "id": "week-06",
+      "weekNumber": 6,
+      "slug": "week-06",
+      "name": "",
+      "order": 6,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.085Z",
+      "updatedAt": "2026-09-09T09:35:14.085Z"
+    },
+    {
+      "id": "week-07",
+      "weekNumber": 7,
+      "slug": "week-07",
+      "name": "",
+      "order": 7,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.087Z",
+      "updatedAt": "2026-09-09T09:35:14.087Z"
+    },
+    {
+      "id": "week-08",
+      "weekNumber": 8,
+      "slug": "week-08",
+      "name": "",
+      "order": 8,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.090Z",
+      "updatedAt": "2026-09-09T09:35:14.090Z"
+    },
+    {
+      "id": "week-09",
+      "weekNumber": 9,
+      "slug": "week-09",
+      "name": "",
+      "order": 9,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.092Z",
+      "updatedAt": "2026-09-09T09:35:14.092Z"
+    },
+    {
+      "id": "week-10",
+      "weekNumber": 10,
+      "slug": "week-10",
+      "name": "",
+      "order": 10,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.094Z",
+      "updatedAt": "2026-09-09T09:35:14.094Z"
+    },
+    {
+      "id": "week-11",
+      "weekNumber": 11,
+      "slug": "week-11",
+      "name": "",
+      "order": 11,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.097Z",
+      "updatedAt": "2026-09-09T09:35:14.097Z"
+    },
+    {
+      "id": "week-12",
+      "weekNumber": 12,
+      "slug": "week-12",
+      "name": "",
+      "order": 12,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.099Z",
+      "updatedAt": "2026-09-09T09:35:14.099Z"
+    },
+    {
+      "id": "week-13",
+      "weekNumber": 13,
+      "slug": "week-13",
+      "name": "",
+      "order": 13,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.101Z",
+      "updatedAt": "2026-09-09T09:35:14.101Z"
+    },
+    {
+      "id": "week-14",
+      "weekNumber": 14,
+      "slug": "week-14",
+      "name": "",
+      "order": 14,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.102Z",
+      "updatedAt": "2026-09-09T09:35:14.102Z"
+    },
+    {
+      "id": "week-15",
+      "weekNumber": 15,
+      "slug": "week-15",
+      "name": "",
+      "order": 15,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.104Z",
+      "updatedAt": "2026-09-09T09:35:14.104Z"
+    },
+    {
+      "id": "week-16",
+      "weekNumber": 16,
+      "slug": "week-16",
+      "name": "",
+      "order": 16,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.107Z",
+      "updatedAt": "2026-09-09T09:35:14.107Z"
+    },
+    {
+      "id": "week-17",
+      "weekNumber": 17,
+      "slug": "week-17",
+      "name": "",
+      "order": 17,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.108Z",
+      "updatedAt": "2026-09-09T09:35:14.108Z"
+    },
+    {
+      "id": "week-18",
+      "weekNumber": 18,
+      "slug": "week-18",
+      "name": "",
+      "order": 18,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.110Z",
+      "updatedAt": "2026-09-09T09:35:14.110Z"
+    },
+    {
+      "id": "week-19",
+      "weekNumber": 19,
+      "slug": "week-19",
+      "name": "",
+      "order": 19,
+      "entries": [],
+      "createdAt": "2026-09-09T09:35:14.111Z",
+      "updatedAt": "2026-09-09T09:35:14.111Z"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-week-00-01_Monday-sensor-telemetry-svg",
+      "title": "sensor_telemetry.svg (Week_00 Monday)",
+      "category": "FORGE",
+      "description": "Artifact submitted during Week_00 sprint journal (Monday).",
+      "format": "IMAGE",
+      "date": "2026-08-24",
+      "size": "538 B",
+      "downloadUrl": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+      "viewUrl": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+      "previewType": "image",
+      "highlights": [
+        "Sprint: Week_00",
+        "Day: Monday",
+        "File: sensor_telemetry.svg"
+      ],
+      "verified": true
+    }
+  ]
+}

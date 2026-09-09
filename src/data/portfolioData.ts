@@ -1,4 +1,5 @@
 import type { ProtoSemAttachment, ProtoSemDateEntry, AttachmentType } from '../types/protosem';
+import compiledProtoSem from './compiledProtoSem.json';
 export type { ProtoSemAttachment, ProtoSemDateEntry, AttachmentType };
 
 export interface PersonalInfo {
@@ -384,7 +385,7 @@ export const projectList: ProjectItem[] = [
   }
 ];
 
-export const protoSemWeeks: ProtoSemWeek[] = Array.from({ length: 20 }, (_, idx) => {
+const defaultWeeksList: ProtoSemWeek[] = Array.from({ length: 20 }, (_, idx) => {
   const numStr = idx < 10 ? `0${idx}` : `${idx}`;
   return {
     id: `week-${numStr}`,
@@ -397,6 +398,12 @@ export const protoSemWeeks: ProtoSemWeek[] = Array.from({ length: 20 }, (_, idx)
     updatedAt: new Date().toISOString()
   };
 });
+
+export const protoSemWeeks: ProtoSemWeek[] = (
+  compiledProtoSem?.weeks && Array.isArray(compiledProtoSem.weeks) && compiledProtoSem.weeks.length > 0
+)
+  ? (compiledProtoSem.weeks as unknown as ProtoSemWeek[])
+  : defaultWeeksList;
 
 export const beforeAfterComparison: BeforeAfterItem[] = [
   {
@@ -436,7 +443,7 @@ export const beforeAfterComparison: BeforeAfterItem[] = [
   }
 ];
 
-export const evidenceVaultItems: EvidenceVaultItem[] = [
+const defaultEvidenceVaultItems: EvidenceVaultItem[] = [
   {
     id: "nptel-gcp-cert",
     title: "Google Cloud Computing Foundations Certificate",
@@ -521,6 +528,17 @@ export const evidenceVaultItems: EvidenceVaultItem[] = [
     highlights: ["CGPA: 9.29 / 10.0", "First Class with Distinction", "Information & Communication Technology"],
     verified: true
   }
+];
+
+const compiledEvidenceList: EvidenceVaultItem[] = (
+  compiledProtoSem?.evidence && Array.isArray(compiledProtoSem.evidence)
+)
+  ? (compiledProtoSem.evidence as unknown as EvidenceVaultItem[])
+  : [];
+
+export const evidenceVaultItems: EvidenceVaultItem[] = [
+  ...defaultEvidenceVaultItems,
+  ...compiledEvidenceList.filter((ce) => !defaultEvidenceVaultItems.some((ie) => ie.id === ce.id))
 ];
 
 export const certificationsList: CertificationItem[] = [

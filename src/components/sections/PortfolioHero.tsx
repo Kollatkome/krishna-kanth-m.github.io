@@ -4,7 +4,6 @@ import {
   FileText, 
   Mail, 
   Phone, 
-  Sparkles, 
   Cpu, 
   FolderGit2
 } from 'lucide-react';
@@ -56,19 +55,6 @@ export const PortfolioHero: React.FC = () => {
           {/* Left Column: Hero Narrative & Controls */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             
-            {/* Chapter 01 & Status Badge */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
-              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-brand-500/15 border border-brand-500/35 text-brand-300 text-xs font-mono tracking-widest uppercase">
-                <Sparkles className="w-3.5 h-3.5 text-brand-400" />
-                <span>01 // INTRO</span>
-              </span>
-
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900/80 border border-white/10 text-slate-300 text-xs font-mono backdrop-blur-md">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>{personalInfo.statusBadge}</span>
-              </div>
-            </div>
-
             {/* Main Greeting & Name */}
             <div className="space-y-2">
               <h2 className="text-slate-400 font-display text-lg sm:text-xl font-medium tracking-wide">

@@ -109,20 +109,43 @@ export const PortfolioProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         if (parsed.experience) setExperience(parsed.experience);
         if (parsed.projects) setProjects(parsed.projects);
         if (Array.isArray(parsed.protoSemWeeks) && parsed.protoSemWeeks.length > 0) {
-          // Check format compatibility: ensure entries array exists
-          const sanitized = parsed.protoSemWeeks.map((w: any, idx: number) => ({
-            id: w.id || `week-${w.weekNumber < 10 ? `0${w.weekNumber}` : w.weekNumber}`,
-            weekNumber: typeof w.weekNumber === 'number' ? w.weekNumber : idx,
-            slug: w.slug || `week-${w.weekNumber < 10 ? `0${w.weekNumber}` : w.weekNumber}`,
-            name: w.name || '',
-            order: typeof w.order === 'number' ? w.order : idx,
-            entries: Array.isArray(w.entries) ? w.entries : [],
-            createdAt: w.createdAt || new Date().toISOString(),
-            updatedAt: w.updatedAt || new Date().toISOString()
-          }));
+          // Merge compiled weeks with any custom user-added notes from localStorage
+          const sanitized = defaultWeeks.map((defaultWeek, idx) => {
+            const savedWeek = parsed.protoSemWeeks.find(
+              (w: any) => w.id === defaultWeek.id || w.slug === defaultWeek.slug || w.weekNumber === defaultWeek.weekNumber
+            );
+            if (!savedWeek) return defaultWeek;
+
+            const savedEntries = Array.isArray(savedWeek.entries) ? savedWeek.entries : [];
+            const mergedEntries = [...defaultWeek.entries];
+            for (const se of savedEntries) {
+              if (!mergedEntries.some((me) => me.id === se.id)) {
+                mergedEntries.push(se);
+              }
+            }
+
+            return {
+              id: savedWeek.id || defaultWeek.id || `week-${idx < 10 ? `0${idx}` : idx}`,
+              weekNumber: typeof savedWeek.weekNumber === 'number' ? savedWeek.weekNumber : defaultWeek.weekNumber,
+              slug: savedWeek.slug || defaultWeek.slug || `week-${idx < 10 ? `0${idx}` : idx}`,
+              name: savedWeek.name || defaultWeek.name || '',
+              order: typeof savedWeek.order === 'number' ? savedWeek.order : defaultWeek.order,
+              entries: mergedEntries,
+              createdAt: savedWeek.createdAt || defaultWeek.createdAt || new Date().toISOString(),
+              updatedAt: savedWeek.updatedAt || defaultWeek.updatedAt || new Date().toISOString()
+            };
+          });
           setProtoSemWeeks(sanitized);
         }
-        if (parsed.evidenceItems) setEvidenceItems(parsed.evidenceItems);
+        if (Array.isArray(parsed.evidenceItems) && parsed.evidenceItems.length > 0) {
+          const mergedEvidence = [...defaultEvidence];
+          for (const se of parsed.evidenceItems) {
+            if (!mergedEvidence.some((me) => me.id === se.id)) {
+              mergedEvidence.push(se);
+            }
+          }
+          setEvidenceItems(mergedEvidence);
+        }
         if (parsed.certifications) setCertifications(parsed.certifications);
         if (parsed.achievements) setAchievements(parsed.achievements);
       } catch (err) {

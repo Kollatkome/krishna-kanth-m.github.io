@@ -1,0 +1,42 @@
+name: Auto-Compile & Publish Obsidian Portfolio Content
+
+on:
+  push:
+    paths:
+      - 'portfolio-content/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * 1' # Every Monday at 5:00 AM UTC
+
+permissions:
+  contents: write
+
+jobs:
+  compile-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Obsidian Portfolio Compiler
+        run: node scripts/build-templates.js
+
+      - name: Commit & Push Compiled Artifacts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(portfolio-content): auto-compile Obsidian weekly notes and assets [skip ci]"
+          file_pattern: "public/assets/weekly/** src/content/blogs/** src/data/compiledProtoSem.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
