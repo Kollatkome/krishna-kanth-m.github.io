@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipeline.md",
+                "file": "Week_01_Summary.md/PRICE Protosem — Week 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pipeline"
+              "title": "PRICE Protosem — Week 1"
             }
           }
         ]
@@ -189,8 +189,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa7288ca0c1f6857",
+  "active": "62a16be0eaa01391",
   "lastOpenFiles": [
-    "pipeline.md"
+    "pipeline.md",
+    "Week_01_Summary.md/PRICE Protosem — Week 1.md"
   ]
 }
