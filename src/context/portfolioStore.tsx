@@ -128,11 +128,11 @@ export const PortfolioProvider: React.FC<{ children: React.ReactNode }> = ({ chi
               id: savedWeek.id || defaultWeek.id || `week-${idx < 10 ? `0${idx}` : idx}`,
               weekNumber: typeof savedWeek.weekNumber === 'number' ? savedWeek.weekNumber : defaultWeek.weekNumber,
               slug: savedWeek.slug || defaultWeek.slug || `week-${idx < 10 ? `0${idx}` : idx}`,
-              name: savedWeek.name || defaultWeek.name || '',
+              name: defaultWeek.name || savedWeek.name || '',
               order: typeof savedWeek.order === 'number' ? savedWeek.order : defaultWeek.order,
               entries: mergedEntries,
-              createdAt: savedWeek.createdAt || defaultWeek.createdAt || new Date().toISOString(),
-              updatedAt: savedWeek.updatedAt || defaultWeek.updatedAt || new Date().toISOString()
+              createdAt: defaultWeek.createdAt || savedWeek.createdAt || new Date().toISOString(),
+              updatedAt: new Date().toISOString()
             };
           });
           setProtoSemWeeks(sanitized);
