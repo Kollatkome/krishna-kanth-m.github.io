@@ -1,5 +1,5 @@
 {
-  "compiledAt": "2026-09-30T09:36:32.712Z",
+  "compiledAt": "2026-09-30T10:13:55.256Z",
   "days": {
     "Week_00/01_Monday": {
       "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -15,7 +15,7 @@
           "name": "system_architecture.svg",
           "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
           "size": "1 KB",
-          "uploadedAt": "2026-09-30T09:36:32.632Z",
+          "uploadedAt": "2026-09-30T10:13:55.152Z",
           "description": "Evidence linked in Problem Discovery & Field Investigation"
         },
         {
@@ -24,45 +24,93 @@
           "name": "sensor_telemetry.svg",
           "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
           "size": "538 B",
-          "uploadedAt": "2026-09-30T09:36:32.634Z",
+          "uploadedAt": "2026-09-30T10:13:55.163Z",
           "description": "Media asset from 01_Monday"
         }
       ],
-      "createdAt": "2026-09-30T09:36:32.634Z",
-      "updatedAt": "2026-09-30T09:36:32.634Z"
+      "createdAt": "2026-09-30T10:13:55.163Z",
+      "updatedAt": "2026-09-30T10:13:55.163Z"
     },
     "Week_06/01_Monday": {
       "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
       "weekId": "week-06",
       "date": "2026-09-28",
       "title": "From 3D Models to Laser-Cut Parts",
-      "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
+      "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n![RDWorks V8 Laser Cutting Path Simulation](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
       "status": "PUBLISHED",
-      "attachments": [],
-      "createdAt": "2026-09-30T09:36:32.661Z",
-      "updatedAt": "2026-09-30T09:36:32.661Z"
+      "attachments": [
+        {
+          "id": "att-week-06-01_Monday-rdworks-laser-preview-png",
+          "type": "IMAGE",
+          "name": "rdworks_laser_preview.png",
+          "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
+          "size": "83 KB",
+          "uploadedAt": "2026-09-30T10:13:55.208Z",
+          "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+        },
+        {
+          "id": "att-week-06-01_Monday-laser-cutting-operation-jpg",
+          "type": "IMAGE",
+          "name": "laser_cutting_operation.jpg",
+          "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
+          "size": "195 KB",
+          "uploadedAt": "2026-09-30T10:13:55.208Z",
+          "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+        }
+      ],
+      "createdAt": "2026-09-30T10:13:55.208Z",
+      "updatedAt": "2026-09-30T10:13:55.208Z"
     },
     "Week_06/02_Tuesday": {
       "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
       "weekId": "week-06",
       "date": "2026-09-29",
       "title": "My First Step into 3D Printing & Slicing Optimization",
-      "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
+      "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
       "status": "PUBLISHED",
-      "attachments": [],
-      "createdAt": "2026-09-30T09:36:32.662Z",
-      "updatedAt": "2026-09-30T09:36:32.662Z"
+      "attachments": [
+        {
+          "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
+          "type": "IMAGE",
+          "name": "bambu_h2s_print_plate.jpg",
+          "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
+          "size": "146 KB",
+          "uploadedAt": "2026-09-30T10:13:55.216Z",
+          "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-bambu-lab-printing-session-jpg",
+          "type": "IMAGE",
+          "name": "bambu_lab_printing_session.jpg",
+          "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
+          "size": "183 KB",
+          "uploadedAt": "2026-09-30T10:13:55.216Z",
+          "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+        }
+      ],
+      "createdAt": "2026-09-30T10:13:55.216Z",
+      "updatedAt": "2026-09-30T10:13:55.216Z"
     },
     "Week_06/06_Saturday": {
       "id": "entry-week-06-06_Saturday-designing-in-3d-clay-modelling",
       "weekId": "week-06",
       "date": "2026-09-26",
       "title": "Designing in 3D & Clay Modelling",
-      "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
+      "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n![Autodesk Fusion 360 3D Parametric Modeling](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
       "status": "PUBLISHED",
-      "attachments": [],
-      "createdAt": "2026-09-30T09:36:32.664Z",
-      "updatedAt": "2026-09-30T09:36:32.664Z"
+      "attachments": [
+        {
+          "id": "att-week-06-06_Saturday-fusion-360-design-png",
+          "type": "IMAGE",
+          "name": "fusion_360_design.png",
+          "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
+          "size": "478 KB",
+          "uploadedAt": "2026-09-30T10:13:55.224Z",
+          "description": "Evidence linked in Designing in 3D & Clay Modelling"
+        }
+      ],
+      "createdAt": "2026-09-30T10:13:55.224Z",
+      "updatedAt": "2026-09-30T10:13:55.224Z"
     }
   },
   "weeks": [
@@ -87,7 +135,7 @@
               "name": "system_architecture.svg",
               "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
               "size": "1 KB",
-              "uploadedAt": "2026-09-30T09:36:32.632Z",
+              "uploadedAt": "2026-09-30T10:13:55.152Z",
               "description": "Evidence linked in Problem Discovery & Field Investigation"
             },
             {
@@ -96,16 +144,16 @@
               "name": "sensor_telemetry.svg",
               "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-09-30T09:36:32.634Z",
+              "uploadedAt": "2026-09-30T10:13:55.163Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-09-30T09:36:32.634Z",
-          "updatedAt": "2026-09-30T09:36:32.634Z"
+          "createdAt": "2026-09-30T10:13:55.163Z",
+          "updatedAt": "2026-09-30T10:13:55.163Z"
         }
       ],
-      "createdAt": "2026-09-30T09:36:32.641Z",
-      "updatedAt": "2026-09-30T09:36:32.641Z"
+      "createdAt": "2026-09-30T10:13:55.165Z",
+      "updatedAt": "2026-09-30T10:13:55.165Z"
     },
     {
       "id": "week-01",
@@ -114,8 +162,8 @@
       "name": "",
       "order": 1,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.644Z",
-      "updatedAt": "2026-09-30T09:36:32.644Z"
+      "createdAt": "2026-09-30T10:13:55.173Z",
+      "updatedAt": "2026-09-30T10:13:55.173Z"
     },
     {
       "id": "week-02",
@@ -124,8 +172,8 @@
       "name": "",
       "order": 2,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.646Z",
-      "updatedAt": "2026-09-30T09:36:32.646Z"
+      "createdAt": "2026-09-30T10:13:55.177Z",
+      "updatedAt": "2026-09-30T10:13:55.177Z"
     },
     {
       "id": "week-03",
@@ -134,8 +182,8 @@
       "name": "",
       "order": 3,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.648Z",
-      "updatedAt": "2026-09-30T09:36:32.648Z"
+      "createdAt": "2026-09-30T10:13:55.185Z",
+      "updatedAt": "2026-09-30T10:13:55.185Z"
     },
     {
       "id": "week-04",
@@ -144,8 +192,8 @@
       "name": "",
       "order": 4,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.650Z",
-      "updatedAt": "2026-09-30T09:36:32.650Z"
+      "createdAt": "2026-09-30T10:13:55.194Z",
+      "updatedAt": "2026-09-30T10:13:55.194Z"
     },
     {
       "id": "week-05",
@@ -154,8 +202,8 @@
       "name": "",
       "order": 5,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.651Z",
-      "updatedAt": "2026-09-30T09:36:32.651Z"
+      "createdAt": "2026-09-30T10:13:55.196Z",
+      "updatedAt": "2026-09-30T10:13:55.196Z"
     },
     {
       "id": "week-06",
@@ -169,37 +217,85 @@
           "weekId": "week-06",
           "date": "2026-09-26",
           "title": "Designing in 3D & Clay Modelling",
-          "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
+          "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n![Autodesk Fusion 360 3D Parametric Modeling](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
           "status": "PUBLISHED",
-          "attachments": [],
-          "createdAt": "2026-09-30T09:36:32.664Z",
-          "updatedAt": "2026-09-30T09:36:32.664Z"
+          "attachments": [
+            {
+              "id": "att-week-06-06_Saturday-fusion-360-design-png",
+              "type": "IMAGE",
+              "name": "fusion_360_design.png",
+              "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
+              "size": "478 KB",
+              "uploadedAt": "2026-09-30T10:13:55.224Z",
+              "description": "Evidence linked in Designing in 3D & Clay Modelling"
+            }
+          ],
+          "createdAt": "2026-09-30T10:13:55.224Z",
+          "updatedAt": "2026-09-30T10:13:55.224Z"
         },
         {
           "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
           "weekId": "week-06",
           "date": "2026-09-28",
           "title": "From 3D Models to Laser-Cut Parts",
-          "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
+          "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n![RDWorks V8 Laser Cutting Path Simulation](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
           "status": "PUBLISHED",
-          "attachments": [],
-          "createdAt": "2026-09-30T09:36:32.661Z",
-          "updatedAt": "2026-09-30T09:36:32.661Z"
+          "attachments": [
+            {
+              "id": "att-week-06-01_Monday-rdworks-laser-preview-png",
+              "type": "IMAGE",
+              "name": "rdworks_laser_preview.png",
+              "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
+              "size": "83 KB",
+              "uploadedAt": "2026-09-30T10:13:55.208Z",
+              "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+            },
+            {
+              "id": "att-week-06-01_Monday-laser-cutting-operation-jpg",
+              "type": "IMAGE",
+              "name": "laser_cutting_operation.jpg",
+              "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
+              "size": "195 KB",
+              "uploadedAt": "2026-09-30T10:13:55.208Z",
+              "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+            }
+          ],
+          "createdAt": "2026-09-30T10:13:55.208Z",
+          "updatedAt": "2026-09-30T10:13:55.208Z"
         },
         {
           "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
           "weekId": "week-06",
           "date": "2026-09-29",
           "title": "My First Step into 3D Printing & Slicing Optimization",
-          "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
+          "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
           "status": "PUBLISHED",
-          "attachments": [],
-          "createdAt": "2026-09-30T09:36:32.662Z",
-          "updatedAt": "2026-09-30T09:36:32.662Z"
+          "attachments": [
+            {
+              "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
+              "type": "IMAGE",
+              "name": "bambu_h2s_print_plate.jpg",
+              "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
+              "size": "146 KB",
+              "uploadedAt": "2026-09-30T10:13:55.216Z",
+              "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-bambu-lab-printing-session-jpg",
+              "type": "IMAGE",
+              "name": "bambu_lab_printing_session.jpg",
+              "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
+              "size": "183 KB",
+              "uploadedAt": "2026-09-30T10:13:55.216Z",
+              "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+            }
+          ],
+          "createdAt": "2026-09-30T10:13:55.216Z",
+          "updatedAt": "2026-09-30T10:13:55.216Z"
         }
       ],
-      "createdAt": "2026-09-30T09:36:32.664Z",
-      "updatedAt": "2026-09-30T09:36:32.665Z"
+      "createdAt": "2026-09-30T10:13:55.225Z",
+      "updatedAt": "2026-09-30T10:13:55.225Z"
     },
     {
       "id": "week-07",
@@ -208,8 +304,8 @@
       "name": "",
       "order": 7,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.667Z",
-      "updatedAt": "2026-09-30T09:36:32.667Z"
+      "createdAt": "2026-09-30T10:13:55.227Z",
+      "updatedAt": "2026-09-30T10:13:55.227Z"
     },
     {
       "id": "week-08",
@@ -218,8 +314,8 @@
       "name": "",
       "order": 8,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.669Z",
-      "updatedAt": "2026-09-30T09:36:32.669Z"
+      "createdAt": "2026-09-30T10:13:55.229Z",
+      "updatedAt": "2026-09-30T10:13:55.229Z"
     },
     {
       "id": "week-09",
@@ -228,8 +324,8 @@
       "name": "",
       "order": 9,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.678Z",
-      "updatedAt": "2026-09-30T09:36:32.678Z"
+      "createdAt": "2026-09-30T10:13:55.230Z",
+      "updatedAt": "2026-09-30T10:13:55.230Z"
     },
     {
       "id": "week-10",
@@ -238,8 +334,8 @@
       "name": "",
       "order": 10,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.680Z",
-      "updatedAt": "2026-09-30T09:36:32.680Z"
+      "createdAt": "2026-09-30T10:13:55.232Z",
+      "updatedAt": "2026-09-30T10:13:55.232Z"
     },
     {
       "id": "week-11",
@@ -248,8 +344,8 @@
       "name": "",
       "order": 11,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.682Z",
-      "updatedAt": "2026-09-30T09:36:32.682Z"
+      "createdAt": "2026-09-30T10:13:55.235Z",
+      "updatedAt": "2026-09-30T10:13:55.235Z"
     },
     {
       "id": "week-12",
@@ -258,8 +354,8 @@
       "name": "",
       "order": 12,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.683Z",
-      "updatedAt": "2026-09-30T09:36:32.683Z"
+      "createdAt": "2026-09-30T10:13:55.239Z",
+      "updatedAt": "2026-09-30T10:13:55.239Z"
     },
     {
       "id": "week-13",
@@ -268,8 +364,8 @@
       "name": "",
       "order": 13,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.685Z",
-      "updatedAt": "2026-09-30T09:36:32.685Z"
+      "createdAt": "2026-09-30T10:13:55.241Z",
+      "updatedAt": "2026-09-30T10:13:55.241Z"
     },
     {
       "id": "week-14",
@@ -278,8 +374,8 @@
       "name": "",
       "order": 14,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.694Z",
-      "updatedAt": "2026-09-30T09:36:32.694Z"
+      "createdAt": "2026-09-30T10:13:55.243Z",
+      "updatedAt": "2026-09-30T10:13:55.243Z"
     },
     {
       "id": "week-15",
@@ -288,8 +384,8 @@
       "name": "",
       "order": 15,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.696Z",
-      "updatedAt": "2026-09-30T09:36:32.696Z"
+      "createdAt": "2026-09-30T10:13:55.245Z",
+      "updatedAt": "2026-09-30T10:13:55.245Z"
     },
     {
       "id": "week-16",
@@ -298,8 +394,8 @@
       "name": "",
       "order": 16,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.698Z",
-      "updatedAt": "2026-09-30T09:36:32.698Z"
+      "createdAt": "2026-09-30T10:13:55.247Z",
+      "updatedAt": "2026-09-30T10:13:55.247Z"
     },
     {
       "id": "week-17",
@@ -308,8 +404,8 @@
       "name": "",
       "order": 17,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.700Z",
-      "updatedAt": "2026-09-30T09:36:32.700Z"
+      "createdAt": "2026-09-30T10:13:55.248Z",
+      "updatedAt": "2026-09-30T10:13:55.248Z"
     },
     {
       "id": "week-18",
@@ -318,8 +414,8 @@
       "name": "",
       "order": 18,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.702Z",
-      "updatedAt": "2026-09-30T09:36:32.702Z"
+      "createdAt": "2026-09-30T10:13:55.250Z",
+      "updatedAt": "2026-09-30T10:13:55.250Z"
     },
     {
       "id": "week-19",
@@ -328,8 +424,8 @@
       "name": "",
       "order": 19,
       "entries": [],
-      "createdAt": "2026-09-30T09:36:32.711Z",
-      "updatedAt": "2026-09-30T09:36:32.711Z"
+      "createdAt": "2026-09-30T10:13:55.251Z",
+      "updatedAt": "2026-09-30T10:13:55.251Z"
     }
   ],
   "evidence": [

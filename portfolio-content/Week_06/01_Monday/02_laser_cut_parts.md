@@ -26,10 +26,14 @@ We advanced into digital manufacturing by bridging CAD models with laser fabrica
 - **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.
 - **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.
 
+![[rdworks_laser_preview.png|RDWorks V8 Laser Cutting Path Simulation]]
+
 ---
 
 ## 💡 Key Shift: "I Designed It" → "I Can Manufacture It"
 
 That shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.
+
+![[laser_cutting_operation.jpg|Observing the Laser Cutting Machine in Operation at Forge]]
 
 Translating digital designs into precise machine instructions connects design theory with real-world fabrication.

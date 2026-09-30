@@ -24,6 +24,8 @@ We started with the fundamentals of Autodesk Fusion 360, learning how simple geo
 - **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.
 - **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.
 
+![Autodesk Fusion 360 3D Parametric Modeling](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)
+
 ---
 
 ## 🖐️ Hands-On Exploration: Clay Modelling
@@ -65,11 +67,15 @@ We advanced into digital manufacturing by bridging CAD models with laser fabrica
 - **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.
 - **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.
 
+![RDWorks V8 Laser Cutting Path Simulation](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)
+
 ---
 
 ## 💡 Key Shift: "I Designed It" → "I Can Manufacture It"
 
 That shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.
+
+![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)
 
 Translating digital designs into precise machine instructions connects design theory with real-world fabrication.
 
@@ -103,6 +109,8 @@ We installed and configured **Bambu Studio** to prepare a functional phone holde
   - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.
 - **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.
 
+![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)
+
 ---
 
 ## 🔄 The Complete Engineering Journey
@@ -114,6 +122,8 @@ This sprint transformed how I view digital engineering. What once seemed like is
 3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio
 4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)
 5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.
+
+![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)
 
 ---
 

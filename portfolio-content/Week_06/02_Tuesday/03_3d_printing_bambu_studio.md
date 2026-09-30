@@ -30,6 +30,8 @@ We installed and configured **Bambu Studio** to prepare a functional phone holde
   - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.
 - **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.
 
+![[bambu_h2s_print_plate.jpg|Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts]]
+
 ---
 
 ## 🔄 The Complete Engineering Journey
@@ -41,6 +43,8 @@ This sprint transformed how I view digital engineering. What once seemed like is
 3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio
 4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)
 5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.
+
+![[bambu_lab_printing_session.jpg|Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer]]
 
 ---
 
