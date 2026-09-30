@@ -1,5 +1,5 @@
 {
-  "compiledAt": "2026-09-30T10:13:55.256Z",
+  "compiledAt": "2026-09-30T10:22:13.351Z",
   "days": {
     "Week_00/01_Monday": {
       "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -15,7 +15,7 @@
           "name": "system_architecture.svg",
           "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
           "size": "1 KB",
-          "uploadedAt": "2026-09-30T10:13:55.152Z",
+          "uploadedAt": "2026-09-30T10:22:13.203Z",
           "description": "Evidence linked in Problem Discovery & Field Investigation"
         },
         {
@@ -24,12 +24,12 @@
           "name": "sensor_telemetry.svg",
           "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
           "size": "538 B",
-          "uploadedAt": "2026-09-30T10:13:55.163Z",
+          "uploadedAt": "2026-09-30T10:22:13.214Z",
           "description": "Media asset from 01_Monday"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.163Z",
-      "updatedAt": "2026-09-30T10:13:55.163Z"
+      "createdAt": "2026-09-30T10:22:13.214Z",
+      "updatedAt": "2026-09-30T10:22:13.214Z"
     },
     "Week_06/01_Monday": {
       "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
@@ -45,7 +45,7 @@
           "name": "rdworks_laser_preview.png",
           "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
           "size": "83 KB",
-          "uploadedAt": "2026-09-30T10:13:55.208Z",
+          "uploadedAt": "2026-09-30T10:22:13.252Z",
           "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
         },
         {
@@ -54,12 +54,12 @@
           "name": "laser_cutting_operation.jpg",
           "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
           "size": "195 KB",
-          "uploadedAt": "2026-09-30T10:13:55.208Z",
+          "uploadedAt": "2026-09-30T10:22:13.253Z",
           "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.208Z",
-      "updatedAt": "2026-09-30T10:13:55.208Z"
+      "createdAt": "2026-09-30T10:22:13.253Z",
+      "updatedAt": "2026-09-30T10:22:13.253Z"
     },
     "Week_06/02_Tuesday": {
       "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
@@ -75,7 +75,7 @@
           "name": "bambu_h2s_print_plate.jpg",
           "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
           "size": "146 KB",
-          "uploadedAt": "2026-09-30T10:13:55.216Z",
+          "uploadedAt": "2026-09-30T10:22:13.280Z",
           "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
         },
         {
@@ -84,12 +84,12 @@
           "name": "bambu_lab_printing_session.jpg",
           "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
           "size": "183 KB",
-          "uploadedAt": "2026-09-30T10:13:55.216Z",
+          "uploadedAt": "2026-09-30T10:22:13.280Z",
           "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.216Z",
-      "updatedAt": "2026-09-30T10:13:55.216Z"
+      "createdAt": "2026-09-30T10:22:13.280Z",
+      "updatedAt": "2026-09-30T10:22:13.280Z"
     },
     "Week_06/06_Saturday": {
       "id": "entry-week-06-06_Saturday-designing-in-3d-clay-modelling",
@@ -105,12 +105,12 @@
           "name": "fusion_360_design.png",
           "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
           "size": "478 KB",
-          "uploadedAt": "2026-09-30T10:13:55.224Z",
+          "uploadedAt": "2026-09-30T10:22:13.286Z",
           "description": "Evidence linked in Designing in 3D & Clay Modelling"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.224Z",
-      "updatedAt": "2026-09-30T10:13:55.224Z"
+      "createdAt": "2026-09-30T10:22:13.286Z",
+      "updatedAt": "2026-09-30T10:22:13.286Z"
     }
   },
   "weeks": [
@@ -135,7 +135,7 @@
               "name": "system_architecture.svg",
               "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
               "size": "1 KB",
-              "uploadedAt": "2026-09-30T10:13:55.152Z",
+              "uploadedAt": "2026-09-30T10:22:13.203Z",
               "description": "Evidence linked in Problem Discovery & Field Investigation"
             },
             {
@@ -144,16 +144,16 @@
               "name": "sensor_telemetry.svg",
               "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-09-30T10:13:55.163Z",
+              "uploadedAt": "2026-09-30T10:22:13.214Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-09-30T10:13:55.163Z",
-          "updatedAt": "2026-09-30T10:13:55.163Z"
+          "createdAt": "2026-09-30T10:22:13.214Z",
+          "updatedAt": "2026-09-30T10:22:13.214Z"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.165Z",
-      "updatedAt": "2026-09-30T10:13:55.165Z"
+      "createdAt": "2026-09-30T10:22:13.216Z",
+      "updatedAt": "2026-09-30T10:22:13.216Z"
     },
     {
       "id": "week-01",
@@ -162,8 +162,8 @@
       "name": "",
       "order": 1,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.173Z",
-      "updatedAt": "2026-09-30T10:13:55.173Z"
+      "createdAt": "2026-09-30T10:22:13.218Z",
+      "updatedAt": "2026-09-30T10:22:13.218Z"
     },
     {
       "id": "week-02",
@@ -172,8 +172,8 @@
       "name": "",
       "order": 2,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.177Z",
-      "updatedAt": "2026-09-30T10:13:55.177Z"
+      "createdAt": "2026-09-30T10:22:13.229Z",
+      "updatedAt": "2026-09-30T10:22:13.229Z"
     },
     {
       "id": "week-03",
@@ -182,8 +182,8 @@
       "name": "",
       "order": 3,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.185Z",
-      "updatedAt": "2026-09-30T10:13:55.185Z"
+      "createdAt": "2026-09-30T10:22:13.234Z",
+      "updatedAt": "2026-09-30T10:22:13.234Z"
     },
     {
       "id": "week-04",
@@ -192,8 +192,8 @@
       "name": "",
       "order": 4,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.194Z",
-      "updatedAt": "2026-09-30T10:13:55.194Z"
+      "createdAt": "2026-09-30T10:22:13.236Z",
+      "updatedAt": "2026-09-30T10:22:13.236Z"
     },
     {
       "id": "week-05",
@@ -202,8 +202,8 @@
       "name": "",
       "order": 5,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.196Z",
-      "updatedAt": "2026-09-30T10:13:55.196Z"
+      "createdAt": "2026-09-30T10:22:13.244Z",
+      "updatedAt": "2026-09-30T10:22:13.244Z"
     },
     {
       "id": "week-06",
@@ -226,12 +226,12 @@
               "name": "fusion_360_design.png",
               "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
               "size": "478 KB",
-              "uploadedAt": "2026-09-30T10:13:55.224Z",
+              "uploadedAt": "2026-09-30T10:22:13.286Z",
               "description": "Evidence linked in Designing in 3D & Clay Modelling"
             }
           ],
-          "createdAt": "2026-09-30T10:13:55.224Z",
-          "updatedAt": "2026-09-30T10:13:55.224Z"
+          "createdAt": "2026-09-30T10:22:13.286Z",
+          "updatedAt": "2026-09-30T10:22:13.286Z"
         },
         {
           "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
@@ -247,7 +247,7 @@
               "name": "rdworks_laser_preview.png",
               "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
               "size": "83 KB",
-              "uploadedAt": "2026-09-30T10:13:55.208Z",
+              "uploadedAt": "2026-09-30T10:22:13.252Z",
               "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
             },
             {
@@ -256,12 +256,12 @@
               "name": "laser_cutting_operation.jpg",
               "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
               "size": "195 KB",
-              "uploadedAt": "2026-09-30T10:13:55.208Z",
+              "uploadedAt": "2026-09-30T10:22:13.253Z",
               "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
             }
           ],
-          "createdAt": "2026-09-30T10:13:55.208Z",
-          "updatedAt": "2026-09-30T10:13:55.208Z"
+          "createdAt": "2026-09-30T10:22:13.253Z",
+          "updatedAt": "2026-09-30T10:22:13.253Z"
         },
         {
           "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
@@ -277,7 +277,7 @@
               "name": "bambu_h2s_print_plate.jpg",
               "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
               "size": "146 KB",
-              "uploadedAt": "2026-09-30T10:13:55.216Z",
+              "uploadedAt": "2026-09-30T10:22:13.280Z",
               "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
             },
             {
@@ -286,16 +286,16 @@
               "name": "bambu_lab_printing_session.jpg",
               "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
               "size": "183 KB",
-              "uploadedAt": "2026-09-30T10:13:55.216Z",
+              "uploadedAt": "2026-09-30T10:22:13.280Z",
               "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
             }
           ],
-          "createdAt": "2026-09-30T10:13:55.216Z",
-          "updatedAt": "2026-09-30T10:13:55.216Z"
+          "createdAt": "2026-09-30T10:22:13.280Z",
+          "updatedAt": "2026-09-30T10:22:13.280Z"
         }
       ],
-      "createdAt": "2026-09-30T10:13:55.225Z",
-      "updatedAt": "2026-09-30T10:13:55.225Z"
+      "createdAt": "2026-09-30T10:22:13.296Z",
+      "updatedAt": "2026-09-30T10:22:13.296Z"
     },
     {
       "id": "week-07",
@@ -304,8 +304,8 @@
       "name": "",
       "order": 7,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.227Z",
-      "updatedAt": "2026-09-30T10:13:55.227Z"
+      "createdAt": "2026-09-30T10:22:13.299Z",
+      "updatedAt": "2026-09-30T10:22:13.299Z"
     },
     {
       "id": "week-08",
@@ -314,8 +314,8 @@
       "name": "",
       "order": 8,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.229Z",
-      "updatedAt": "2026-09-30T10:13:55.229Z"
+      "createdAt": "2026-09-30T10:22:13.301Z",
+      "updatedAt": "2026-09-30T10:22:13.301Z"
     },
     {
       "id": "week-09",
@@ -324,8 +324,8 @@
       "name": "",
       "order": 9,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.230Z",
-      "updatedAt": "2026-09-30T10:13:55.230Z"
+      "createdAt": "2026-09-30T10:22:13.302Z",
+      "updatedAt": "2026-09-30T10:22:13.302Z"
     },
     {
       "id": "week-10",
@@ -334,8 +334,8 @@
       "name": "",
       "order": 10,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.232Z",
-      "updatedAt": "2026-09-30T10:13:55.232Z"
+      "createdAt": "2026-09-30T10:22:13.313Z",
+      "updatedAt": "2026-09-30T10:22:13.313Z"
     },
     {
       "id": "week-11",
@@ -344,8 +344,8 @@
       "name": "",
       "order": 11,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.235Z",
-      "updatedAt": "2026-09-30T10:13:55.235Z"
+      "createdAt": "2026-09-30T10:22:13.315Z",
+      "updatedAt": "2026-09-30T10:22:13.315Z"
     },
     {
       "id": "week-12",
@@ -354,8 +354,8 @@
       "name": "",
       "order": 12,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.239Z",
-      "updatedAt": "2026-09-30T10:13:55.239Z"
+      "createdAt": "2026-09-30T10:22:13.317Z",
+      "updatedAt": "2026-09-30T10:22:13.317Z"
     },
     {
       "id": "week-13",
@@ -364,8 +364,8 @@
       "name": "",
       "order": 13,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.241Z",
-      "updatedAt": "2026-09-30T10:13:55.241Z"
+      "createdAt": "2026-09-30T10:22:13.319Z",
+      "updatedAt": "2026-09-30T10:22:13.319Z"
     },
     {
       "id": "week-14",
@@ -374,8 +374,8 @@
       "name": "",
       "order": 14,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.243Z",
-      "updatedAt": "2026-09-30T10:13:55.243Z"
+      "createdAt": "2026-09-30T10:22:13.330Z",
+      "updatedAt": "2026-09-30T10:22:13.330Z"
     },
     {
       "id": "week-15",
@@ -384,8 +384,8 @@
       "name": "",
       "order": 15,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.245Z",
-      "updatedAt": "2026-09-30T10:13:55.245Z"
+      "createdAt": "2026-09-30T10:22:13.332Z",
+      "updatedAt": "2026-09-30T10:22:13.332Z"
     },
     {
       "id": "week-16",
@@ -394,8 +394,8 @@
       "name": "",
       "order": 16,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.247Z",
-      "updatedAt": "2026-09-30T10:13:55.247Z"
+      "createdAt": "2026-09-30T10:22:13.335Z",
+      "updatedAt": "2026-09-30T10:22:13.335Z"
     },
     {
       "id": "week-17",
@@ -404,8 +404,8 @@
       "name": "",
       "order": 17,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.248Z",
-      "updatedAt": "2026-09-30T10:13:55.248Z"
+      "createdAt": "2026-09-30T10:22:13.347Z",
+      "updatedAt": "2026-09-30T10:22:13.347Z"
     },
     {
       "id": "week-18",
@@ -414,8 +414,8 @@
       "name": "",
       "order": 18,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.250Z",
-      "updatedAt": "2026-09-30T10:13:55.250Z"
+      "createdAt": "2026-09-30T10:22:13.349Z",
+      "updatedAt": "2026-09-30T10:22:13.349Z"
     },
     {
       "id": "week-19",
@@ -424,8 +424,8 @@
       "name": "",
       "order": 19,
       "entries": [],
-      "createdAt": "2026-09-30T10:13:55.251Z",
-      "updatedAt": "2026-09-30T10:13:55.251Z"
+      "createdAt": "2026-09-30T10:22:13.351Z",
+      "updatedAt": "2026-09-30T10:22:13.351Z"
     }
   ],
   "evidence": [

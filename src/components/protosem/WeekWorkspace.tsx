@@ -27,7 +27,8 @@ import {
   RefreshCw,
   Pencil,
   Globe,
-  BookOpen
+  BookOpen,
+  Image as ImageIcon
 } from 'lucide-react';
 import { usePortfolio } from '../../context/portfolioStore';
 import type { ProtoSemWeek, ProtoSemDateEntry } from '../../types/protosem';
@@ -128,31 +129,107 @@ const renderNotes = (text: string) => {
   if (!text) return null;
   const lines = text.split('\n');
   return (
-    <div className="prose prose-invert max-w-none text-slate-200 text-sm leading-relaxed">
+    <div className="prose prose-invert max-w-none text-slate-200 text-sm leading-relaxed space-y-2">
       {lines.map((line, i) => {
-        if (line.startsWith('# ')) return <h1 key={i} className="text-xl font-bold text-white mt-3 mb-1">{line.slice(2)}</h1>;
-        if (line.startsWith('## ')) return <h2 key={i} className="text-lg font-semibold text-brand-200 mt-2 mb-1">{line.slice(3)}</h2>;
-        if (line.startsWith('• ') || line.startsWith('- ')) {
-          return <div key={i} className="flex items-start gap-2 py-0.5"><span className="text-brand-400 mt-1 flex-shrink-0">•</span><span>{renderInline(line.slice(2))}</span></div>;
+        const trimmed = line.trim();
+
+        // 1. Standalone image on line: ![alt](url)
+        const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+        if (imgMatch) {
+          const alt = imgMatch[1];
+          const src = imgMatch[2];
+          return (
+            <figure key={i} className="my-5 rounded-2xl overflow-hidden border border-white/15 bg-slate-950/70 shadow-2xl group">
+              <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-2">
+                <img
+                  src={src}
+                  alt={alt || 'Document Photo'}
+                  loading="lazy"
+                  className="w-full h-auto max-h-[520px] object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
+                />
+              </div>
+              {alt && (
+                <figcaption className="px-4 py-2.5 bg-slate-900/90 border-t border-white/10 text-xs text-slate-300 font-mono flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-brand-400 flex-shrink-0 animate-pulse" />
+                  <span className="truncate">{alt}</span>
+                </figcaption>
+              )}
+            </figure>
+          );
         }
+
+        // 2. Headings
+        if (line.startsWith('# ')) return <h1 key={i} className="text-xl font-bold text-white mt-4 mb-2">{line.slice(2)}</h1>;
+        if (line.startsWith('## ')) return <h2 key={i} className="text-lg font-semibold text-brand-200 mt-3 mb-1.5">{line.slice(3)}</h2>;
+        if (line.startsWith('### ')) return <h3 key={i} className="text-base font-semibold text-brand-300 mt-2.5 mb-1">{line.slice(4)}</h3>;
+
+        // 3. Blockquotes
+        if (line.startsWith('> ')) {
+          return (
+            <blockquote key={i} className="border-l-2 border-brand-400 pl-4 py-2 my-2 text-slate-300 italic bg-brand-500/10 rounded-r-xl font-sans">
+              {renderInline(line.slice(2))}
+            </blockquote>
+          );
+        }
+
+        // 4. Horizontal Rule
+        if (trimmed === '---' || trimmed === '***') {
+          return <hr key={i} className="border-white/10 my-4" />;
+        }
+
+        // 5. Bullet Lists
+        if (line.startsWith('• ') || line.startsWith('- ') || line.startsWith('* ')) {
+          return (
+            <div key={i} className="flex items-start gap-2 py-0.5">
+              <span className="text-brand-400 mt-1.5 flex-shrink-0 text-xs">•</span>
+              <span className="text-slate-200 leading-relaxed">{renderInline(line.replace(/^[•\-\*]\s+/, ''))}</span>
+            </div>
+          );
+        }
+
+        // 6. Numbered Lists
         if (/^\d+\. /.test(line)) {
           const match = line.match(/^(\d+)\. (.*)/);
-          if (match) return <div key={i} className="flex items-start gap-2 py-0.5"><span className="text-brand-400 font-mono text-xs mt-1 flex-shrink-0">{match[1]}.</span><span>{renderInline(match[2])}</span></div>;
+          if (match) {
+            return (
+              <div key={i} className="flex items-start gap-2 py-0.5">
+                <span className="text-brand-400 font-mono text-xs mt-1 flex-shrink-0">{match[1]}.</span>
+                <span className="text-slate-200 leading-relaxed">{renderInline(match[2])}</span>
+              </div>
+            );
+          }
         }
-        if (line.trim() === '') return <div key={i} className="h-2" />;
-        return <p key={i} className="py-0.5 text-slate-200 font-light">{renderInline(line)}</p>;
+
+        if (trimmed === '') return <div key={i} className="h-1.5" />;
+        return <p key={i} className="py-0.5 text-slate-200 font-light leading-relaxed">{renderInline(line)}</p>;
       })}
     </div>
   );
 };
 
 const renderInline = (text: string) => {
-  const parts = text.split(/(\*\*.*?\*\*|_.*?_|\[.*?\]\(.*?\))/g);
+  const parts = text.split(/(!\[.*?\]\(.*?\)|\*\*.*?\*\*|_.*?_|\[.*?\]\(.*?\))/g);
   return parts.map((part, i) => {
+    if (!part) return null;
+    if (part.startsWith('![') && part.endsWith(')')) {
+      const imgMatch = part.match(/!\[(.*?)\]\((.*?)\)/);
+      if (imgMatch) {
+        return (
+          <img
+            key={i}
+            src={imgMatch[2]}
+            alt={imgMatch[1] || 'Embedded image'}
+            className="rounded-xl border border-white/15 my-2 max-h-96 object-contain shadow-lg inline-block"
+          />
+        );
+      }
+    }
     if (part.startsWith('**') && part.endsWith('**')) return <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>;
     if (part.startsWith('_') && part.endsWith('_')) return <em key={i} className="text-slate-300 italic">{part.slice(1, -1)}</em>;
-    const linkMatch = part.match(/\[(.*?)\]\((.*?)\)/);
-    if (linkMatch) return <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-brand-400 hover:text-brand-300 underline">{linkMatch[1]}</a>;
+    if (part.startsWith('[') && part.endsWith(')')) {
+      const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+      if (linkMatch) return <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-brand-400 hover:text-brand-300 underline font-medium">{linkMatch[1]}</a>;
+    }
     return part;
   });
 };
@@ -798,6 +875,7 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
             {sortedEntries.map((entry, idx) => {
               const pdfs = entry.attachments.filter(a => a.type === 'PDF');
               const ppts = entry.attachments.filter(a => a.type === 'PPT');
+              const images = entry.attachments.filter(a => a.type === 'IMAGE');
               const isEditing = isAdminAuthenticated && editingEntryId === entry.id;
 
               return (
@@ -1010,6 +1088,33 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                                         <Trash2 className="w-3.5 h-3.5" />
                                       </button>
                                     )}
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Image Attachments Gallery */}
+                        {images.length > 0 && !entry.notes && (
+                          <div className="space-y-2.5">
+                            <h4 className="text-[10px] font-mono uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
+                              <ImageIcon className="w-3 h-3" /> Evidence & Photos ({images.length})
+                            </h4>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                              {images.map(img => (
+                                <div key={img.id} className="rounded-2xl overflow-hidden border border-white/10 bg-slate-900/60 group">
+                                  <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-1">
+                                    <img src={img.url} alt={img.name} className="w-full h-auto max-h-60 object-contain rounded-xl group-hover:scale-105 transition-transform duration-300" />
+                                  </div>
+                                  <div className="p-3 bg-slate-950/80 border-t border-white/5 flex items-center justify-between">
+                                    <div className="truncate">
+                                      <p className="text-xs font-bold text-white truncate">{img.name}</p>
+                                      <p className="text-[10px] font-mono text-slate-500">{img.size}</p>
+                                    </div>
+                                    <a href={img.url} download={img.name} className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10" title="Download">
+                                      <Download className="w-3.5 h-3.5" />
+                                    </a>
                                   </div>
                                 </div>
                               ))}
