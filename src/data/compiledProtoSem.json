@@ -1,5 +1,5 @@
 {
-  "compiledAt": "2026-09-30T09:33:03.959Z",
+  "compiledAt": "2026-09-30T09:36:32.712Z",
   "days": {
     "Week_00/01_Monday": {
       "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -15,7 +15,7 @@
           "name": "system_architecture.svg",
           "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
           "size": "1 KB",
-          "uploadedAt": "2026-09-30T09:33:03.887Z",
+          "uploadedAt": "2026-09-30T09:36:32.632Z",
           "description": "Evidence linked in Problem Discovery & Field Investigation"
         },
         {
@@ -24,12 +24,12 @@
           "name": "sensor_telemetry.svg",
           "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
           "size": "538 B",
-          "uploadedAt": "2026-09-30T09:33:03.893Z",
+          "uploadedAt": "2026-09-30T09:36:32.634Z",
           "description": "Media asset from 01_Monday"
         }
       ],
-      "createdAt": "2026-09-30T09:33:03.894Z",
-      "updatedAt": "2026-09-30T09:33:03.894Z"
+      "createdAt": "2026-09-30T09:36:32.634Z",
+      "updatedAt": "2026-09-30T09:36:32.634Z"
     },
     "Week_06/01_Monday": {
       "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
@@ -39,19 +39,19 @@
       "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-09-30T09:33:03.914Z",
-      "updatedAt": "2026-09-30T09:33:03.914Z"
+      "createdAt": "2026-09-30T09:36:32.661Z",
+      "updatedAt": "2026-09-30T09:36:32.661Z"
     },
     "Week_06/02_Tuesday": {
       "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
       "weekId": "week-06",
       "date": "2026-09-29",
       "title": "My First Step into 3D Printing & Slicing Optimization",
-      "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n$$\\text{Idea} \\longrightarrow \\text{Digital Model} \\longrightarrow \\text{Fabrication Setup} \\longrightarrow \\text{Machine} \\longrightarrow \\text{Physical Object}$$\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
+      "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-09-30T09:33:03.914Z",
-      "updatedAt": "2026-09-30T09:33:03.914Z"
+      "createdAt": "2026-09-30T09:36:32.662Z",
+      "updatedAt": "2026-09-30T09:36:32.662Z"
     },
     "Week_06/06_Saturday": {
       "id": "entry-week-06-06_Saturday-designing-in-3d-clay-modelling",
@@ -61,8 +61,8 @@
       "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-09-30T09:33:03.916Z",
-      "updatedAt": "2026-09-30T09:33:03.916Z"
+      "createdAt": "2026-09-30T09:36:32.664Z",
+      "updatedAt": "2026-09-30T09:36:32.664Z"
     }
   },
   "weeks": [
@@ -87,7 +87,7 @@
               "name": "system_architecture.svg",
               "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
               "size": "1 KB",
-              "uploadedAt": "2026-09-30T09:33:03.887Z",
+              "uploadedAt": "2026-09-30T09:36:32.632Z",
               "description": "Evidence linked in Problem Discovery & Field Investigation"
             },
             {
@@ -96,16 +96,16 @@
               "name": "sensor_telemetry.svg",
               "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-09-30T09:33:03.893Z",
+              "uploadedAt": "2026-09-30T09:36:32.634Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-09-30T09:33:03.894Z",
-          "updatedAt": "2026-09-30T09:33:03.894Z"
+          "createdAt": "2026-09-30T09:36:32.634Z",
+          "updatedAt": "2026-09-30T09:36:32.634Z"
         }
       ],
-      "createdAt": "2026-09-30T09:33:03.896Z",
-      "updatedAt": "2026-09-30T09:33:03.896Z"
+      "createdAt": "2026-09-30T09:36:32.641Z",
+      "updatedAt": "2026-09-30T09:36:32.641Z"
     },
     {
       "id": "week-01",
@@ -114,8 +114,8 @@
       "name": "",
       "order": 1,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.898Z",
-      "updatedAt": "2026-09-30T09:33:03.898Z"
+      "createdAt": "2026-09-30T09:36:32.644Z",
+      "updatedAt": "2026-09-30T09:36:32.644Z"
     },
     {
       "id": "week-02",
@@ -124,8 +124,8 @@
       "name": "",
       "order": 2,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.901Z",
-      "updatedAt": "2026-09-30T09:33:03.901Z"
+      "createdAt": "2026-09-30T09:36:32.646Z",
+      "updatedAt": "2026-09-30T09:36:32.646Z"
     },
     {
       "id": "week-03",
@@ -134,8 +134,8 @@
       "name": "",
       "order": 3,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.903Z",
-      "updatedAt": "2026-09-30T09:33:03.903Z"
+      "createdAt": "2026-09-30T09:36:32.648Z",
+      "updatedAt": "2026-09-30T09:36:32.648Z"
     },
     {
       "id": "week-04",
@@ -144,8 +144,8 @@
       "name": "",
       "order": 4,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.908Z",
-      "updatedAt": "2026-09-30T09:33:03.908Z"
+      "createdAt": "2026-09-30T09:36:32.650Z",
+      "updatedAt": "2026-09-30T09:36:32.650Z"
     },
     {
       "id": "week-05",
@@ -154,8 +154,8 @@
       "name": "",
       "order": 5,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.910Z",
-      "updatedAt": "2026-09-30T09:33:03.910Z"
+      "createdAt": "2026-09-30T09:36:32.651Z",
+      "updatedAt": "2026-09-30T09:36:32.651Z"
     },
     {
       "id": "week-06",
@@ -172,8 +172,8 @@
           "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-09-30T09:33:03.916Z",
-          "updatedAt": "2026-09-30T09:33:03.916Z"
+          "createdAt": "2026-09-30T09:36:32.664Z",
+          "updatedAt": "2026-09-30T09:36:32.664Z"
         },
         {
           "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
@@ -183,23 +183,23 @@
           "notes": "# From 3D Models to Laser-Cut Parts\n\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Digital Fabrication**: Laser Cutting Fundamentals\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\n- **File Interoperability**: DXF file generation and machine translation\n\n---\n\n## ⚙️ Laser Cutting Preparation & Workflow\n\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\n\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\n\n---\n\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\n\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\n\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-09-30T09:33:03.914Z",
-          "updatedAt": "2026-09-30T09:33:03.914Z"
+          "createdAt": "2026-09-30T09:36:32.661Z",
+          "updatedAt": "2026-09-30T09:36:32.661Z"
         },
         {
           "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
           "weekId": "week-06",
           "date": "2026-09-29",
           "title": "My First Step into 3D Printing & Slicing Optimization",
-          "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n$$\\text{Idea} \\longrightarrow \\text{Digital Model} \\longrightarrow \\text{Fabrication Setup} \\longrightarrow \\text{Machine} \\longrightarrow \\text{Physical Object}$$\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
+          "notes": "# My First Step into 3D Printing & Slicing Optimization\n\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\n\n---\n\n## 🎯 Focus Areas & Hardware\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\n\n---\n\n## 🖨️ Slicing & Preparation in Bambu Studio\n\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\n\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\n\n---\n\n## 🔄 The Complete Engineering Journey\n\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\n\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\n\n---\n\n## 🚀 Sprint Conclusion\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-09-30T09:33:03.914Z",
-          "updatedAt": "2026-09-30T09:33:03.914Z"
+          "createdAt": "2026-09-30T09:36:32.662Z",
+          "updatedAt": "2026-09-30T09:36:32.662Z"
         }
       ],
-      "createdAt": "2026-09-30T09:33:03.917Z",
-      "updatedAt": "2026-09-30T09:33:03.917Z"
+      "createdAt": "2026-09-30T09:36:32.664Z",
+      "updatedAt": "2026-09-30T09:36:32.665Z"
     },
     {
       "id": "week-07",
@@ -208,8 +208,8 @@
       "name": "",
       "order": 7,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.920Z",
-      "updatedAt": "2026-09-30T09:33:03.920Z"
+      "createdAt": "2026-09-30T09:36:32.667Z",
+      "updatedAt": "2026-09-30T09:36:32.667Z"
     },
     {
       "id": "week-08",
@@ -218,8 +218,8 @@
       "name": "",
       "order": 8,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.925Z",
-      "updatedAt": "2026-09-30T09:33:03.925Z"
+      "createdAt": "2026-09-30T09:36:32.669Z",
+      "updatedAt": "2026-09-30T09:36:32.669Z"
     },
     {
       "id": "week-09",
@@ -228,8 +228,8 @@
       "name": "",
       "order": 9,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.929Z",
-      "updatedAt": "2026-09-30T09:33:03.929Z"
+      "createdAt": "2026-09-30T09:36:32.678Z",
+      "updatedAt": "2026-09-30T09:36:32.678Z"
     },
     {
       "id": "week-10",
@@ -238,8 +238,8 @@
       "name": "",
       "order": 10,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.930Z",
-      "updatedAt": "2026-09-30T09:33:03.930Z"
+      "createdAt": "2026-09-30T09:36:32.680Z",
+      "updatedAt": "2026-09-30T09:36:32.680Z"
     },
     {
       "id": "week-11",
@@ -248,8 +248,8 @@
       "name": "",
       "order": 11,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.933Z",
-      "updatedAt": "2026-09-30T09:33:03.933Z"
+      "createdAt": "2026-09-30T09:36:32.682Z",
+      "updatedAt": "2026-09-30T09:36:32.682Z"
     },
     {
       "id": "week-12",
@@ -258,8 +258,8 @@
       "name": "",
       "order": 12,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.936Z",
-      "updatedAt": "2026-09-30T09:33:03.936Z"
+      "createdAt": "2026-09-30T09:36:32.683Z",
+      "updatedAt": "2026-09-30T09:36:32.683Z"
     },
     {
       "id": "week-13",
@@ -268,8 +268,8 @@
       "name": "",
       "order": 13,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.941Z",
-      "updatedAt": "2026-09-30T09:33:03.941Z"
+      "createdAt": "2026-09-30T09:36:32.685Z",
+      "updatedAt": "2026-09-30T09:36:32.685Z"
     },
     {
       "id": "week-14",
@@ -278,8 +278,8 @@
       "name": "",
       "order": 14,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.944Z",
-      "updatedAt": "2026-09-30T09:33:03.944Z"
+      "createdAt": "2026-09-30T09:36:32.694Z",
+      "updatedAt": "2026-09-30T09:36:32.694Z"
     },
     {
       "id": "week-15",
@@ -288,8 +288,8 @@
       "name": "",
       "order": 15,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.947Z",
-      "updatedAt": "2026-09-30T09:33:03.947Z"
+      "createdAt": "2026-09-30T09:36:32.696Z",
+      "updatedAt": "2026-09-30T09:36:32.696Z"
     },
     {
       "id": "week-16",
@@ -298,8 +298,8 @@
       "name": "",
       "order": 16,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.949Z",
-      "updatedAt": "2026-09-30T09:33:03.949Z"
+      "createdAt": "2026-09-30T09:36:32.698Z",
+      "updatedAt": "2026-09-30T09:36:32.698Z"
     },
     {
       "id": "week-17",
@@ -308,8 +308,8 @@
       "name": "",
       "order": 17,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.951Z",
-      "updatedAt": "2026-09-30T09:33:03.951Z"
+      "createdAt": "2026-09-30T09:36:32.700Z",
+      "updatedAt": "2026-09-30T09:36:32.700Z"
     },
     {
       "id": "week-18",
@@ -318,8 +318,8 @@
       "name": "",
       "order": 18,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.953Z",
-      "updatedAt": "2026-09-30T09:33:03.953Z"
+      "createdAt": "2026-09-30T09:36:32.702Z",
+      "updatedAt": "2026-09-30T09:36:32.702Z"
     },
     {
       "id": "week-19",
@@ -328,8 +328,8 @@
       "name": "",
       "order": 19,
       "entries": [],
-      "createdAt": "2026-09-30T09:33:03.958Z",
-      "updatedAt": "2026-09-30T09:33:03.958Z"
+      "createdAt": "2026-09-30T09:36:32.711Z",
+      "updatedAt": "2026-09-30T09:36:32.711Z"
     }
   ],
   "evidence": [

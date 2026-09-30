@@ -109,8 +109,6 @@ We installed and configured **Bambu Studio** to prepare a functional phone holde
 
 This sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:
 
-$$\text{Idea} \longrightarrow \text{Digital Model} \longrightarrow \text{Fabrication Setup} \longrightarrow \text{Machine} \longrightarrow \text{Physical Object}$$
-
 1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360
 2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations
 3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio
