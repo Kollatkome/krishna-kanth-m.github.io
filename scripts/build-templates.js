@@ -337,6 +337,9 @@ async function buildTemplates() {
       }
     }
 
+    // Sort entries chronologically by date
+    weekEntries.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
     // Build Week representation
     const weekObj = {
       id: weekId,
@@ -352,12 +355,16 @@ async function buildTemplates() {
     compiledWeeks.push(weekObj);
 
     // Generate Weekly Markdown File: src/content/blogs/Week_XX.md
+    const sortedMarkdownSections = weekEntries.map(
+      (e) => `### ${e.title} (${e.date})\n\n${e.notes}`
+    );
+
     const weeklyBlogContent = [
       `# ${weekFolderName}${weekCustomName ? ` - ${weekCustomName}` : ''}`,
       `*Sprint Week ${weekNumStr} Journal and Innovation Dossier*`,
       '',
-      weeklyMarkdownSections.length > 0
-        ? weeklyMarkdownSections.join('\n\n---\n\n')
+      sortedMarkdownSections.length > 0
+        ? sortedMarkdownSections.join('\n\n---\n\n')
         : '_No daily notes recorded for this sprint week yet._'
     ].join('\n');
 
