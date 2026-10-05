@@ -18,9 +18,9 @@ Overall, Week 0 established a foundation for the program by combining technology
 
 ## Media & Evidence Gallery
 
-![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)
+![sensor_telemetry.svg](assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)
 
-![system_architecture.svg](/assets/weekly/Week_00/01_Monday/system_architecture.svg)
+![system_architecture.svg](assets/weekly/Week_00/01_Monday/system_architecture.svg)
 
 ---
 
@@ -37,7 +37,7 @@ Overall, Week 0 established a foundation for the program by combining technology
 Conducted on-site surveys with manufacturing floor technicians. Documented initial system diagrams and architecture layout.
 
 ## 📸 System Architecture Diagram
-![High-Level Architecture Schematic](/assets/weekly/Week_00/01_Monday/system_architecture.svg)
+![High-Level Architecture Schematic](assets/weekly/Week_00/01_Monday/assets/weekly/Week_00/01_Monday/system_architecture.svg)
 
 ## 💡 Key Learnings & Reflections
 - First-hand field observations reveal friction points that theoretical models overlook.
@@ -46,4 +46,4 @@ Conducted on-site surveys with manufacturing floor technicians. Documented initi
 
 ## Media & Evidence Gallery
 
-![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)
+![sensor_telemetry.svg](assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)

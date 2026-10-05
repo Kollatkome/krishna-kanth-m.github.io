@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { X, ExternalLink, Download, CheckCircle2 } from 'lucide-react';
+import { resolveAssetUrl } from '../../utils/assetUrl';
 
 interface ModalViewerProps {
   isOpen: boolean;
@@ -87,7 +88,7 @@ export const ModalViewer: React.FC<ModalViewerProps> = ({
           <div className="flex items-center gap-2">
             {viewUrl && (
               <a
-                href={viewUrl}
+                href={resolveAssetUrl(viewUrl)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 rounded-xl text-xs font-semibold bg-brand-600 hover:bg-brand-500 text-white flex items-center gap-2 transition-all shadow-md"
@@ -98,7 +99,7 @@ export const ModalViewer: React.FC<ModalViewerProps> = ({
             )}
             {downloadUrl && (
               <a
-                href={downloadUrl}
+                href={resolveAssetUrl(downloadUrl)}
                 download
                 className="px-4 py-2 rounded-xl text-xs font-medium glass-panel hover:bg-white/10 text-slate-300 flex items-center gap-2 transition-all"
               >

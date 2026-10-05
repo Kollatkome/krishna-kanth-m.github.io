@@ -66,7 +66,7 @@ export function parseFrontmatter(content) {
 export function convertMarkdownLinks(content, { week, day }) {
   if (!content) return '';
 
-  const basePath = `/assets/weekly/${week}/${day}`;
+  const basePath = `assets/weekly/${week}/${day}`;
 
   // 1. Convert wikilink embeds: ![[image.ext|Optional Caption]] or ![[image.ext]]
   let processed = content.replace(/!\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, fileName, caption) => {

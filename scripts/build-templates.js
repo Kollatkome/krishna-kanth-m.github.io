@@ -155,7 +155,7 @@ async function buildTemplates() {
           // Create attachments for explicitly linked media
           for (const mediaName of parsed.linkedMedia) {
             const ext = mediaName.split('.').pop()?.toLowerCase() || '';
-            const mediaUrl = `/assets/weekly/${weekFolderName}/${dayFolder}/${mediaName}`;
+            const mediaUrl = `assets/weekly/${weekFolderName}/${dayFolder}/${mediaName}`;
             let mediaSize = '1.0 MB';
 
             const localMediaPath = path.join(dayPath, mediaName);
@@ -184,7 +184,7 @@ async function buildTemplates() {
               '\n\n## Media & Evidence Gallery',
               ...unlinkedMedia.map((m) => {
                 const ext = m.split('.').pop()?.toLowerCase() || '';
-                const mUrl = `/assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
+                const mUrl = `assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
                 if (IMAGE_EXTENSIONS.has(ext)) {
                   return `![${m}](${mUrl})`;
                 }
@@ -197,7 +197,7 @@ async function buildTemplates() {
             // Also add unlinked media to day attachments
             for (const unlinked of unlinkedMedia) {
               const ext = unlinked.split('.').pop()?.toLowerCase() || '';
-              const mUrl = `/assets/weekly/${weekFolderName}/${dayFolder}/${unlinked}`;
+              const mUrl = `assets/weekly/${weekFolderName}/${dayFolder}/${unlinked}`;
               let mSize = '1.0 MB';
               const localMediaPath = path.join(dayPath, unlinked);
               if (fs.existsSync(localMediaPath)) {
@@ -274,7 +274,7 @@ async function buildTemplates() {
           `## ${dayDisplayName} Artifacts`,
           ...mediaFiles.map((m) => {
             const ext = m.split('.').pop()?.toLowerCase() || '';
-            const mUrl = `/assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
+            const mUrl = `assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
             if (IMAGE_EXTENSIONS.has(ext)) {
               return `![${m}](${mUrl})`;
             }
@@ -284,7 +284,7 @@ async function buildTemplates() {
 
         for (const m of mediaFiles) {
           const ext = m.split('.').pop()?.toLowerCase() || '';
-          const mUrl = `/assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
+          const mUrl = `assets/weekly/${weekFolderName}/${dayFolder}/${m}`;
           let mSize = '1.0 MB';
           const localMediaPath = path.join(dayPath, m);
           if (fs.existsSync(localMediaPath)) {

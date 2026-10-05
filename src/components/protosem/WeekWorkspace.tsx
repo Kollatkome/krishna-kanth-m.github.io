@@ -34,6 +34,7 @@ import {
 import { usePortfolio } from '../../context/portfolioStore';
 import type { ProtoSemWeek, ProtoSemDateEntry } from '../../types/protosem';
 import { generateWeekPDF } from '../../utils/pdfReportGenerator';
+import { resolveAssetUrl } from '../../utils/assetUrl';
 import { Week6MatrixChoice, type MatrixPillChoice } from './Week6MatrixChoice';
 
 interface WeekWorkspaceProps {
@@ -305,7 +306,7 @@ const renderNotes = (text: string, theme: NoteTheme = 'brand') => {
         <figure key={`img-${i}`} className={`my-5 rounded-2xl overflow-hidden border ${styles.tableBorder} bg-slate-950/70 shadow-2xl group`}>
           <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-2">
             <img
-              src={src}
+              src={resolveAssetUrl(src)}
               alt={alt || 'Document Photo'}
               loading="lazy"
               className="w-full h-auto max-h-[520px] object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
@@ -420,7 +421,7 @@ const renderInline = (text: string, styles?: InlineStyles) => {
         return (
           <img
             key={i}
-            src={imgMatch[2]}
+            src={resolveAssetUrl(imgMatch[2])}
             alt={imgMatch[1] || 'Embedded image'}
             className="rounded-xl border border-white/15 my-2 max-h-96 object-contain shadow-lg inline-block"
           />
@@ -439,7 +440,7 @@ const renderInline = (text: string, styles?: InlineStyles) => {
         return (
           <a
             key={i}
-            href={linkMatch[2]}
+            href={resolveAssetUrl(linkMatch[2])}
             target="_blank"
             rel="noopener noreferrer"
             className={styles?.inlineLink || 'text-brand-400 hover:text-brand-300 underline font-medium'}
@@ -1369,7 +1370,7 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                                       </p>
                                     </div>
                                     <div className="flex items-center gap-1.5 flex-shrink-0">
-                                      <a href={doc.url} download={doc.name}
+                                      <a href={resolveAssetUrl(doc.url)} download={doc.name}
                                         className={`px-2.5 py-1.5 rounded-xl text-xs font-mono font-semibold border flex items-center gap-1 transition-all ${
                                           isLaser
                                             ? 'bg-red-500/15 hover:bg-red-500/30 border-red-500/40 text-red-200'
@@ -1396,8 +1397,6 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                           </div>
                         )}
 
-
-
                         {/* PPTs */}
                         {ppts.length > 0 && (
                           <div className="space-y-2.5">
@@ -1416,7 +1415,7 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                                     <p className="text-[10px] font-mono text-slate-500">PowerPoint{ppt.size ? ` • ${ppt.size}` : ''}</p>
                                   </div>
                                   <div className="flex items-center gap-1 flex-shrink-0">
-                                    <a href={ppt.url} download={ppt.name}
+                                    <a href={resolveAssetUrl(ppt.url)} download={ppt.name}
                                       className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10 transition-colors">
                                       <Download className="w-3.5 h-3.5" />
                                     </a>
@@ -1444,14 +1443,14 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                               {images.map(img => (
                                 <div key={img.id} className="rounded-2xl overflow-hidden border border-white/10 bg-slate-900/60 group">
                                   <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-1">
-                                    <img src={img.url} alt={img.name} className="w-full h-auto max-h-60 object-contain rounded-xl group-hover:scale-105 transition-transform duration-300" />
+                                    <img src={resolveAssetUrl(img.url)} alt={img.name} className="w-full h-auto max-h-60 object-contain rounded-xl group-hover:scale-105 transition-transform duration-300" />
                                   </div>
                                   <div className="p-3 bg-slate-950/80 border-t border-white/5 flex items-center justify-between">
                                     <div className="truncate">
                                       <p className="text-xs font-bold text-white truncate">{img.name}</p>
                                       <p className="text-[10px] font-mono text-slate-500">{img.size}</p>
                                     </div>
-                                    <a href={img.url} download={img.name} className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10" title="Download">
+                                    <a href={resolveAssetUrl(img.url)} download={img.name} className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10" title="Download">
                                       <Download className="w-3.5 h-3.5" />
                                     </a>
                                   </div>
