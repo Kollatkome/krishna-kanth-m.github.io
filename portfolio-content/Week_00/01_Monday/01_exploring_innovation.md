@@ -1,7 +1,9 @@
-# Week_00 - Exploring Innovation, Technology, and New Possibilities
-*Sprint Week 00 Journal and Innovation Dossier*
-
-### Week 0 — Exploring Innovation, Technology, and New Possibilities (2026-08-17)
+---
+title: "Week 0 — Exploring Innovation, Technology, and New Possibilities"
+date: "2026-08-17"
+status: "PUBLISHED"
+weekName: "Exploring Innovation, Technology, and New Possibilities"
+---
 
 # Week 0 — Exploring Innovation, Technology, and New Possibilities
 
@@ -14,36 +16,3 @@ The week also included activities focused on understanding personal strengths an
 Hands-on activities such as team challenges and interactive games emphasized communication, coordination, following instructions, and collaborative problem-solving. Sessions on emerging technologies and prompt engineering also demonstrated how modern digital tools can support creative and technical work.
 
 Overall, Week 0 established a foundation for the program by combining technology exposure, self-awareness, teamwork, communication, innovation, and prototyping. It created an environment where experimentation and curiosity became important parts of the learning process.
-
-
-## Media & Evidence Gallery
-
-![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)
-
-![system_architecture.svg](/assets/weekly/Week_00/01_Monday/system_architecture.svg)
-
----
-
-### Problem Discovery & Field Investigation (2026-08-24)
-
-# Problem Discovery & Field Investigation
-
-## 🎯 Topics Covered
-- Stakeholder interview methodology
-- Industry pain-point mapping
-- Hardware telemetry protocol setup
-
-## 🛠️ Activities & Implementation
-Conducted on-site surveys with manufacturing floor technicians. Documented initial system diagrams and architecture layout.
-
-## 📸 System Architecture Diagram
-![High-Level Architecture Schematic](/assets/weekly/Week_00/01_Monday/system_architecture.svg)
-
-## 💡 Key Learnings & Reflections
-- First-hand field observations reveal friction points that theoretical models overlook.
-- Communication latency must be factored into low-power IoT node designs.
-
-
-## Media & Evidence Gallery
-
-![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)

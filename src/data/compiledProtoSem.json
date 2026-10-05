@@ -1,5 +1,5 @@
 {
-  "compiledAt": "2026-09-30T10:38:58.523Z",
+  "compiledAt": "2026-10-04T16:37:17.883Z",
   "days": {
     "Week_00/01_Monday": {
       "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -10,33 +10,77 @@
       "status": "PUBLISHED",
       "attachments": [
         {
-          "id": "att-week-00-01_Monday-system-architecture-svg",
-          "type": "IMAGE",
-          "name": "system_architecture.svg",
-          "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
-          "size": "1 KB",
-          "uploadedAt": "2026-09-30T10:38:58.397Z",
-          "description": "Evidence linked in Problem Discovery & Field Investigation"
-        },
-        {
           "id": "att-week-00-01_Monday-sensor-telemetry-svg",
           "type": "IMAGE",
           "name": "sensor_telemetry.svg",
           "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
           "size": "538 B",
-          "uploadedAt": "2026-09-30T10:38:58.399Z",
+          "uploadedAt": "2026-10-04T16:37:17.773Z",
+          "description": "Media asset from 01_Monday"
+        },
+        {
+          "id": "att-week-00-01_Monday-system-architecture-svg",
+          "type": "IMAGE",
+          "name": "system_architecture.svg",
+          "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+          "size": "1 KB",
+          "uploadedAt": "2026-10-04T16:37:17.777Z",
           "description": "Media asset from 01_Monday"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.399Z",
-      "updatedAt": "2026-09-30T10:38:58.399Z"
+      "createdAt": "2026-10-04T16:37:17.778Z",
+      "updatedAt": "2026-10-04T16:37:17.778Z"
+    },
+    "Week_01/01_Monday": {
+      "id": "entry-week-01-01_Monday-week-1-technology-design-thinking-and-retail",
+      "weekId": "week-01",
+      "date": "2026-08-24",
+      "title": "Week 1 — Technology, Design Thinking, and Retail",
+      "notes": "# Week 1 — Technology, Design Thinking, and Retail\n\nThe first structured week focused on understanding technology, design thinking, and the retail industry. The emphasis was on looking at real-world business challenges and understanding how technology and creative problem-solving can be used to develop meaningful solutions.\n\nThe week began with discussions about recommendation systems and how data-driven technologies can influence digital experiences. Design thinking sessions introduced user-centric approaches to solving problems, emphasizing the importance of understanding users, their needs, and the context surrounding a problem.\n\nIndustry analysis formed another major part of the week. The food and beverage retail sector was explored through concepts such as value chains and SWOT analysis. This helped identify different stages of a business process, understand stakeholders, recognize opportunities, and examine challenges within an industry.\n\nThe sessions also introduced decision-making and consumer behavior. Understanding how people make decisions provided a connection between technology, business, and user needs. Alongside this, work on professional portfolios highlighted the importance of documenting skills, projects, and achievements effectively.\n\nThe later sessions focused on inspiration, leadership, entrepreneurship, and personal development. Discussions around goals, vision, career growth, innovation, and entrepreneurship provided a broader understanding of how technical skills can be combined with business awareness and creative thinking.\n\nBy the end of Week 1, the learning had moved beyond technology alone. The week established a foundation involving **technology, business understanding, design thinking, consumer behavior, communication, and personal development**.\n",
+      "status": "PUBLISHED",
+      "attachments": [],
+      "createdAt": "2026-10-04T16:37:17.783Z",
+      "updatedAt": "2026-10-04T16:37:17.783Z"
+    },
+    "Week_02/01_Monday": {
+      "id": "entry-week-02-01_Monday-week-2-problem-identification-algorithms-and-application-development",
+      "weekId": "week-02",
+      "date": "2026-08-31",
+      "title": "Week 2 — Problem Identification, Algorithms, and Application Development",
+      "notes": "# Week 2 — Problem Identification, Algorithms, and Application Development\n\nWeek 2 focused on moving from identifying problems to developing logical and practical solutions. The activities emphasized problem-solving, computational thinking, validation, creativity, and rapid application development.\n\nThe week began with identifying challenges within the retail industry and developing problem statements around potential areas of improvement. The use of structured problem-solving methods helped bring attention to workplace organization, efficiency, and continuous improvement.\n\nAlgorithms were then introduced as a foundation for logical thinking and programming. Activities explored how algorithms work, how different approaches can solve a problem, and how the choice of an approach can influence performance. This strengthened computational thinking and encouraged a more structured way of approaching problems.\n\nScratch provided an introduction to visual programming. Creating an interactive project demonstrated how programming logic can be represented visually while making the learning process more engaging. The activity also connected programming concepts with creativity and experimentation.\n\nThe second half of the week shifted toward validation and application development. Problem statements were reviewed and refined to ensure that they addressed meaningful needs. These ideas were then transformed into functional mobile applications using MIT App Inventor, providing hands-on experience with rapid application development and prototyping.\n\nThe major progression during Week 2 was from **problem identification → logical thinking → validation → prototyping → functional application development**. The week demonstrated how an initial idea can gradually become a working digital solution.\n",
+      "status": "PUBLISHED",
+      "attachments": [],
+      "createdAt": "2026-10-04T16:37:17.786Z",
+      "updatedAt": "2026-10-04T16:37:17.786Z"
+    },
+    "Week_03/01_Monday": {
+      "id": "entry-week-03-01_Monday-week-3-linux-automation-cloud-and-electronics",
+      "weekId": "week-03",
+      "date": "2026-09-07",
+      "title": "Week 3 — Linux, Automation, Cloud, and Electronics",
+      "notes": "# Week 3 — Linux, Automation, Cloud, and Electronics\n\nWeek 3 introduced a combination of software systems, automation, cloud concepts, and electronics. The week provided exposure to multiple areas of technology and demonstrated how different tools can work together within a development workflow.\n\nThe first part of the week focused on Linux and operating systems. Different Linux distributions were explored, along with the fundamentals of working in a Linux environment. A small project was developed within the environment to reinforce the concepts and provide practical familiarity with the operating system.\n\nThe next stage introduced terminal-based development, Docker, and cloud computing. Working with the command line strengthened programming and system interaction skills, while Docker demonstrated how containerization can simplify application deployment. Cloud technologies were also introduced through practical application of the developed project.\n\nAutomation became another important component. Tools for automating repetitive tasks were explored with the goal of improving productivity and maintaining consistency. A workflow was created to connect content management with the development process, demonstrating how automation can reduce repetitive manual work and keep project information updated.\n\nThe final part of the week shifted toward electronics. Basic electrical and electronic components were introduced through practical experiments and simulations. A multimeter was used to understand electrical measurements and troubleshoot circuits, while hands-on circuit building and soldering provided practical hardware experience.\n\nWeek 3 therefore connected several different areas: **Linux, programming, Docker, cloud computing, workflow automation, electronics, measurement, and hardware prototyping**. The combination helped demonstrate how software and hardware knowledge can complement each other in technical projects.\n",
+      "status": "PUBLISHED",
+      "attachments": [],
+      "createdAt": "2026-10-04T16:37:17.792Z",
+      "updatedAt": "2026-10-04T16:37:17.792Z"
+    },
+    "Week_04/01_Monday": {
+      "id": "entry-week-04-01_Monday-week-4-electronics-microcontrollers-sensors-and-iot",
+      "weekId": "week-04",
+      "date": "2026-09-14",
+      "title": "Week 4 — Electronics, Microcontrollers, Sensors, and IoT",
+      "notes": "# Week 4 — Electronics, Microcontrollers, Sensors, and IoT\n\nWeek 4 focused extensively on electronics, microcontrollers, sensors, actuators, and IoT-based systems. The learning progressed from basic microcontroller concepts to integrating multiple components into interactive applications.\n\nThe week began with an introduction to Arduino Uno and the fundamentals of microcontroller-based systems. Basic concepts such as digital input and output, pins, and uploading programs to a board were explored. A simple LED project was used to understand the relationship between program instructions, digital signals, and physical output.\n\nThe next stage introduced sensors and actuators. Components such as PIR sensors, DHT11 temperature and humidity sensors, IR sensors, OLED displays, and joysticks were explored. The activities demonstrated how sensors provide input to a microcontroller, which can process that information and generate an appropriate output through actuators or displays.\n\nThe learning then progressed to ESP32-based systems. Components including an ultrasonic sensor, OLED display, and joystick were integrated with the ESP32 to understand how multiple devices can communicate with a single microcontroller. The ESP32 also introduced the concept of wireless connectivity and provided a stronger foundation for IoT applications.\n\nThe final part of the week involved developing interactive applications. A traffic controller simulation demonstrated how inputs, logical processing, and outputs could be combined into a working system. Another application involved an interactive digital pet using sensors and an OLED display, showing how sensor data could influence the state and behavior of a virtual system.\n\nWeek 4 provided a progression from **basic electronics → microcontrollers → sensors and actuators → ESP32 → IoT concepts → interactive applications**. It strengthened practical understanding of both hardware integration and software-controlled physical systems.\n",
+      "status": "PUBLISHED",
+      "attachments": [],
+      "createdAt": "2026-10-04T16:37:17.799Z",
+      "updatedAt": "2026-10-04T16:37:17.799Z"
     },
     "Week_06/01_Monday": {
-      "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
+      "id": "entry-week-06-01_Monday-laser-cutting-scanning-workflow",
       "weekId": "week-06",
       "date": "2026-09-28",
-      "title": "From 3D Models to Laser-Cut Parts",
-      "notes": "# From 3D Models to Laser-Cut Parts\r\n\r\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Tools\r\n- **Digital Fabrication**: Laser Cutting Fundamentals\r\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\r\n- **File Interoperability**: DXF file generation and machine translation\r\n\r\n---\r\n\r\n## ⚙️ Laser Cutting Preparation & Workflow\r\n\r\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\r\n\r\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\r\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\r\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\r\n\r\n![RDWorks V8 Laser Cutting Path Simulation](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\r\n\r\n---\r\n\r\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\r\n\r\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\r\n\r\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\r\n\r\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\r\n\r\n---\r\n\r\n## 🏆 Physical Fabrication Output\r\n\r\nHere is the finished acrylic workpiece featuring precision laser engraving:\r\n\r\n![Final Laser Engraved Acrylic Output — Precision Autobot Emblem](/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)\r\n\r\n",
+      "title": "Laser Cutting & Scanning Workflow",
+      "notes": "# Laser Cutting & Scanning Workflow\n\n> 🔴 **The Red Pill Choice (Subtractive Reality)**: *You stay in the lab, and see how deep the 150W CO₂ laser beam cuts through 2mm acrylic at 100 mm/s to engrave the Transformers Autobot emblem.*\n\n---\n\n## 1. Lab Safety & Safety Rules\n\nBefore starting the laser cutting process, I followed the safety instructions provided in the Forge Lab. Since laser cutting involves high temperature, concentrated laser energy, electrical systems, and fumes, proper safety practices were essential throughout the process.\n\n| Safety Area | Safety Practice Followed |\n| :--- | :--- |\n| **Laser Safety** | Avoid direct exposure to the laser beam and follow required eye and machine-safety precautions. |\n| **Exhaust System** | Kept the exhaust system ON to continuously evacuate fumes and maintain proper airflow. |\n| **Chiller System** | Verified chiller operating conditions and ensured the closed-loop cooling system was maintained properly. |\n| **Electrical Earthing** | Verified proper electrical earthing and adhered strictly to machine electrical safety protocols. |\n| **Air Assist** | Kept high-pressure air assist ON during the cutting process to suppress combustion and ensure clean edge kerf. |\n| **General Machine Safety** | Maintained a clean working area, followed lab SOPs, and never left the machine unattended during active cutting. |\n\n---\n\n## 2. Machine Specifications\n\nThe laser cutting and engraving work was conducted using the **HW Junction CO₂ laser machine** at the Forge Digital Fabrication Lab.\n\n| Parameter | Specification Details |\n| :--- | :--- |\n| **Make** | HW Junction |\n| **Model** | Dfab #2 / 1490 CO₂ Laser |\n| **Bed Size** | 1300 × 900 mm |\n| **Laser Type** | CO₂ Gas Laser |\n| **Laser Tube Power** | 150 W |\n| **Control Software** | RDWorks V8 |\n\nThe machine provided an expansive working area for the selected workpiece, offering independent vector cutting and raster scanning channels.\n\n---\n\n## 3. Materials Used\n\nTransparent acrylic was selected for this digital fabrication sprint.\n\n| Material | Thickness | Source | Rationale |\n| :--- | :---: | :--- | :--- |\n| **Transparent Acrylic (PMMA)** | 2 mm | Forge Lab | Provides exceptional optical clarity and allows high-contrast engraved details against smooth cut edges. |\n\n---\n\n## 4. Selected Design: Transformers Autobot Emblem\n\nFor the project, I selected the iconic **Transformers Autobot symbol**.\n\nI chose this design to create a high-precision decorative badge that demonstrates both raster surface scanning (engraving) and vector perimeter cutting within a single automated run.\n\n### Design Composition:\n- **50 × 50 mm outer boundary**: Processed using high-power **Laser Cut** to excise the square acrylic tile.\n- **Transformers emblem interior**: Processed using high-speed raster **Laser Scan** to produce frosted surface engraving.\n\n---\n\n## 5. Image-to-DXF Vectorization Workflow\n\nThe original raster Transformers graphic was converted into an editable vector DXF file using **ReaConverter**:\n\n1. Imported high-contrast monochrome Transformers artwork into ReaConverter.\n2. Vectorized and traced outlines into AutoCAD DXF format.\n3. Loaded the generated DXF file directly into **RDWorks V8**.\n4. Scaled overall artwork dimensions to **50 × 50 mm**.\n5. Assigned perimeter path to the cutting layer.\n6. Assigned internal emblem contours to the raster scan layer.\n\nNo manual vector node correction was required post-conversion.\n\n---\n\n## 6. Digital Preparation & Toolpath Inspection in RDWorks\n\nAfter loading the DXF into RDWorks V8, I verified geometry integrity and configured layer execution order:\n\n- Verified closed contour topology for the 50 × 50 mm outer cut boundary.\n- Color-coded layers to ensure engraving precedes outer cutting (preventing workpiece shift during scanning).\n- Executed visual simulation preview to estimate process duration and confirm nozzle head pathing.\n\n![RDWorks V8 Laser Cutting & Scanning Toolpath Preview](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\n\n---\n\n## 7. Nesting & Layer Configuration\n\n| Layer Color | Operation | Target Feature | Power / Speed Mode |\n| :--- | :--- | :--- | :--- |\n| **Blue Layer** | **Laser Scan (Raster)** | Transformers Emblem | Surface frosting without cutting through sheet |\n| **Black Layer** | **Laser Cut (Vector)** | 50 × 50 mm Outer Square | Full 2 mm acrylic cut-through |\n\nFinal workpiece footprint: **50 × 50 mm**. Estimated simulation run time: **9.66 seconds**.\n\n---\n\n## 8. Final Machine Parameter Settings\n\n| Material | Thickness | Operation | Speed | Min Power | Max Power |\n| :--- | :---: | :--- | :---: | :---: | :---: |\n| Transparent Acrylic | 2 mm | **Laser Scan** | 100 mm/s | 30% | 30% |\n| Transparent Acrylic | 2 mm | **Laser Cut** | 100 mm/s | 30% | 30% |\n\n*Note: Power and speed parameters were calibrated during lab setup under mentor guidance.*\n\n---\n\n## 9. Physical Machining & Execution\n\n1. Placed the 2 mm transparent acrylic sheet flat on the honey-comb bed.\n2. Set nozzle focal distance to workpiece surface using the focal spacer block.\n3. Enabled air assist compressor, water chiller, and fume exhaust duct.\n4. Downloaded compiled RDWorks program to machine onboard controller memory.\n5. Performed boundary test framing to verify workpiece bounds.\n6. Executed job: raster scanned emblem first, followed immediately by vector perimeter cut.\n7. Allowed exhaust dwell time before opening enclosure to retrieve finished part.\n\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\n\n---\n\n## 10. Final Result — Hero Shot\n\nThe completed acrylic workpiece yielded crisp, frosty raster definition and glass-smooth flame-polished edges:\n\n![Final 50 × 50 mm transparent acrylic piece with the engraved Transformers symbol](/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)\n\n---\n\n## 11. Troubleshooting & Validation Log\n\n| Stage | Observation | Resolution | Outcome |\n| :--- | :--- | :--- | :--- |\n| **Vector Prep** | Clean DXF conversion with zero broken lines | Verified path closures in RDWorks | Flawless raster fill |\n| **Machining** | Consistent beam power, no scorching | Correct air assist pressure and focal depth | Clean edge kerf, no melted re-deposition |\n\n---\n\n## 12. Engineering Reflection & Learnings\n\n- **File Preparation is 80% of Manufacturing**: Precision DXF conversion and layer assignment dictate cut quality before touching the machine.\n- **Cut vs. Scan Differentiation**: Mastering multi-layer jobs where scanning finishes prior to boundary separation prevents part dislocation.\n- **Material Behaviour**: Acrylic vaporizes cleanly under CO₂ wavelength (10.6 µm), producing polished edge finishes when paired with proper air assist.\n\n---\n\n## 13. Deliverables & Source Files\n\n- 📦 **Vector Artwork (Adobe Illustrator)**: [Download krishnakanth.ai (54.8 KB)](/assets/weekly/Week_06/01_Monday/krishnakanth.ai)\n- 📐 **Vector CAD / Layout**: `krishnakanth.ai` / `krishnakanth.dxf`\n- ⚙️ **RDWorks Machine File**: `transformers_acrylic_50x50.rld`\n- 🏆 **Physical Output**: Finished 50 × 50 mm laser engraved & cut acrylic badge\n",
       "status": "PUBLISHED",
       "attachments": [
         {
@@ -45,8 +89,8 @@
           "name": "rdworks_laser_preview.png",
           "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
           "size": "83 KB",
-          "uploadedAt": "2026-09-30T10:38:58.436Z",
-          "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+          "uploadedAt": "2026-10-04T16:37:17.823Z",
+          "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         },
         {
           "id": "att-week-06-01_Monday-laser-cutting-operation-jpg",
@@ -54,8 +98,8 @@
           "name": "laser_cutting_operation.jpg",
           "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
           "size": "195 KB",
-          "uploadedAt": "2026-09-30T10:38:58.436Z",
-          "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+          "uploadedAt": "2026-10-04T16:37:17.825Z",
+          "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         },
         {
           "id": "att-week-06-01_Monday-laser-engraved-output-jpg",
@@ -63,63 +107,117 @@
           "name": "laser_engraved_output.jpg",
           "url": "/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg",
           "size": "122 KB",
-          "uploadedAt": "2026-09-30T10:38:58.436Z",
-          "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+          "uploadedAt": "2026-10-04T16:37:17.825Z",
+          "description": "Evidence linked in Laser Cutting & Scanning Workflow"
+        },
+        {
+          "id": "att-week-06-01_Monday-krishnakanth-ai",
+          "type": "PDF",
+          "name": "krishnakanth.ai",
+          "url": "/assets/weekly/Week_06/01_Monday/krishnakanth.ai",
+          "size": "55 KB",
+          "uploadedAt": "2026-10-04T16:37:17.825Z",
+          "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.437Z",
-      "updatedAt": "2026-09-30T10:38:58.437Z"
+      "createdAt": "2026-10-04T16:37:17.826Z",
+      "updatedAt": "2026-10-04T16:37:17.826Z"
     },
     "Week_06/02_Tuesday": {
-      "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
+      "id": "entry-week-06-02_Tuesday-3d-printing-slicing-optimization",
       "weekId": "week-06",
       "date": "2026-09-29",
-      "title": "My First Step into 3D Printing & Slicing Optimization",
-      "notes": "# My First Step into 3D Printing & Slicing Optimization\r\n\r\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Hardware\r\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\r\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\r\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\r\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\r\n\r\n---\r\n\r\n## 🖨️ Slicing & Preparation in Bambu Studio\r\n\r\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\r\n\r\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\r\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\r\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\r\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\r\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\r\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\r\n\r\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\r\n\r\n---\r\n\r\n## 🔄 The Complete Engineering Journey\r\n\r\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\r\n\r\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\r\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\r\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\r\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\r\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\r\n\r\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\r\n\r\n---\r\n\r\n## 🚀 Sprint Conclusion\r\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\r\n",
+      "title": "3D Printing & Slicing Optimization",
+      "notes": "# 3D Printing & Slicing Optimization\n\n> 🔵 **The Blue Pill Choice (Additive Matrix)**: *You enter the additive matrix, heating the Bambu Lab H2S nozzle to 220°C and watching molten White PLA lay down 0.20mm layers until a foldable phone stand materializes.*\n\n---\n\n## 1. Printer Specifications\n\nThe 3D printing activity was carried out using the **Bambu Lab H2S** industrial-grade high-speed printer in the Forge Prototyping Lab.\n\n| Parameter | Specification Details |\n| :--- | :--- |\n| **Printer Make & Model** | Bambu Lab H2S |\n| **Printing Technology** | Fused Deposition Modeling (FDM) |\n| **Build Volume** | 340 × 320 × 340 mm |\n| **Nozzle Diameter** | 0.4 mm Hardened Steel |\n| **Material Used** | PLA Basic (White) |\n| **Max Toolhead Speed** | Up to 1000 mm/s |\n| **Max Nozzle Temp** | 350°C |\n\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\n\n---\n\n## 2. Slicer & Material Setup\n\nThe 3D model was sliced and configured using **Bambu Studio**:\n\n| Parameter | Configuration |\n| :--- | :--- |\n| **Slicing Software** | Bambu Studio |\n| **Printer Profile** | Bambu Lab H2S 0.4 Nozzle |\n| **Filament Type** | PLA Basic |\n| **Filament Color** | White |\n| **Layer Profile** | 0.20 mm Standard |\n\nPLA (Polylactic Acid) was chosen for its high dimensional stability, low shrinkage, excellent layer adhesion, and suitability for functional articulating mechanisms.\n\n---\n\n## 3. Printer Capabilities & Mechanical Performance\n\nDuring the print run, the Bambu Lab H2S demonstrated exceptional precision on complex multi-linkage geometry:\n- **Complex Geometry as a Single Assembly**: Articulating multi-segment legs and hinges printed in place with tight clearances.\n- **Dimensional Accuracy**: Tight tolerances around pivot pins allowed smooth rotation without slop or binding.\n- **Functional Integrity**: Sturdy mechanical strength capable of supporting mobile devices in multiple orientations.\n- **Zero Print Failures**: 100% first-pass yield with zero spaghetti, warping, or layer shifts.\n\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts on Build Plate](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\n\n---\n\n## 4. Why This Geometry Cannot Be Made Subtractively\n\nThe selected phone stand features interlocking rotational joints, curved resting brackets, and nested collapsible legs.\n\n### Limitations of Subtractive Manufacturing (CNC Milling / Turning):\n- **Tool Access Obstruction**: End mills cannot reach internal enclosed cavities and undercut hinges without requiring multi-axis complex setups and substantial material waste.\n- **Assembly Overhead**: Subtractive methods would require milling 6+ separate components followed by manual hardware pin assembly.\n- **Additive Advantage**: FDM builds layer-by-layer (additive), enabling pre-assembled internal voids, functional hinges, and integrated pivot brackets directly on the build plate.\n\n---\n\n## 5. STL File Architecture\n\n**STL (Stereolithography)** represents 3D surfaces as triangulated polygon meshes:\n- Triangles define exterior and interior surfaces via vertex coordinates and surface normal vectors.\n- Bambu Studio translates the STL mesh into discrete horizontal slices (G-code toolpaths) determining wall perimeters, infill density, and travel acceleration.\n\n$$\\text{3D CAD Model} \\longrightarrow \\text{STL Mesh} \\longrightarrow \\text{Bambu Studio Slicing} \\longrightarrow \\text{G-Code Layers} \\longrightarrow \\text{Physical Part}$$\n\n---\n\n## 6. Selected Component: Foldable & Adjustable Phone Stand\n\nI selected a **foldable/adjustable multi-position phone stand** from the Bambu Lab ecosystem for its strong practical utility:\n- **Everyday Usability**: Hands-free viewing for video lectures, coding tutorials, YouTube, movies, and documentation review.\n- **Mechanical Elegance**: Articulated hinges allow folding flat for pocket portability or extending into a stable tripod workstation dock.\n\n---\n\n## 7. Slicer Parameters in Bambu Studio\n\n| Setting | Value | Engineering Rationale |\n| :--- | :---: | :--- |\n| **Nozzle Diameter** | 0.4 mm | Standard balance of detail resolution and throughput |\n| **Nozzle Temperature** | 220°C | Optimal melt flow for PLA Basic at high acceleration |\n| **Bed Temperature** | 55°C | Textured PEI plate adhesion without warping |\n| **Layer Height** | 0.20 mm | Smooth vertical surface finish and rapid build time |\n| **Infill Density** | 15% | Sufficient structural strength with minimal weight |\n| **Infill Pattern** | Grid | Balanced bidirectional load distribution |\n| **Wall / Shell Count** | 2 Perimeters | Rigid external shell and hinge durability |\n| **Support Type** | Enabled | Supports overhangs on bridge brackets |\n| **Bed Adhesion** | Outer Brim (5 mm) | Prevents corner lifting on narrow contact points |\n\n---\n\n## 8. Slicing Metrics & Material Budget\n\n| Parameter | Bambu Studio Slicer Estimate | Status |\n| :--- | :---: | :---: |\n| **Total Print Duration** | **59 min 08 sec** | Completed Successfully |\n| **Model Filament Usage** | **20.00 g** | Verified within `< 50g` constraint |\n| **Support Filament Usage** | **0.68 g** | Minimal sacrificial material |\n| **Total Material Consumed** | **20.68 g** | High material efficiency |\n\n---\n\n## 9. Final Results & Hardware Showcase\n\nThe phone stand printed flawlessly in white PLA Basic:\n\n### Folded Compact State\nThe entire assembly collapses into an ultra-slim pocket profile:\n\n![Final 3D-printed white PLA phone stand after successful printing (folded state)](/assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg)\n\n### Extended Articulating Tripod Stand\nThe legs extend outward smoothly to provide a stable, weighted base for mobile devices:\n\n![Adjustable sections and tripod base of the completed phone stand](/assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg)\n\n---\n\n## 10. Deliverables & Source Files\n\n- 📦 **STL 3D Geometry Model (Download)**: [Download krishnakanth.stl (2.07 MB)](/assets/weekly/Week_06/02_Tuesday/krishnakanth.stl)\n- 🖨️ **Bambu Studio Sliced Project & G-code (Download)**: [Download krishnakanth.gcode.3mf (2.51 MB)](/assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf)\n- 🏆 **Fabricated Physical Artifact**: Fully articulated White PLA Phone Stand\n\n---\n\n## 11. Comprehensive Digital Fabrication Reflection\n\nComparing laser cutting and 3D printing highlighted two essential pillars of modern prototyping:\n\n1. **Laser Cutting (2D Vector/Subtractive)**: Unmatched speed (~10 seconds) for flat sheet profiling, crisp surface rastering, and optical acrylic parts.\n2. **3D Printing (3D Mesh/Additive)**: Unmatched geometric freedom for multi-piece interlocking mechanisms, nested joints, and custom ergonomic fixtures without tooling molds.\n\n### Unified Prototyping Pipeline:\n$$\\text{Digital Concept} \\longrightarrow \\text{File Vectorization / Slicing} \\longrightarrow \\text{Machine Calibration} \\longrightarrow \\text{Physical Fabrication} \\longrightarrow \\text{Real-World Validation}$$\n\n---\n\n## References & Lab Equipment\n- **Bambu Lab H2S**: Industrial FDM High-Speed 3D Printer\n- **Bambu Studio**: Advanced Multi-Material Slicing Engine\n- **HW Junction 1490 CO₂ Laser**: 150W Laser Cutting & Engraving System\n- **RDWorks V8**: Laser Vector Control Suite\n- **ReaConverter**: Image-to-DXF Vectorizer\n- **Forge Prototyping Lab**: Equipment, materials, and mentor guidance\n",
       "status": "PUBLISHED",
       "attachments": [
-        {
-          "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
-          "type": "IMAGE",
-          "name": "bambu_h2s_print_plate.jpg",
-          "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
-          "size": "146 KB",
-          "uploadedAt": "2026-09-30T10:38:58.468Z",
-          "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
-        },
         {
           "id": "att-week-06-02_Tuesday-bambu-lab-printing-session-jpg",
           "type": "IMAGE",
           "name": "bambu_lab_printing_session.jpg",
           "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
           "size": "183 KB",
-          "uploadedAt": "2026-09-30T10:38:58.468Z",
-          "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+          "uploadedAt": "2026-10-04T16:37:17.848Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
+          "type": "IMAGE",
+          "name": "bambu_h2s_print_plate.jpg",
+          "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
+          "size": "146 KB",
+          "uploadedAt": "2026-10-04T16:37:17.849Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-phone-stand-folded-jpg",
+          "type": "IMAGE",
+          "name": "phone_stand_folded.jpg",
+          "url": "/assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg",
+          "size": "106 KB",
+          "uploadedAt": "2026-10-04T16:37:17.849Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-phone-stand-adjustable-jpg",
+          "type": "IMAGE",
+          "name": "phone_stand_adjustable.jpg",
+          "url": "/assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg",
+          "size": "201 KB",
+          "uploadedAt": "2026-10-04T16:37:17.849Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-krishnakanth-stl",
+          "type": "PDF",
+          "name": "krishnakanth.stl",
+          "url": "/assets/weekly/Week_06/02_Tuesday/krishnakanth.stl",
+          "size": "2.0 MB",
+          "uploadedAt": "2026-10-04T16:37:17.850Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
+        },
+        {
+          "id": "att-week-06-02_Tuesday-krishnakanth-gcode-3mf",
+          "type": "PDF",
+          "name": "krishnakanth.gcode.3mf",
+          "url": "/assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf",
+          "size": "2.4 MB",
+          "uploadedAt": "2026-10-04T16:37:17.850Z",
+          "description": "Evidence linked in 3D Printing & Slicing Optimization"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.468Z",
-      "updatedAt": "2026-09-30T10:38:58.468Z"
+      "createdAt": "2026-10-04T16:37:17.850Z",
+      "updatedAt": "2026-10-04T16:37:17.850Z"
     },
     "Week_06/06_Saturday": {
       "id": "entry-week-06-06_Saturday-designing-in-3d-clay-modelling",
       "weekId": "week-06",
       "date": "2026-09-26",
       "title": "Designing in 3D & Clay Modelling",
-      "notes": "# Designing in 3D & Hands-On Clay Modelling\r\n\r\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Tools\r\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\r\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\r\n- **Clay Prototyping**: Tactile form exploration without constraints\r\n\r\n---\r\n\r\n## 🛠️ CAD Foundations: Autodesk Fusion 360\r\n\r\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\r\n\r\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\r\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\r\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\r\n\r\n![Autodesk Fusion 360 3D Parametric Modeling](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)\r\n\r\n---\r\n\r\n## 🖐️ Hands-On Exploration: Clay Modelling\r\n\r\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\r\n\r\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\r\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\r\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\r\n\r\n---\r\n\r\n## 💡 Key Takeaway\r\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\r\n",
+      "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n![Autodesk Fusion 360 3D Parametric Modeling Session](/assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png)\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n\n\n## Media & Evidence Gallery\n\n![fusion_360_design.png](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)",
       "status": "PUBLISHED",
       "attachments": [
+        {
+          "id": "att-week-06-06_Saturday-fusion-360-cylindrical-cad-png",
+          "type": "IMAGE",
+          "name": "fusion_360_cylindrical_cad.png",
+          "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png",
+          "size": "478 KB",
+          "uploadedAt": "2026-10-04T16:37:17.858Z",
+          "description": "Evidence linked in Designing in 3D & Clay Modelling"
+        },
         {
           "id": "att-week-06-06_Saturday-fusion-360-design-png",
           "type": "IMAGE",
           "name": "fusion_360_design.png",
           "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
           "size": "478 KB",
-          "uploadedAt": "2026-09-30T10:38:58.472Z",
-          "description": "Evidence linked in Designing in 3D & Clay Modelling"
+          "uploadedAt": "2026-10-04T16:37:17.858Z",
+          "description": "Media asset from 06_Saturday"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.472Z",
-      "updatedAt": "2026-09-30T10:38:58.472Z"
+      "createdAt": "2026-10-04T16:37:17.859Z",
+      "updatedAt": "2026-10-04T16:37:17.859Z"
     }
   },
   "weeks": [
@@ -127,9 +225,39 @@
       "id": "week-00",
       "weekNumber": 0,
       "slug": "week-00",
-      "name": "PRICE Innovation Fellowship Orientation",
+      "name": "Exploring Innovation, Technology, and New Possibilities",
       "order": 0,
       "entries": [
+        {
+          "id": "entry-week-00-01_Monday-week-0-exploring-innovation-technology-and-new-possibilities",
+          "weekId": "week-00",
+          "date": "2026-08-17",
+          "title": "Week 0 — Exploring Innovation, Technology, and New Possibilities",
+          "notes": "# Week 0 — Exploring Innovation, Technology, and New Possibilities\n\nThe first week served as an introduction to an environment focused on technology, innovation, entrepreneurship, and prototyping. The sessions provided opportunities to explore new spaces, understand different technologies, interact with other participants, and become familiar with the learning environment.\n\nA tour of the innovation facilities introduced areas such as 3D printing, laser cutting, hardware prototyping, and other fabrication resources. This provided an early understanding of how ideas can move from concepts to physical prototypes.\n\nThe week also included activities focused on understanding personal strengths and working styles. Discussions around goals, purpose, entrepreneurship, teamwork, and communication helped establish a broader perspective on professional and personal development.\n\nHands-on activities such as team challenges and interactive games emphasized communication, coordination, following instructions, and collaborative problem-solving. Sessions on emerging technologies and prompt engineering also demonstrated how modern digital tools can support creative and technical work.\n\nOverall, Week 0 established a foundation for the program by combining technology exposure, self-awareness, teamwork, communication, innovation, and prototyping. It created an environment where experimentation and curiosity became important parts of the learning process.\n\n\n## Media & Evidence Gallery\n\n![sensor_telemetry.svg](/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg)\n\n![system_architecture.svg](/assets/weekly/Week_00/01_Monday/system_architecture.svg)",
+          "status": "PUBLISHED",
+          "attachments": [
+            {
+              "id": "att-week-00-01_Monday-sensor-telemetry-svg",
+              "type": "IMAGE",
+              "name": "sensor_telemetry.svg",
+              "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+              "size": "538 B",
+              "uploadedAt": "2026-10-04T16:37:17.773Z",
+              "description": "Media asset from 01_Monday"
+            },
+            {
+              "id": "att-week-00-01_Monday-system-architecture-svg",
+              "type": "IMAGE",
+              "name": "system_architecture.svg",
+              "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+              "size": "1 KB",
+              "uploadedAt": "2026-10-04T16:37:17.777Z",
+              "description": "Media asset from 01_Monday"
+            }
+          ],
+          "createdAt": "2026-10-04T16:37:17.777Z",
+          "updatedAt": "2026-10-04T16:37:17.777Z"
+        },
         {
           "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
           "weekId": "week-00",
@@ -139,70 +267,118 @@
           "status": "PUBLISHED",
           "attachments": [
             {
-              "id": "att-week-00-01_Monday-system-architecture-svg",
-              "type": "IMAGE",
-              "name": "system_architecture.svg",
-              "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
-              "size": "1 KB",
-              "uploadedAt": "2026-09-30T10:38:58.397Z",
-              "description": "Evidence linked in Problem Discovery & Field Investigation"
-            },
-            {
               "id": "att-week-00-01_Monday-sensor-telemetry-svg",
               "type": "IMAGE",
               "name": "sensor_telemetry.svg",
               "url": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-09-30T10:38:58.399Z",
+              "uploadedAt": "2026-10-04T16:37:17.773Z",
+              "description": "Media asset from 01_Monday"
+            },
+            {
+              "id": "att-week-00-01_Monday-system-architecture-svg",
+              "type": "IMAGE",
+              "name": "system_architecture.svg",
+              "url": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+              "size": "1 KB",
+              "uploadedAt": "2026-10-04T16:37:17.777Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-09-30T10:38:58.399Z",
-          "updatedAt": "2026-09-30T10:38:58.399Z"
+          "createdAt": "2026-10-04T16:37:17.778Z",
+          "updatedAt": "2026-10-04T16:37:17.778Z"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.400Z",
-      "updatedAt": "2026-09-30T10:38:58.400Z"
+      "createdAt": "2026-10-04T16:37:17.780Z",
+      "updatedAt": "2026-10-04T16:37:17.780Z"
     },
     {
       "id": "week-01",
       "weekNumber": 1,
       "slug": "week-01",
-      "name": "",
+      "name": "Technology, Design Thinking, and Retail",
       "order": 1,
-      "entries": [],
-      "createdAt": "2026-09-30T10:38:58.402Z",
-      "updatedAt": "2026-09-30T10:38:58.402Z"
+      "entries": [
+        {
+          "id": "entry-week-01-01_Monday-week-1-technology-design-thinking-and-retail",
+          "weekId": "week-01",
+          "date": "2026-08-24",
+          "title": "Week 1 — Technology, Design Thinking, and Retail",
+          "notes": "# Week 1 — Technology, Design Thinking, and Retail\n\nThe first structured week focused on understanding technology, design thinking, and the retail industry. The emphasis was on looking at real-world business challenges and understanding how technology and creative problem-solving can be used to develop meaningful solutions.\n\nThe week began with discussions about recommendation systems and how data-driven technologies can influence digital experiences. Design thinking sessions introduced user-centric approaches to solving problems, emphasizing the importance of understanding users, their needs, and the context surrounding a problem.\n\nIndustry analysis formed another major part of the week. The food and beverage retail sector was explored through concepts such as value chains and SWOT analysis. This helped identify different stages of a business process, understand stakeholders, recognize opportunities, and examine challenges within an industry.\n\nThe sessions also introduced decision-making and consumer behavior. Understanding how people make decisions provided a connection between technology, business, and user needs. Alongside this, work on professional portfolios highlighted the importance of documenting skills, projects, and achievements effectively.\n\nThe later sessions focused on inspiration, leadership, entrepreneurship, and personal development. Discussions around goals, vision, career growth, innovation, and entrepreneurship provided a broader understanding of how technical skills can be combined with business awareness and creative thinking.\n\nBy the end of Week 1, the learning had moved beyond technology alone. The week established a foundation involving **technology, business understanding, design thinking, consumer behavior, communication, and personal development**.\n",
+          "status": "PUBLISHED",
+          "attachments": [],
+          "createdAt": "2026-10-04T16:37:17.783Z",
+          "updatedAt": "2026-10-04T16:37:17.783Z"
+        }
+      ],
+      "createdAt": "2026-10-04T16:37:17.784Z",
+      "updatedAt": "2026-10-04T16:37:17.784Z"
     },
     {
       "id": "week-02",
       "weekNumber": 2,
       "slug": "week-02",
-      "name": "",
+      "name": "Problem Identification, Algorithms, and Application Development",
       "order": 2,
-      "entries": [],
-      "createdAt": "2026-09-30T10:38:58.404Z",
-      "updatedAt": "2026-09-30T10:38:58.404Z"
+      "entries": [
+        {
+          "id": "entry-week-02-01_Monday-week-2-problem-identification-algorithms-and-application-development",
+          "weekId": "week-02",
+          "date": "2026-08-31",
+          "title": "Week 2 — Problem Identification, Algorithms, and Application Development",
+          "notes": "# Week 2 — Problem Identification, Algorithms, and Application Development\n\nWeek 2 focused on moving from identifying problems to developing logical and practical solutions. The activities emphasized problem-solving, computational thinking, validation, creativity, and rapid application development.\n\nThe week began with identifying challenges within the retail industry and developing problem statements around potential areas of improvement. The use of structured problem-solving methods helped bring attention to workplace organization, efficiency, and continuous improvement.\n\nAlgorithms were then introduced as a foundation for logical thinking and programming. Activities explored how algorithms work, how different approaches can solve a problem, and how the choice of an approach can influence performance. This strengthened computational thinking and encouraged a more structured way of approaching problems.\n\nScratch provided an introduction to visual programming. Creating an interactive project demonstrated how programming logic can be represented visually while making the learning process more engaging. The activity also connected programming concepts with creativity and experimentation.\n\nThe second half of the week shifted toward validation and application development. Problem statements were reviewed and refined to ensure that they addressed meaningful needs. These ideas were then transformed into functional mobile applications using MIT App Inventor, providing hands-on experience with rapid application development and prototyping.\n\nThe major progression during Week 2 was from **problem identification → logical thinking → validation → prototyping → functional application development**. The week demonstrated how an initial idea can gradually become a working digital solution.\n",
+          "status": "PUBLISHED",
+          "attachments": [],
+          "createdAt": "2026-10-04T16:37:17.786Z",
+          "updatedAt": "2026-10-04T16:37:17.786Z"
+        }
+      ],
+      "createdAt": "2026-10-04T16:37:17.789Z",
+      "updatedAt": "2026-10-04T16:37:17.789Z"
     },
     {
       "id": "week-03",
       "weekNumber": 3,
       "slug": "week-03",
-      "name": "",
+      "name": "Linux, Automation, Cloud, and Electronics",
       "order": 3,
-      "entries": [],
-      "createdAt": "2026-09-30T10:38:58.406Z",
-      "updatedAt": "2026-09-30T10:38:58.406Z"
+      "entries": [
+        {
+          "id": "entry-week-03-01_Monday-week-3-linux-automation-cloud-and-electronics",
+          "weekId": "week-03",
+          "date": "2026-09-07",
+          "title": "Week 3 — Linux, Automation, Cloud, and Electronics",
+          "notes": "# Week 3 — Linux, Automation, Cloud, and Electronics\n\nWeek 3 introduced a combination of software systems, automation, cloud concepts, and electronics. The week provided exposure to multiple areas of technology and demonstrated how different tools can work together within a development workflow.\n\nThe first part of the week focused on Linux and operating systems. Different Linux distributions were explored, along with the fundamentals of working in a Linux environment. A small project was developed within the environment to reinforce the concepts and provide practical familiarity with the operating system.\n\nThe next stage introduced terminal-based development, Docker, and cloud computing. Working with the command line strengthened programming and system interaction skills, while Docker demonstrated how containerization can simplify application deployment. Cloud technologies were also introduced through practical application of the developed project.\n\nAutomation became another important component. Tools for automating repetitive tasks were explored with the goal of improving productivity and maintaining consistency. A workflow was created to connect content management with the development process, demonstrating how automation can reduce repetitive manual work and keep project information updated.\n\nThe final part of the week shifted toward electronics. Basic electrical and electronic components were introduced through practical experiments and simulations. A multimeter was used to understand electrical measurements and troubleshoot circuits, while hands-on circuit building and soldering provided practical hardware experience.\n\nWeek 3 therefore connected several different areas: **Linux, programming, Docker, cloud computing, workflow automation, electronics, measurement, and hardware prototyping**. The combination helped demonstrate how software and hardware knowledge can complement each other in technical projects.\n",
+          "status": "PUBLISHED",
+          "attachments": [],
+          "createdAt": "2026-10-04T16:37:17.792Z",
+          "updatedAt": "2026-10-04T16:37:17.792Z"
+        }
+      ],
+      "createdAt": "2026-10-04T16:37:17.797Z",
+      "updatedAt": "2026-10-04T16:37:17.797Z"
     },
     {
       "id": "week-04",
       "weekNumber": 4,
       "slug": "week-04",
-      "name": "",
+      "name": "Electronics, Microcontrollers, Sensors, and IoT",
       "order": 4,
-      "entries": [],
-      "createdAt": "2026-09-30T10:38:58.419Z",
-      "updatedAt": "2026-09-30T10:38:58.419Z"
+      "entries": [
+        {
+          "id": "entry-week-04-01_Monday-week-4-electronics-microcontrollers-sensors-and-iot",
+          "weekId": "week-04",
+          "date": "2026-09-14",
+          "title": "Week 4 — Electronics, Microcontrollers, Sensors, and IoT",
+          "notes": "# Week 4 — Electronics, Microcontrollers, Sensors, and IoT\n\nWeek 4 focused extensively on electronics, microcontrollers, sensors, actuators, and IoT-based systems. The learning progressed from basic microcontroller concepts to integrating multiple components into interactive applications.\n\nThe week began with an introduction to Arduino Uno and the fundamentals of microcontroller-based systems. Basic concepts such as digital input and output, pins, and uploading programs to a board were explored. A simple LED project was used to understand the relationship between program instructions, digital signals, and physical output.\n\nThe next stage introduced sensors and actuators. Components such as PIR sensors, DHT11 temperature and humidity sensors, IR sensors, OLED displays, and joysticks were explored. The activities demonstrated how sensors provide input to a microcontroller, which can process that information and generate an appropriate output through actuators or displays.\n\nThe learning then progressed to ESP32-based systems. Components including an ultrasonic sensor, OLED display, and joystick were integrated with the ESP32 to understand how multiple devices can communicate with a single microcontroller. The ESP32 also introduced the concept of wireless connectivity and provided a stronger foundation for IoT applications.\n\nThe final part of the week involved developing interactive applications. A traffic controller simulation demonstrated how inputs, logical processing, and outputs could be combined into a working system. Another application involved an interactive digital pet using sensors and an OLED display, showing how sensor data could influence the state and behavior of a virtual system.\n\nWeek 4 provided a progression from **basic electronics → microcontrollers → sensors and actuators → ESP32 → IoT concepts → interactive applications**. It strengthened practical understanding of both hardware integration and software-controlled physical systems.\n",
+          "status": "PUBLISHED",
+          "attachments": [],
+          "createdAt": "2026-10-04T16:37:17.799Z",
+          "updatedAt": "2026-10-04T16:37:17.799Z"
+        }
+      ],
+      "createdAt": "2026-10-04T16:37:17.800Z",
+      "updatedAt": "2026-10-04T16:37:17.800Z"
     },
     {
       "id": "week-05",
@@ -211,14 +387,14 @@
       "name": "",
       "order": 5,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.422Z",
-      "updatedAt": "2026-09-30T10:38:58.422Z"
+      "createdAt": "2026-10-04T16:37:17.803Z",
+      "updatedAt": "2026-10-04T16:37:17.803Z"
     },
     {
       "id": "week-06",
       "weekNumber": 6,
       "slug": "week-06",
-      "name": "From Digital Ideas to Physical Reality",
+      "name": "Digital Fabrication — Laser Cutting & 3D Printing",
       "order": 6,
       "entries": [
         {
@@ -226,28 +402,37 @@
           "weekId": "week-06",
           "date": "2026-09-26",
           "title": "Designing in 3D & Clay Modelling",
-          "notes": "# Designing in 3D & Hands-On Clay Modelling\r\n\r\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Tools\r\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\r\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\r\n- **Clay Prototyping**: Tactile form exploration without constraints\r\n\r\n---\r\n\r\n## 🛠️ CAD Foundations: Autodesk Fusion 360\r\n\r\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\r\n\r\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\r\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\r\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\r\n\r\n![Autodesk Fusion 360 3D Parametric Modeling](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)\r\n\r\n---\r\n\r\n## 🖐️ Hands-On Exploration: Clay Modelling\r\n\r\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\r\n\r\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\r\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\r\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\r\n\r\n---\r\n\r\n## 💡 Key Takeaway\r\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\r\n",
+          "notes": "# Designing in 3D & Hands-On Clay Modelling\n\n> *There is something exciting about watching an idea leave the screen and become something you can actually touch, hold, and use. Week 6 of PRICE Protosem was exactly that kind of experience under the guidance of Sabareesh at Forge.*\n\n---\n\n## 🎯 Focus Areas & Tools\n- **Autodesk Fusion 360**: 3D Parametric Modeling, Primitive Geometries, Extrusions, Mirroring & Fill Operations\n- **Design Thinking**: Translating conceptual ideas into dimensioned digital models\n- **Clay Prototyping**: Tactile form exploration without constraints\n\n---\n\n## 🛠️ CAD Foundations: Autodesk Fusion 360\n\nWe started with the fundamentals of Autodesk Fusion 360, learning how simple geometric elements form the bedrock of complex physical designs.\n\n- **Geometric Primitives**: Creating lines, rectangles, and foundational sketches.\n- **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.\n- **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.\n\n![Autodesk Fusion 360 3D Parametric Modeling Session](/assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png)\n\n---\n\n## 🖐️ Hands-On Exploration: Clay Modelling\n\nThe afternoon took us away from computer screens into tactile, hands-on creativity with clay and dough modelling:\n\n- **Freeform Creation**: Exploring forms with nothing more than dough and imagination.\n- **Unconstrained Iteration**: No strict dimensions, no rigid measurements, and no \"undo\" button—pure intuitive creativity.\n- **Tactile Learning**: A powerful reminder that engineering and creativity don't always have to begin with a computer. Sometimes, the best way to explore an idea is simply to make something with your hands.\n\n---\n\n## 💡 Key Takeaway\nInnovation begins with the freedom to shape ideas tactilely before locking them into digital CAD constraints.\n\n\n## Media & Evidence Gallery\n\n![fusion_360_design.png](/assets/weekly/Week_06/06_Saturday/fusion_360_design.png)",
           "status": "PUBLISHED",
           "attachments": [
+            {
+              "id": "att-week-06-06_Saturday-fusion-360-cylindrical-cad-png",
+              "type": "IMAGE",
+              "name": "fusion_360_cylindrical_cad.png",
+              "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png",
+              "size": "478 KB",
+              "uploadedAt": "2026-10-04T16:37:17.858Z",
+              "description": "Evidence linked in Designing in 3D & Clay Modelling"
+            },
             {
               "id": "att-week-06-06_Saturday-fusion-360-design-png",
               "type": "IMAGE",
               "name": "fusion_360_design.png",
               "url": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
               "size": "478 KB",
-              "uploadedAt": "2026-09-30T10:38:58.472Z",
-              "description": "Evidence linked in Designing in 3D & Clay Modelling"
+              "uploadedAt": "2026-10-04T16:37:17.858Z",
+              "description": "Media asset from 06_Saturday"
             }
           ],
-          "createdAt": "2026-09-30T10:38:58.472Z",
-          "updatedAt": "2026-09-30T10:38:58.472Z"
+          "createdAt": "2026-10-04T16:37:17.859Z",
+          "updatedAt": "2026-10-04T16:37:17.859Z"
         },
         {
-          "id": "entry-week-06-01_Monday-from-3d-models-to-laser-cut-parts",
+          "id": "entry-week-06-01_Monday-laser-cutting-scanning-workflow",
           "weekId": "week-06",
           "date": "2026-09-28",
-          "title": "From 3D Models to Laser-Cut Parts",
-          "notes": "# From 3D Models to Laser-Cut Parts\r\n\r\n> *A model on the screen is only the beginning. It has to be created in the right format, prepared correctly, and translated into instructions that a machine can understand.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Tools\r\n- **Digital Fabrication**: Laser Cutting Fundamentals\r\n- **RDWorks V8**: Laser cutting preparation software & vector toolpaths\r\n- **File Interoperability**: DXF file generation and machine translation\r\n\r\n---\r\n\r\n## ⚙️ Laser Cutting Preparation & Workflow\r\n\r\nWe advanced into digital manufacturing by bridging CAD models with laser fabrication machines:\r\n\r\n- **Fundamentals of Laser Cutting**: Understanding laser power, speed, kerf width, and material considerations.\r\n- **Workflow in RDWorks V8**: Preparing 2D profiles for laser cutting and importing formatted DXF files into RDWorks V8.\r\n- **Design-to-Manufacturing Bridge**: Realizing that digital geometry must adhere to strict machine constraints to be manufacturable.\r\n\r\n![RDWorks V8 Laser Cutting Path Simulation](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\r\n\r\n---\r\n\r\n## 💡 Key Shift: \"I Designed It\" → \"I Can Manufacture It\"\r\n\r\nThat shift—from simply designing an object to understanding how a physical machine processes and cuts it—was a pivotal milestone.\r\n\r\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\r\n\r\nTranslating digital designs into precise machine instructions connects design theory with real-world fabrication.\r\n\r\n---\r\n\r\n## 🏆 Physical Fabrication Output\r\n\r\nHere is the finished acrylic workpiece featuring precision laser engraving:\r\n\r\n![Final Laser Engraved Acrylic Output — Precision Autobot Emblem](/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)\r\n\r\n",
+          "title": "Laser Cutting & Scanning Workflow",
+          "notes": "# Laser Cutting & Scanning Workflow\n\n> 🔴 **The Red Pill Choice (Subtractive Reality)**: *You stay in the lab, and see how deep the 150W CO₂ laser beam cuts through 2mm acrylic at 100 mm/s to engrave the Transformers Autobot emblem.*\n\n---\n\n## 1. Lab Safety & Safety Rules\n\nBefore starting the laser cutting process, I followed the safety instructions provided in the Forge Lab. Since laser cutting involves high temperature, concentrated laser energy, electrical systems, and fumes, proper safety practices were essential throughout the process.\n\n| Safety Area | Safety Practice Followed |\n| :--- | :--- |\n| **Laser Safety** | Avoid direct exposure to the laser beam and follow required eye and machine-safety precautions. |\n| **Exhaust System** | Kept the exhaust system ON to continuously evacuate fumes and maintain proper airflow. |\n| **Chiller System** | Verified chiller operating conditions and ensured the closed-loop cooling system was maintained properly. |\n| **Electrical Earthing** | Verified proper electrical earthing and adhered strictly to machine electrical safety protocols. |\n| **Air Assist** | Kept high-pressure air assist ON during the cutting process to suppress combustion and ensure clean edge kerf. |\n| **General Machine Safety** | Maintained a clean working area, followed lab SOPs, and never left the machine unattended during active cutting. |\n\n---\n\n## 2. Machine Specifications\n\nThe laser cutting and engraving work was conducted using the **HW Junction CO₂ laser machine** at the Forge Digital Fabrication Lab.\n\n| Parameter | Specification Details |\n| :--- | :--- |\n| **Make** | HW Junction |\n| **Model** | Dfab #2 / 1490 CO₂ Laser |\n| **Bed Size** | 1300 × 900 mm |\n| **Laser Type** | CO₂ Gas Laser |\n| **Laser Tube Power** | 150 W |\n| **Control Software** | RDWorks V8 |\n\nThe machine provided an expansive working area for the selected workpiece, offering independent vector cutting and raster scanning channels.\n\n---\n\n## 3. Materials Used\n\nTransparent acrylic was selected for this digital fabrication sprint.\n\n| Material | Thickness | Source | Rationale |\n| :--- | :---: | :--- | :--- |\n| **Transparent Acrylic (PMMA)** | 2 mm | Forge Lab | Provides exceptional optical clarity and allows high-contrast engraved details against smooth cut edges. |\n\n---\n\n## 4. Selected Design: Transformers Autobot Emblem\n\nFor the project, I selected the iconic **Transformers Autobot symbol**.\n\nI chose this design to create a high-precision decorative badge that demonstrates both raster surface scanning (engraving) and vector perimeter cutting within a single automated run.\n\n### Design Composition:\n- **50 × 50 mm outer boundary**: Processed using high-power **Laser Cut** to excise the square acrylic tile.\n- **Transformers emblem interior**: Processed using high-speed raster **Laser Scan** to produce frosted surface engraving.\n\n---\n\n## 5. Image-to-DXF Vectorization Workflow\n\nThe original raster Transformers graphic was converted into an editable vector DXF file using **ReaConverter**:\n\n1. Imported high-contrast monochrome Transformers artwork into ReaConverter.\n2. Vectorized and traced outlines into AutoCAD DXF format.\n3. Loaded the generated DXF file directly into **RDWorks V8**.\n4. Scaled overall artwork dimensions to **50 × 50 mm**.\n5. Assigned perimeter path to the cutting layer.\n6. Assigned internal emblem contours to the raster scan layer.\n\nNo manual vector node correction was required post-conversion.\n\n---\n\n## 6. Digital Preparation & Toolpath Inspection in RDWorks\n\nAfter loading the DXF into RDWorks V8, I verified geometry integrity and configured layer execution order:\n\n- Verified closed contour topology for the 50 × 50 mm outer cut boundary.\n- Color-coded layers to ensure engraving precedes outer cutting (preventing workpiece shift during scanning).\n- Executed visual simulation preview to estimate process duration and confirm nozzle head pathing.\n\n![RDWorks V8 Laser Cutting & Scanning Toolpath Preview](/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)\n\n---\n\n## 7. Nesting & Layer Configuration\n\n| Layer Color | Operation | Target Feature | Power / Speed Mode |\n| :--- | :--- | :--- | :--- |\n| **Blue Layer** | **Laser Scan (Raster)** | Transformers Emblem | Surface frosting without cutting through sheet |\n| **Black Layer** | **Laser Cut (Vector)** | 50 × 50 mm Outer Square | Full 2 mm acrylic cut-through |\n\nFinal workpiece footprint: **50 × 50 mm**. Estimated simulation run time: **9.66 seconds**.\n\n---\n\n## 8. Final Machine Parameter Settings\n\n| Material | Thickness | Operation | Speed | Min Power | Max Power |\n| :--- | :---: | :--- | :---: | :---: | :---: |\n| Transparent Acrylic | 2 mm | **Laser Scan** | 100 mm/s | 30% | 30% |\n| Transparent Acrylic | 2 mm | **Laser Cut** | 100 mm/s | 30% | 30% |\n\n*Note: Power and speed parameters were calibrated during lab setup under mentor guidance.*\n\n---\n\n## 9. Physical Machining & Execution\n\n1. Placed the 2 mm transparent acrylic sheet flat on the honey-comb bed.\n2. Set nozzle focal distance to workpiece surface using the focal spacer block.\n3. Enabled air assist compressor, water chiller, and fume exhaust duct.\n4. Downloaded compiled RDWorks program to machine onboard controller memory.\n5. Performed boundary test framing to verify workpiece bounds.\n6. Executed job: raster scanned emblem first, followed immediately by vector perimeter cut.\n7. Allowed exhaust dwell time before opening enclosure to retrieve finished part.\n\n![Observing the Laser Cutting Machine in Operation at Forge](/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)\n\n---\n\n## 10. Final Result — Hero Shot\n\nThe completed acrylic workpiece yielded crisp, frosty raster definition and glass-smooth flame-polished edges:\n\n![Final 50 × 50 mm transparent acrylic piece with the engraved Transformers symbol](/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)\n\n---\n\n## 11. Troubleshooting & Validation Log\n\n| Stage | Observation | Resolution | Outcome |\n| :--- | :--- | :--- | :--- |\n| **Vector Prep** | Clean DXF conversion with zero broken lines | Verified path closures in RDWorks | Flawless raster fill |\n| **Machining** | Consistent beam power, no scorching | Correct air assist pressure and focal depth | Clean edge kerf, no melted re-deposition |\n\n---\n\n## 12. Engineering Reflection & Learnings\n\n- **File Preparation is 80% of Manufacturing**: Precision DXF conversion and layer assignment dictate cut quality before touching the machine.\n- **Cut vs. Scan Differentiation**: Mastering multi-layer jobs where scanning finishes prior to boundary separation prevents part dislocation.\n- **Material Behaviour**: Acrylic vaporizes cleanly under CO₂ wavelength (10.6 µm), producing polished edge finishes when paired with proper air assist.\n\n---\n\n## 13. Deliverables & Source Files\n\n- 📦 **Vector Artwork (Adobe Illustrator)**: [Download krishnakanth.ai (54.8 KB)](/assets/weekly/Week_06/01_Monday/krishnakanth.ai)\n- 📐 **Vector CAD / Layout**: `krishnakanth.ai` / `krishnakanth.dxf`\n- ⚙️ **RDWorks Machine File**: `transformers_acrylic_50x50.rld`\n- 🏆 **Physical Output**: Finished 50 × 50 mm laser engraved & cut acrylic badge\n",
           "status": "PUBLISHED",
           "attachments": [
             {
@@ -256,8 +441,8 @@
               "name": "rdworks_laser_preview.png",
               "url": "/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
               "size": "83 KB",
-              "uploadedAt": "2026-09-30T10:38:58.436Z",
-              "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+              "uploadedAt": "2026-10-04T16:37:17.823Z",
+              "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             },
             {
               "id": "att-week-06-01_Monday-laser-cutting-operation-jpg",
@@ -265,8 +450,8 @@
               "name": "laser_cutting_operation.jpg",
               "url": "/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
               "size": "195 KB",
-              "uploadedAt": "2026-09-30T10:38:58.436Z",
-              "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+              "uploadedAt": "2026-10-04T16:37:17.825Z",
+              "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             },
             {
               "id": "att-week-06-01_Monday-laser-engraved-output-jpg",
@@ -274,46 +459,91 @@
               "name": "laser_engraved_output.jpg",
               "url": "/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg",
               "size": "122 KB",
-              "uploadedAt": "2026-09-30T10:38:58.436Z",
-              "description": "Evidence linked in From 3D Models to Laser-Cut Parts"
+              "uploadedAt": "2026-10-04T16:37:17.825Z",
+              "description": "Evidence linked in Laser Cutting & Scanning Workflow"
+            },
+            {
+              "id": "att-week-06-01_Monday-krishnakanth-ai",
+              "type": "PDF",
+              "name": "krishnakanth.ai",
+              "url": "/assets/weekly/Week_06/01_Monday/krishnakanth.ai",
+              "size": "55 KB",
+              "uploadedAt": "2026-10-04T16:37:17.825Z",
+              "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             }
           ],
-          "createdAt": "2026-09-30T10:38:58.437Z",
-          "updatedAt": "2026-09-30T10:38:58.437Z"
+          "createdAt": "2026-10-04T16:37:17.826Z",
+          "updatedAt": "2026-10-04T16:37:17.826Z"
         },
         {
-          "id": "entry-week-06-02_Tuesday-my-first-step-into-3d-printing-slicing-optimization",
+          "id": "entry-week-06-02_Tuesday-3d-printing-slicing-optimization",
           "weekId": "week-06",
           "date": "2026-09-29",
-          "title": "My First Step into 3D Printing & Slicing Optimization",
-          "notes": "# My First Step into 3D Printing & Slicing Optimization\r\n\r\n> *Innovation is not just about having a creative idea—it is also about understanding how to turn that idea into a physical object.*\r\n\r\n---\r\n\r\n## 🎯 Focus Areas & Hardware\r\n- **Bambu Studio**: Advanced Slicing, Layer Height, Infill Density, Support Structures\r\n- **Bambu Lab H2S**: High-speed precision 3D printer at Forge\r\n- **Manufacturing Constraints**: Weight target `< 50g`, Print duration `~1h 30m`\r\n- **Engineering Iteration**: Idea → Digital Model → Fabrication Setup → Machine → Physical Object\r\n\r\n---\r\n\r\n## 🖨️ Slicing & Preparation in Bambu Studio\r\n\r\nWe installed and configured **Bambu Studio** to prepare a functional phone holder model for the **Bambu Lab H2S** 3D printer:\r\n\r\n- **Model Orientation**: Experimenting with build plate orientation to minimize print time and material usage while ensuring structural integrity.\r\n- **Slicing Mechanics**: Converting 3D surface meshes into G-code layers and previewing nozzle toolpaths.\r\n- **Optimization Challenges**: Tuning print parameters to meet strict production benchmarks:\r\n  - **Weight constraint**: Keep total filament usage below **50 grams**.\r\n  - **Time constraint**: Complete the print in approximately **1 hour 30 minutes**.\r\n- **Engineering Trade-offs**: Evaluating how minor adjustments in layer height, infill patterns, and support placements impact durability, finish, and print speed.\r\n\r\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\r\n\r\n---\r\n\r\n## 🔄 The Complete Engineering Journey\r\n\r\nThis sprint transformed how I view digital engineering. What once seemed like isolated geometry on a screen became a full manufacturing pipeline:\r\n\r\n1. **Design**: Sketching and parametric modeling in Autodesk Fusion 360\r\n2. **Test & Simulate**: Checking tolerances, toolpaths, and slice configurations\r\n3. **Adjust**: Refining orientation and slicing parameters in Bambu Studio\r\n4. **Manufacture**: Fabricating on laser cutters (RDWorks V8) and 3D printers (Bambu Lab H2S)\r\n5. **Discover & Improve**: Real engineering starts when physical feedback reveals unexpected improvements.\r\n\r\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\r\n\r\n---\r\n\r\n## 🚀 Sprint Conclusion\r\n*From pixels to prototypes—that was Week 6.* A playful yet rigorous combination of creativity, engineering, fabrication, and experimentation.\r\n",
+          "title": "3D Printing & Slicing Optimization",
+          "notes": "# 3D Printing & Slicing Optimization\n\n> 🔵 **The Blue Pill Choice (Additive Matrix)**: *You enter the additive matrix, heating the Bambu Lab H2S nozzle to 220°C and watching molten White PLA lay down 0.20mm layers until a foldable phone stand materializes.*\n\n---\n\n## 1. Printer Specifications\n\nThe 3D printing activity was carried out using the **Bambu Lab H2S** industrial-grade high-speed printer in the Forge Prototyping Lab.\n\n| Parameter | Specification Details |\n| :--- | :--- |\n| **Printer Make & Model** | Bambu Lab H2S |\n| **Printing Technology** | Fused Deposition Modeling (FDM) |\n| **Build Volume** | 340 × 320 × 340 mm |\n| **Nozzle Diameter** | 0.4 mm Hardened Steel |\n| **Material Used** | PLA Basic (White) |\n| **Max Toolhead Speed** | Up to 1000 mm/s |\n| **Max Nozzle Temp** | 350°C |\n\n![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)\n\n---\n\n## 2. Slicer & Material Setup\n\nThe 3D model was sliced and configured using **Bambu Studio**:\n\n| Parameter | Configuration |\n| :--- | :--- |\n| **Slicing Software** | Bambu Studio |\n| **Printer Profile** | Bambu Lab H2S 0.4 Nozzle |\n| **Filament Type** | PLA Basic |\n| **Filament Color** | White |\n| **Layer Profile** | 0.20 mm Standard |\n\nPLA (Polylactic Acid) was chosen for its high dimensional stability, low shrinkage, excellent layer adhesion, and suitability for functional articulating mechanisms.\n\n---\n\n## 3. Printer Capabilities & Mechanical Performance\n\nDuring the print run, the Bambu Lab H2S demonstrated exceptional precision on complex multi-linkage geometry:\n- **Complex Geometry as a Single Assembly**: Articulating multi-segment legs and hinges printed in place with tight clearances.\n- **Dimensional Accuracy**: Tight tolerances around pivot pins allowed smooth rotation without slop or binding.\n- **Functional Integrity**: Sturdy mechanical strength capable of supporting mobile devices in multiple orientations.\n- **Zero Print Failures**: 100% first-pass yield with zero spaghetti, warping, or layer shifts.\n\n![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts on Build Plate](/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)\n\n---\n\n## 4. Why This Geometry Cannot Be Made Subtractively\n\nThe selected phone stand features interlocking rotational joints, curved resting brackets, and nested collapsible legs.\n\n### Limitations of Subtractive Manufacturing (CNC Milling / Turning):\n- **Tool Access Obstruction**: End mills cannot reach internal enclosed cavities and undercut hinges without requiring multi-axis complex setups and substantial material waste.\n- **Assembly Overhead**: Subtractive methods would require milling 6+ separate components followed by manual hardware pin assembly.\n- **Additive Advantage**: FDM builds layer-by-layer (additive), enabling pre-assembled internal voids, functional hinges, and integrated pivot brackets directly on the build plate.\n\n---\n\n## 5. STL File Architecture\n\n**STL (Stereolithography)** represents 3D surfaces as triangulated polygon meshes:\n- Triangles define exterior and interior surfaces via vertex coordinates and surface normal vectors.\n- Bambu Studio translates the STL mesh into discrete horizontal slices (G-code toolpaths) determining wall perimeters, infill density, and travel acceleration.\n\n$$\\text{3D CAD Model} \\longrightarrow \\text{STL Mesh} \\longrightarrow \\text{Bambu Studio Slicing} \\longrightarrow \\text{G-Code Layers} \\longrightarrow \\text{Physical Part}$$\n\n---\n\n## 6. Selected Component: Foldable & Adjustable Phone Stand\n\nI selected a **foldable/adjustable multi-position phone stand** from the Bambu Lab ecosystem for its strong practical utility:\n- **Everyday Usability**: Hands-free viewing for video lectures, coding tutorials, YouTube, movies, and documentation review.\n- **Mechanical Elegance**: Articulated hinges allow folding flat for pocket portability or extending into a stable tripod workstation dock.\n\n---\n\n## 7. Slicer Parameters in Bambu Studio\n\n| Setting | Value | Engineering Rationale |\n| :--- | :---: | :--- |\n| **Nozzle Diameter** | 0.4 mm | Standard balance of detail resolution and throughput |\n| **Nozzle Temperature** | 220°C | Optimal melt flow for PLA Basic at high acceleration |\n| **Bed Temperature** | 55°C | Textured PEI plate adhesion without warping |\n| **Layer Height** | 0.20 mm | Smooth vertical surface finish and rapid build time |\n| **Infill Density** | 15% | Sufficient structural strength with minimal weight |\n| **Infill Pattern** | Grid | Balanced bidirectional load distribution |\n| **Wall / Shell Count** | 2 Perimeters | Rigid external shell and hinge durability |\n| **Support Type** | Enabled | Supports overhangs on bridge brackets |\n| **Bed Adhesion** | Outer Brim (5 mm) | Prevents corner lifting on narrow contact points |\n\n---\n\n## 8. Slicing Metrics & Material Budget\n\n| Parameter | Bambu Studio Slicer Estimate | Status |\n| :--- | :---: | :---: |\n| **Total Print Duration** | **59 min 08 sec** | Completed Successfully |\n| **Model Filament Usage** | **20.00 g** | Verified within `< 50g` constraint |\n| **Support Filament Usage** | **0.68 g** | Minimal sacrificial material |\n| **Total Material Consumed** | **20.68 g** | High material efficiency |\n\n---\n\n## 9. Final Results & Hardware Showcase\n\nThe phone stand printed flawlessly in white PLA Basic:\n\n### Folded Compact State\nThe entire assembly collapses into an ultra-slim pocket profile:\n\n![Final 3D-printed white PLA phone stand after successful printing (folded state)](/assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg)\n\n### Extended Articulating Tripod Stand\nThe legs extend outward smoothly to provide a stable, weighted base for mobile devices:\n\n![Adjustable sections and tripod base of the completed phone stand](/assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg)\n\n---\n\n## 10. Deliverables & Source Files\n\n- 📦 **STL 3D Geometry Model (Download)**: [Download krishnakanth.stl (2.07 MB)](/assets/weekly/Week_06/02_Tuesday/krishnakanth.stl)\n- 🖨️ **Bambu Studio Sliced Project & G-code (Download)**: [Download krishnakanth.gcode.3mf (2.51 MB)](/assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf)\n- 🏆 **Fabricated Physical Artifact**: Fully articulated White PLA Phone Stand\n\n---\n\n## 11. Comprehensive Digital Fabrication Reflection\n\nComparing laser cutting and 3D printing highlighted two essential pillars of modern prototyping:\n\n1. **Laser Cutting (2D Vector/Subtractive)**: Unmatched speed (~10 seconds) for flat sheet profiling, crisp surface rastering, and optical acrylic parts.\n2. **3D Printing (3D Mesh/Additive)**: Unmatched geometric freedom for multi-piece interlocking mechanisms, nested joints, and custom ergonomic fixtures without tooling molds.\n\n### Unified Prototyping Pipeline:\n$$\\text{Digital Concept} \\longrightarrow \\text{File Vectorization / Slicing} \\longrightarrow \\text{Machine Calibration} \\longrightarrow \\text{Physical Fabrication} \\longrightarrow \\text{Real-World Validation}$$\n\n---\n\n## References & Lab Equipment\n- **Bambu Lab H2S**: Industrial FDM High-Speed 3D Printer\n- **Bambu Studio**: Advanced Multi-Material Slicing Engine\n- **HW Junction 1490 CO₂ Laser**: 150W Laser Cutting & Engraving System\n- **RDWorks V8**: Laser Vector Control Suite\n- **ReaConverter**: Image-to-DXF Vectorizer\n- **Forge Prototyping Lab**: Equipment, materials, and mentor guidance\n",
           "status": "PUBLISHED",
           "attachments": [
-            {
-              "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
-              "type": "IMAGE",
-              "name": "bambu_h2s_print_plate.jpg",
-              "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
-              "size": "146 KB",
-              "uploadedAt": "2026-09-30T10:38:58.468Z",
-              "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
-            },
             {
               "id": "att-week-06-02_Tuesday-bambu-lab-printing-session-jpg",
               "type": "IMAGE",
               "name": "bambu_lab_printing_session.jpg",
               "url": "/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
               "size": "183 KB",
-              "uploadedAt": "2026-09-30T10:38:58.468Z",
-              "description": "Evidence linked in My First Step into 3D Printing & Slicing Optimization"
+              "uploadedAt": "2026-10-04T16:37:17.848Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-bambu-h2s-print-plate-jpg",
+              "type": "IMAGE",
+              "name": "bambu_h2s_print_plate.jpg",
+              "url": "/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
+              "size": "146 KB",
+              "uploadedAt": "2026-10-04T16:37:17.849Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-phone-stand-folded-jpg",
+              "type": "IMAGE",
+              "name": "phone_stand_folded.jpg",
+              "url": "/assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg",
+              "size": "106 KB",
+              "uploadedAt": "2026-10-04T16:37:17.849Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-phone-stand-adjustable-jpg",
+              "type": "IMAGE",
+              "name": "phone_stand_adjustable.jpg",
+              "url": "/assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg",
+              "size": "201 KB",
+              "uploadedAt": "2026-10-04T16:37:17.849Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-krishnakanth-stl",
+              "type": "PDF",
+              "name": "krishnakanth.stl",
+              "url": "/assets/weekly/Week_06/02_Tuesday/krishnakanth.stl",
+              "size": "2.0 MB",
+              "uploadedAt": "2026-10-04T16:37:17.850Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
+            },
+            {
+              "id": "att-week-06-02_Tuesday-krishnakanth-gcode-3mf",
+              "type": "PDF",
+              "name": "krishnakanth.gcode.3mf",
+              "url": "/assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf",
+              "size": "2.4 MB",
+              "uploadedAt": "2026-10-04T16:37:17.850Z",
+              "description": "Evidence linked in 3D Printing & Slicing Optimization"
             }
           ],
-          "createdAt": "2026-09-30T10:38:58.468Z",
-          "updatedAt": "2026-09-30T10:38:58.468Z"
+          "createdAt": "2026-10-04T16:37:17.850Z",
+          "updatedAt": "2026-10-04T16:37:17.850Z"
         }
       ],
-      "createdAt": "2026-09-30T10:38:58.485Z",
-      "updatedAt": "2026-09-30T10:38:58.485Z"
+      "createdAt": "2026-10-04T16:37:17.859Z",
+      "updatedAt": "2026-10-04T16:37:17.859Z"
     },
     {
       "id": "week-07",
@@ -322,8 +552,8 @@
       "name": "",
       "order": 7,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.487Z",
-      "updatedAt": "2026-09-30T10:38:58.487Z"
+      "createdAt": "2026-10-04T16:37:17.861Z",
+      "updatedAt": "2026-10-04T16:37:17.861Z"
     },
     {
       "id": "week-08",
@@ -332,8 +562,8 @@
       "name": "",
       "order": 8,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.488Z",
-      "updatedAt": "2026-09-30T10:38:58.488Z"
+      "createdAt": "2026-10-04T16:37:17.863Z",
+      "updatedAt": "2026-10-04T16:37:17.863Z"
     },
     {
       "id": "week-09",
@@ -342,8 +572,8 @@
       "name": "",
       "order": 9,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.499Z",
-      "updatedAt": "2026-09-30T10:38:58.499Z"
+      "createdAt": "2026-10-04T16:37:17.865Z",
+      "updatedAt": "2026-10-04T16:37:17.865Z"
     },
     {
       "id": "week-10",
@@ -352,8 +582,8 @@
       "name": "",
       "order": 10,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.500Z",
-      "updatedAt": "2026-09-30T10:38:58.500Z"
+      "createdAt": "2026-10-04T16:37:17.866Z",
+      "updatedAt": "2026-10-04T16:37:17.866Z"
     },
     {
       "id": "week-11",
@@ -362,8 +592,8 @@
       "name": "",
       "order": 11,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.502Z",
-      "updatedAt": "2026-09-30T10:38:58.502Z"
+      "createdAt": "2026-10-04T16:37:17.868Z",
+      "updatedAt": "2026-10-04T16:37:17.868Z"
     },
     {
       "id": "week-12",
@@ -372,8 +602,8 @@
       "name": "",
       "order": 12,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.503Z",
-      "updatedAt": "2026-09-30T10:38:58.503Z"
+      "createdAt": "2026-10-04T16:37:17.869Z",
+      "updatedAt": "2026-10-04T16:37:17.869Z"
     },
     {
       "id": "week-13",
@@ -382,8 +612,8 @@
       "name": "",
       "order": 13,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.505Z",
-      "updatedAt": "2026-09-30T10:38:58.505Z"
+      "createdAt": "2026-10-04T16:37:17.873Z",
+      "updatedAt": "2026-10-04T16:37:17.873Z"
     },
     {
       "id": "week-14",
@@ -392,8 +622,8 @@
       "name": "",
       "order": 14,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.512Z",
-      "updatedAt": "2026-09-30T10:38:58.512Z"
+      "createdAt": "2026-10-04T16:37:17.875Z",
+      "updatedAt": "2026-10-04T16:37:17.875Z"
     },
     {
       "id": "week-15",
@@ -402,8 +632,8 @@
       "name": "",
       "order": 15,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.515Z",
-      "updatedAt": "2026-09-30T10:38:58.515Z"
+      "createdAt": "2026-10-04T16:37:17.876Z",
+      "updatedAt": "2026-10-04T16:37:17.876Z"
     },
     {
       "id": "week-16",
@@ -412,8 +642,8 @@
       "name": "",
       "order": 16,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.518Z",
-      "updatedAt": "2026-09-30T10:38:58.518Z"
+      "createdAt": "2026-10-04T16:37:17.878Z",
+      "updatedAt": "2026-10-04T16:37:17.878Z"
     },
     {
       "id": "week-17",
@@ -422,8 +652,8 @@
       "name": "",
       "order": 17,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.519Z",
-      "updatedAt": "2026-09-30T10:38:58.519Z"
+      "createdAt": "2026-10-04T16:37:17.879Z",
+      "updatedAt": "2026-10-04T16:37:17.879Z"
     },
     {
       "id": "week-18",
@@ -432,8 +662,8 @@
       "name": "",
       "order": 18,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.520Z",
-      "updatedAt": "2026-09-30T10:38:58.520Z"
+      "createdAt": "2026-10-04T16:37:17.881Z",
+      "updatedAt": "2026-10-04T16:37:17.881Z"
     },
     {
       "id": "week-19",
@@ -442,11 +672,47 @@
       "name": "",
       "order": 19,
       "entries": [],
-      "createdAt": "2026-09-30T10:38:58.522Z",
-      "updatedAt": "2026-09-30T10:38:58.522Z"
+      "createdAt": "2026-10-04T16:37:17.882Z",
+      "updatedAt": "2026-10-04T16:37:17.882Z"
     }
   ],
   "evidence": [
+    {
+      "id": "ev-week-00-01_Monday-sensor-telemetry-svg",
+      "title": "sensor_telemetry.svg (Week_00 Monday)",
+      "category": "FORGE",
+      "description": "Artifact submitted during Week_00 sprint journal (Monday).",
+      "format": "IMAGE",
+      "date": "2026-08-17",
+      "size": "538 B",
+      "downloadUrl": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+      "viewUrl": "/assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
+      "previewType": "image",
+      "highlights": [
+        "Sprint: Week_00",
+        "Day: Monday",
+        "File: sensor_telemetry.svg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "ev-week-00-01_Monday-system-architecture-svg",
+      "title": "system_architecture.svg (Week_00 Monday)",
+      "category": "FORGE",
+      "description": "Artifact submitted during Week_00 sprint journal (Monday).",
+      "format": "IMAGE",
+      "date": "2026-08-17",
+      "size": "1 KB",
+      "downloadUrl": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+      "viewUrl": "/assets/weekly/Week_00/01_Monday/system_architecture.svg",
+      "previewType": "image",
+      "highlights": [
+        "Sprint: Week_00",
+        "Day: Monday",
+        "File: system_architecture.svg"
+      ],
+      "verified": true
+    },
     {
       "id": "ev-week-00-01_Monday-sensor-telemetry-svg",
       "title": "sensor_telemetry.svg (Week_00 Monday)",
@@ -462,6 +728,24 @@
         "Sprint: Week_00",
         "Day: Monday",
         "File: sensor_telemetry.svg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "ev-week-06-06_Saturday-fusion-360-design-png",
+      "title": "fusion_360_design.png (Week_06 Saturday)",
+      "category": "FORGE",
+      "description": "Artifact submitted during Week_06 sprint journal (Saturday).",
+      "format": "IMAGE",
+      "date": "2026-09-26",
+      "size": "478 KB",
+      "downloadUrl": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
+      "viewUrl": "/assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
+      "previewType": "image",
+      "highlights": [
+        "Sprint: Week_06",
+        "Day: Saturday",
+        "File: fusion_360_design.png"
       ],
       "verified": true
     }

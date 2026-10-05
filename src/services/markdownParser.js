@@ -1,9 +1,9 @@
 /**
- * Obsidian Markdown Parser & Link Transformer
+ * Markdown Note Parser & Link Transformer
  * 
- * Parses daily/weekly Obsidian notes, extracts YAML frontmatter,
- * parses structured sections (Topics, Activities, Evidence, Learnings),
- * and converts Obsidian wikilinks & image embeddings to web-ready asset paths.
+ * Parses weekly sprint notes, extracts YAML frontmatter,
+ * handles structured sections, and converts relative wikilinks & image embeddings
+ * to web-ready asset paths.
  */
 
 /**
@@ -57,19 +57,18 @@ export function parseFrontmatter(content) {
 }
 
 /**
- * Converts Obsidian image links `![[filename.png]]` or `![[filename.png|caption]]`
- * and relative markdown images `![](filename.png)` to web-compatible URLs.
+ * Converts image and document links to web-compatible URLs.
  * 
  * @param {string} content 
  * @param {{ week: string, day: string }} context 
  * @returns {string}
  */
-export function convertObsidianLinks(content, { week, day }) {
+export function convertMarkdownLinks(content, { week, day }) {
   if (!content) return '';
 
   const basePath = `/assets/weekly/${week}/${day}`;
 
-  // 1. Convert Obsidian image embeds: ![[image.ext|Optional Caption]] or ![[image.ext]]
+  // 1. Convert wikilink embeds: ![[image.ext|Optional Caption]] or ![[image.ext]]
   let processed = content.replace(/!\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, fileName, caption) => {
     const cleanFileName = fileName.trim();
     const altText = (caption || cleanFileName).trim();
@@ -84,11 +83,11 @@ export function convertObsidianLinks(content, { week, day }) {
     return `![${alt}](${basePath}/${target.trim()})`;
   });
 
-  // 3. Convert Obsidian document embeds/links: [[filename.pdf|Optional Label]] or [[filename.pdf]]
+  // 3. Convert document embeds/links: [[filename.pdf|Optional Label]] or [[filename.pdf]]
   processed = processed.replace(/(?<!!)\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, target, label) => {
     const cleanTarget = target.trim();
     const ext = cleanTarget.split('.').pop()?.toLowerCase();
-    const isDoc = ['pdf', 'doc', 'docx', 'ppt', 'pptx', 'zip', 'mp4', 'webm'].includes(ext);
+    const isDoc = ['pdf', 'doc', 'docx', 'ppt', 'pptx', 'zip', 'mp4', 'webm', 'stl', '3mf', 'ai', 'dxf', 'gcode', 'step', 'stp', 'obj'].includes(ext);
     const displayText = (label || cleanTarget).trim();
 
     if (isDoc) {
@@ -110,8 +109,8 @@ export function extractLinkedMedia(rawContent) {
   const linked = new Set();
 
   // Find ![[filename.ext]]
-  const obsidianEmbeds = rawContent.matchAll(/!\[\[([^\]|]+)/g);
-  for (const match of obsidianEmbeds) {
+  const wikilinkEmbeds = rawContent.matchAll(/!\[\[([^\]|]+)/g);
+  for (const match of wikilinkEmbeds) {
     if (match[1]) linked.add(match[1].trim());
   }
 
@@ -137,17 +136,17 @@ export function extractLinkedMedia(rawContent) {
 }
 
 /**
- * Parses daily note markdown content into structured metadata, notes, and attachment records.
+ * Parses sprint note markdown content into structured metadata, notes, and attachment records.
  * 
  * @param {string} rawContent 
  * @param {{ filePath?: string, week: string, day: string, fileName?: string }} options 
  * @returns {Object} Structured daily note representation
  */
-export function parseObsidianNote(rawContent, { filePath = '', week, day, fileName = '' }) {
+export function parseMarkdownNote(rawContent, { filePath = '', week, day, fileName = '' }) {
   const { frontmatter, body } = parseFrontmatter(rawContent);
 
   // Convert image and media links to public asset paths
-  const transformedBody = convertObsidianLinks(body, { week, day });
+  const transformedBody = convertMarkdownLinks(body, { week, day });
 
   // Extract title
   let title = frontmatter.title || '';

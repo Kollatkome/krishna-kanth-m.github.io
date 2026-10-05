@@ -1,7 +1,9 @@
-# Week_01 - Technology, Design Thinking, and Retail
-*Sprint Week 01 Journal and Innovation Dossier*
-
-### Week 1 — Technology, Design Thinking, and Retail (2026-08-24)
+---
+title: "Week 1 — Technology, Design Thinking, and Retail"
+date: "2026-08-24"
+status: "PUBLISHED"
+weekName: "Technology, Design Thinking, and Retail"
+---
 
 # Week 1 — Technology, Design Thinking, and Retail
 

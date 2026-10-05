@@ -1,17 +1,15 @@
-# 📓 Obsidian Portfolio Vault (`portfolio-content`)
+# 📁 ProtoSem Portfolio Content (`portfolio-content`)
 
-This directory is an Obsidian vault designed for the **"Dump and Compile"** portfolio workflow.
+This directory houses the structured weekly sprint journals, technical dossiers, CAD models, and evidence attachments for the portfolio website.
 
 ---
 
-## 📁 Vault Structure
+## 📁 Directory Structure
 
 ```text
 portfolio-content/
-├── .obsidian/
-│   └── app.json               # Configured to save pasted images & new files in current folder
 ├── Week_00/
-│   ├── 01_Monday/             # Place Monday markdown notes & images here
+│   ├── 01_Monday/             # Monday markdown notes, CAD files & media
 │   ├── 02_Tuesday/
 │   ├── 03_Wednesday/
 │   ├── 04_Thursday/
@@ -24,11 +22,11 @@ portfolio-content/
 
 ---
 
-## ⚡ How to Write Daily Notes
+## ⚡ How to Write Weekly & Daily Notes
 
-Create a markdown file (e.g. `2026-08-24.md` or `Monday_Sprint.md`) inside the specific Day folder (e.g., `portfolio-content/Week_00/01_Monday/`).
+Create a markdown file (e.g. `01_exploring_innovation.md` or `Monday_Sprint.md`) inside the specific Day folder (e.g., `portfolio-content/Week_00/01_Monday/`).
 
-### Recommended Daily Note Template
+### Recommended Note Template
 
 ```markdown
 ---
@@ -51,9 +49,9 @@ Conducted on-site surveys with warehouse floor staff. Identified key bottleneck 
 ## 📸 Evidence & Deliverables
 Here is our initial workflow diagram and circuit test:
 
-![[workflow_diagram.png|System Architecture Diagram]]
+![System Architecture Diagram](workflow_diagram.png)
 
-![[sensor_test.png|Microcontroller Sensor Telemetry]]
+![Microcontroller Sensor Telemetry](sensor_test.png)
 
 ## 💡 Key Learnings & Reflections
 - Customer interviews reveal edge cases that lab simulations miss.
@@ -62,38 +60,24 @@ Here is our initial workflow diagram and circuit test:
 
 ---
 
-## 🖼️ How Images and Media Work
+## 🖼️ Media, CAD & Attachment Handling
 
-1. **Obsidian Wikilinks**: Drop an image directly into the folder and reference it:
-   - `![[my_diagram.png]]` or `![[my_diagram.png|Architecture Diagram]]`
-2. **Standard Markdown**:
-   - `![Architecture Diagram](my_diagram.png)`
-3. **Unlinked Images / Media**:
-   - If you drop image or PDF files into the day folder without linking them in Markdown, the compiler **automatically discovers them**, appends a **Media & Evidence Gallery** section to the day's notes, and adds them to the global **Evidence Vault**!
-
----
-
-## 🔄 The 8-Step Student Workflow
-
-1. **Open Obsidian**: Launch Obsidian on your computer.
-2. **Open Vault**: Click *Open folder as vault* and choose the `portfolio-content` folder in this repository.
-3. **Navigate to Sprint Day**: Open the target sprint folder (e.g., `Week_00/01_Monday`).
-4. **Write Notes**: Write your markdown reflections.
-5. **Paste/Drop Images**: Paste screenshots or drag images/PDFs directly into the note or folder.
-6. **Commit & Push**: Open **GitHub Desktop**, write a commit message (e.g. `Update Week 00 Monday sprint notes`), and click **Push origin**.
-7. **Automated Pipeline**: GitHub Actions automatically runs the compiler (`scripts/build-templates.js`), generates compiled blogs, extracts assets, and updates `compiledProtoSem.json`.
-8. **Live Portfolio**: Your website updates automatically with your latest notes, images, and evidence!
+1. **Standard Markdown & Embeds**: Reference images, PDFs, CAD models, or project files directly:
+   - `![Architecture Diagram](my_diagram.png)` or `![[my_diagram.png|Architecture Diagram]]`
+   - `[Download STL Model](krishnakanth.stl)` or `[[krishnakanth.stl|Download STL Model]]`
+2. **Automatic Media & Document Sync**:
+   - Dropping images, PDFs, STL, 3MF, or AI files into day folders automatically syncs them to `public/assets/weekly/`, attaches them to the day's workspace, and indexes them in the portfolio's **Evidence Vault** and **Source Files** download sections.
 
 ---
 
-## 🧪 Local Testing
+## 🔄 Content Compilation
 
-To test compiling your notes locally before pushing:
+To compile content, parse notes, and sync assets locally:
 
 ```bash
 npm run build:content
 ```
-or
+or full build:
 ```bash
 npm run build
 ```

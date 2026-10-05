@@ -1,7 +1,9 @@
-# Week_04 - Electronics, Microcontrollers, Sensors, and IoT
-*Sprint Week 04 Journal and Innovation Dossier*
-
-### Week 4 — Electronics, Microcontrollers, Sensors, and IoT (2026-09-14)
+---
+title: "Week 4 — Electronics, Microcontrollers, Sensors, and IoT"
+date: "2026-09-14"
+status: "PUBLISHED"
+weekName: "Electronics, Microcontrollers, Sensors, and IoT"
+---
 
 # Week 4 — Electronics, Microcontrollers, Sensors, and IoT
 

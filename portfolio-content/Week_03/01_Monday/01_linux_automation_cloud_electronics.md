@@ -1,7 +1,9 @@
-# Week_03 - Linux, Automation, Cloud, and Electronics
-*Sprint Week 03 Journal and Innovation Dossier*
-
-### Week 3 — Linux, Automation, Cloud, and Electronics (2026-09-07)
+---
+title: "Week 3 — Linux, Automation, Cloud, and Electronics"
+date: "2026-09-07"
+status: "PUBLISHED"
+weekName: "Linux, Automation, Cloud, and Electronics"
+---
 
 # Week 3 — Linux, Automation, Cloud, and Electronics
 

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseObsidianNote } from '../src/services/obsidianParser.js';
+import { parseMarkdownNote } from '../src/services/markdownParser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,7 +13,11 @@ const COMPILED_DIR = path.join(ROOT_DIR, 'src', 'content', 'blogs');
 const JSON_OUTPUT_PATH = path.join(ROOT_DIR, 'src', 'data', 'compiledProtoSem.json');
 
 const IMAGE_EXTENSIONS = new Set(['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg']);
-const MEDIA_EXTENSIONS = new Set(['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg', 'mp4', 'webm', 'pdf', 'doc', 'docx', 'ppt', 'pptx']);
+const MEDIA_EXTENSIONS = new Set([
+  'jpg', 'jpeg', 'png', 'gif', 'webp', 'svg', 'mp4', 'webm',
+  'pdf', 'doc', 'docx', 'ppt', 'pptx',
+  'stl', '3mf', 'ai', 'dxf', 'gcode', 'step', 'stp', 'obj', 'zip'
+]);
 
 const DAY_FOLDERS = [
   '01_Monday',
@@ -54,7 +58,7 @@ function slugify(text) {
  * Main compilation routine
  */
 async function buildTemplates() {
-  console.log('🚀 [Obsidian Pipeline] Starting content compilation...');
+  console.log('🚀 [Content Pipeline] Starting content compilation...');
   const startTime = Date.now();
 
   // Ensure output directories exist
@@ -134,7 +138,7 @@ async function buildTemplates() {
           const mdFilePath = path.join(dayPath, mdFile);
           const rawContent = fs.readFileSync(mdFilePath, 'utf-8');
 
-          const parsed = parseObsidianNote(rawContent, {
+          const parsed = parseMarkdownNote(rawContent, {
             filePath: mdFilePath,
             week: weekFolderName,
             day: dayFolder,
@@ -383,7 +387,7 @@ async function buildTemplates() {
   fs.writeFileSync(JSON_OUTPUT_PATH, JSON.stringify(finalJson, null, 2), 'utf-8');
 
   const duration = Date.now() - startTime;
-  console.log(`✅ [Obsidian Pipeline] Compilation complete in ${duration}ms:`);
+  console.log(`✅ [Content Pipeline] Compilation complete in ${duration}ms:`);
   console.log(`   - 20 Weeks processed (Week_00 to Week_19)`);
   console.log(`   - ${totalNotesProcessed} Markdown notes parsed`);
   console.log(`   - ${totalMediaCopied} Media files synced to public/assets/weekly/`);
@@ -393,6 +397,6 @@ async function buildTemplates() {
 }
 
 buildTemplates().catch((err) => {
-  console.error('❌ [Obsidian Pipeline] Compilation error:', err);
+  console.error('❌ [Content Pipeline] Compilation error:', err);
   process.exit(1);
 });

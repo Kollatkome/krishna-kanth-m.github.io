@@ -2,7 +2,7 @@
 title: "Designing in 3D & Clay Modelling"
 date: "2026-09-26"
 status: "PUBLISHED"
-weekName: "From Digital Ideas to Physical Reality"
+weekName: "Digital Fabrication — Laser Cutting & 3D Printing"
 ---
 
 # Designing in 3D & Hands-On Clay Modelling
@@ -26,7 +26,7 @@ We started with the fundamentals of Autodesk Fusion 360, learning how simple geo
 - **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.
 - **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.
 
-![[fusion_360_design.png|Autodesk Fusion 360 3D Parametric Modeling]]
+![[fusion_360_cylindrical_cad.png|Autodesk Fusion 360 3D Parametric Modeling Session]]
 
 ---
 

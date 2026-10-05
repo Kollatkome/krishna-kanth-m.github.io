@@ -1,7 +1,9 @@
-# Week_02 - Problem Identification, Algorithms, and Application Development
-*Sprint Week 02 Journal and Innovation Dossier*
-
-### Week 2 — Problem Identification, Algorithms, and Application Development (2026-08-31)
+---
+title: "Week 2 — Problem Identification, Algorithms, and Application Development"
+date: "2026-08-31"
+status: "PUBLISHED"
+weekName: "Problem Identification, Algorithms, and Application Development"
+---
 
 # Week 2 — Problem Identification, Algorithms, and Application Development
 

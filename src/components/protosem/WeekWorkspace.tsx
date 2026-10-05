@@ -28,16 +28,51 @@ import {
   Pencil,
   Globe,
   BookOpen,
-  Image as ImageIcon
+  Image as ImageIcon,
+  Box
 } from 'lucide-react';
 import { usePortfolio } from '../../context/portfolioStore';
 import type { ProtoSemWeek, ProtoSemDateEntry } from '../../types/protosem';
 import { generateWeekPDF } from '../../utils/pdfReportGenerator';
+import { Week6MatrixChoice, type MatrixPillChoice } from './Week6MatrixChoice';
 
 interface WeekWorkspaceProps {
   initialWeekSlug?: string;
   onBackToPortfolio: () => void;
 }
+
+// ─── Week 6 Pill / Reality Classifier Helper ─────────────────────────────────
+const getWeek6EntryType = (entry: ProtoSemDateEntry): 'laser' | '3d' | 'cad' | 'other' => {
+  const title = (entry.title || '').toLowerCase();
+  const id = (entry.id || '').toLowerCase();
+  
+  if (
+    title.includes('3d print') || 
+    title.includes('slicing') || 
+    title.includes('bambu') || 
+    id.includes('3d-printing') || 
+    id.includes('02_tuesday')
+  ) {
+    return '3d';
+  }
+  if (
+    title.includes('laser') || 
+    title.includes('scanning') || 
+    id.includes('laser') || 
+    id.includes('01_monday')
+  ) {
+    return 'laser';
+  }
+  if (
+    title.includes('clay') || 
+    title.includes('designing in 3d') || 
+    title.includes('fusion') || 
+    id.includes('06_saturday')
+  ) {
+    return 'cad';
+  }
+  return 'other';
+};
 
 // ─── Minimal Rich Text Editor ────────────────────────────────────────────────
 interface RichEditorProps {
@@ -124,90 +159,258 @@ const RichEditor: React.FC<RichEditorProps> = ({ value, onChange, placeholder = 
   );
 };
 
-// ─── Render formatted notes (simple markdown rendering) ───────────────────────
-const renderNotes = (text: string) => {
+// ─── Render formatted notes (theme-aware markdown rendering) ───────────────────
+type NoteTheme = 'red' | 'blue' | 'purple' | 'brand';
+
+const renderNotes = (text: string, theme: NoteTheme = 'brand') => {
   if (!text) return null;
-  const lines = text.split('\n');
+  const rawLines = text.split('\n');
+
+  // Theme styling helpers
+  const styles = {
+    red: {
+      container: 'text-rose-100',
+      p: 'text-rose-100/90 font-light leading-relaxed',
+      h1: 'text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-red-400 via-rose-300 to-amber-300 bg-clip-text text-transparent mt-6 mb-3 tracking-tight',
+      h2: 'text-lg sm:text-xl font-bold text-red-300 border-b border-red-500/30 pb-2 mt-5 mb-2.5 flex items-center gap-2',
+      h3: 'text-base font-semibold text-red-400 mt-4 mb-1.5',
+      blockquote: 'border-l-4 border-red-500 pl-4 py-2.5 my-3 text-rose-200 italic bg-red-950/40 rounded-r-2xl font-sans border-y-0 border-r-0',
+      bullet: 'text-red-400 font-bold',
+      num: 'text-red-400 font-mono font-bold text-xs',
+      listText: 'text-rose-100/90 leading-relaxed',
+      tableTh: 'bg-red-950/90 border-red-800/80 text-red-200 text-xs font-mono uppercase tracking-wider',
+      tableTd: 'border-red-500/20 text-rose-100/90 text-xs',
+      tableBorder: 'border-red-500/30 bg-red-950/20',
+      hr: 'border-red-500/25 my-5',
+      inlineStrong: 'text-red-200 font-bold',
+      inlineEm: 'text-rose-300 italic',
+      inlineLink: 'text-red-400 hover:text-red-200 underline font-semibold transition-colors',
+      badge: 'bg-red-500/20 border-red-500/40 text-red-300',
+    },
+    blue: {
+      container: 'text-cyan-100',
+      p: 'text-cyan-100/90 font-light leading-relaxed',
+      h1: 'text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-cyan-300 via-sky-200 to-blue-300 bg-clip-text text-transparent mt-6 mb-3 tracking-tight',
+      h2: 'text-lg sm:text-xl font-bold text-cyan-200 border-b border-cyan-500/30 pb-2 mt-5 mb-2.5 flex items-center gap-2',
+      h3: 'text-base font-semibold text-cyan-300 mt-4 mb-1.5',
+      blockquote: 'border-l-4 border-cyan-400 pl-4 py-2.5 my-3 text-cyan-200 italic bg-cyan-950/40 rounded-r-2xl font-sans border-y-0 border-r-0',
+      bullet: 'text-cyan-400 font-bold',
+      num: 'text-cyan-400 font-mono font-bold text-xs',
+      listText: 'text-cyan-100/90 leading-relaxed',
+      tableTh: 'bg-cyan-950/90 border-cyan-800/80 text-cyan-200 text-xs font-mono uppercase tracking-wider',
+      tableTd: 'border-cyan-500/20 text-cyan-100/90 text-xs',
+      tableBorder: 'border-cyan-500/30 bg-cyan-950/20',
+      hr: 'border-cyan-500/25 my-5',
+      inlineStrong: 'text-cyan-200 font-bold',
+      inlineEm: 'text-cyan-300 italic',
+      inlineLink: 'text-cyan-300 hover:text-cyan-100 underline font-semibold transition-colors',
+      badge: 'bg-cyan-500/20 border-cyan-500/40 text-cyan-300',
+    },
+    purple: {
+      container: 'text-purple-100',
+      p: 'text-purple-100/90 font-light leading-relaxed',
+      h1: 'text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-purple-300 via-fuchsia-200 to-pink-300 bg-clip-text text-transparent mt-6 mb-3 tracking-tight',
+      h2: 'text-lg sm:text-xl font-bold text-purple-200 border-b border-purple-500/30 pb-2 mt-5 mb-2.5 flex items-center gap-2',
+      h3: 'text-base font-semibold text-purple-300 mt-4 mb-1.5',
+      blockquote: 'border-l-4 border-purple-400 pl-4 py-2.5 my-3 text-purple-200 italic bg-purple-950/40 rounded-r-2xl font-sans border-y-0 border-r-0',
+      bullet: 'text-purple-400 font-bold',
+      num: 'text-purple-400 font-mono font-bold text-xs',
+      listText: 'text-purple-100/90 leading-relaxed',
+      tableTh: 'bg-purple-950/90 border-purple-800/80 text-purple-200 text-xs font-mono uppercase tracking-wider',
+      tableTd: 'border-purple-500/20 text-purple-100/90 text-xs',
+      tableBorder: 'border-purple-500/30 bg-purple-950/20',
+      hr: 'border-purple-500/25 my-5',
+      inlineStrong: 'text-purple-200 font-bold',
+      inlineEm: 'text-purple-300 italic',
+      inlineLink: 'text-purple-300 hover:text-purple-100 underline font-semibold transition-colors',
+      badge: 'bg-purple-500/20 border-purple-500/40 text-purple-300',
+    },
+    brand: {
+      container: 'text-slate-200',
+      p: 'text-slate-200 font-light leading-relaxed',
+      h1: 'text-2xl sm:text-3xl font-extrabold text-white mt-6 mb-3 tracking-tight',
+      h2: 'text-lg sm:text-xl font-bold text-brand-200 border-b border-white/10 pb-2 mt-5 mb-2.5 flex items-center gap-2',
+      h3: 'text-base font-semibold text-brand-300 mt-4 mb-1.5',
+      blockquote: 'border-l-4 border-brand-400 pl-4 py-2.5 my-3 text-slate-300 italic bg-brand-500/10 rounded-r-2xl font-sans border-y-0 border-r-0',
+      bullet: 'text-brand-400 font-bold',
+      num: 'text-brand-400 font-mono font-bold text-xs',
+      listText: 'text-slate-200 leading-relaxed',
+      tableTh: 'bg-white/10 border-white/15 text-slate-200 text-xs font-mono uppercase tracking-wider',
+      tableTd: 'border-white/10 text-slate-200 text-xs',
+      tableBorder: 'border-white/10 bg-white/[0.02]',
+      hr: 'border-white/10 my-5',
+      inlineStrong: 'text-white font-bold',
+      inlineEm: 'text-slate-300 italic',
+      inlineLink: 'text-brand-400 hover:text-brand-300 underline font-semibold transition-colors',
+      badge: 'bg-brand-500/15 border-brand-500/30 text-brand-300',
+    }
+  }[theme];
+
+  // Group lines to recognize tables
+  const elements: React.ReactNode[] = [];
+  let i = 0;
+
+  while (i < rawLines.length) {
+    const line = rawLines[i];
+    const trimmed = line.trim();
+
+    // 1. Table Detection
+    if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+      const tableLines: string[] = [];
+      while (i < rawLines.length && rawLines[i].trim().startsWith('|') && rawLines[i].trim().endsWith('|')) {
+        tableLines.push(rawLines[i].trim());
+        i++;
+      }
+
+      if (tableLines.length >= 2) {
+        const headerRow = tableLines[0].split('|').slice(1, -1).map(c => c.trim());
+        const dataRows = tableLines.slice(2).map(row => row.split('|').slice(1, -1).map(c => c.trim()));
+
+        elements.push(
+          <div key={`table-${i}`} className={`my-4 overflow-x-auto rounded-2xl border ${styles.tableBorder} shadow-lg`}>
+            <table className="w-full border-collapse text-left">
+              <thead>
+                <tr className="border-b border-white/10">
+                  {headerRow.map((cell, cIdx) => (
+                    <th key={cIdx} className={`px-4 py-3 font-semibold ${styles.tableTh}`}>
+                      {renderInline(cell, styles)}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5">
+                {dataRows.map((row, rIdx) => (
+                  <tr key={rIdx} className="hover:bg-white/[0.02] transition-colors">
+                    {row.map((cell, cIdx) => (
+                      <td key={cIdx} className={`px-4 py-2.5 ${styles.tableTd}`}>
+                        {renderInline(cell, styles)}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+        continue;
+      }
+    }
+
+    // 2. Standalone image on line: ![alt](url)
+    const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+    if (imgMatch) {
+      const alt = imgMatch[1];
+      const src = imgMatch[2];
+      elements.push(
+        <figure key={`img-${i}`} className={`my-5 rounded-2xl overflow-hidden border ${styles.tableBorder} bg-slate-950/70 shadow-2xl group`}>
+          <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-2">
+            <img
+              src={src}
+              alt={alt || 'Document Photo'}
+              loading="lazy"
+              className="w-full h-auto max-h-[520px] object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
+            />
+          </div>
+          {alt && (
+            <figcaption className="px-4 py-2.5 bg-slate-900/90 border-t border-white/10 text-xs font-mono flex items-center gap-2">
+              <span className={`w-2 h-2 rounded-full flex-shrink-0 animate-pulse ${theme === 'red' ? 'bg-red-400' : theme === 'blue' ? 'bg-cyan-400' : theme === 'purple' ? 'bg-purple-400' : 'bg-brand-400'}`} />
+              <span className={theme === 'red' ? 'text-rose-200 truncate' : theme === 'blue' ? 'text-cyan-200 truncate' : theme === 'purple' ? 'text-purple-200 truncate' : 'text-slate-300 truncate'}>{alt}</span>
+            </figcaption>
+          )}
+        </figure>
+      );
+      i++;
+      continue;
+    }
+
+    // 3. Headings
+    if (line.startsWith('# ')) {
+      elements.push(<h1 key={`h1-${i}`} className={styles.h1}>{line.slice(2)}</h1>);
+      i++;
+      continue;
+    }
+    if (line.startsWith('## ')) {
+      elements.push(<h2 key={`h2-${i}`} className={styles.h2}>{line.slice(3)}</h2>);
+      i++;
+      continue;
+    }
+    if (line.startsWith('### ')) {
+      elements.push(<h3 key={`h3-${i}`} className={styles.h3}>{line.slice(4)}</h3>);
+      i++;
+      continue;
+    }
+
+    // 4. Blockquotes
+    if (line.startsWith('> ')) {
+      elements.push(
+        <blockquote key={`quote-${i}`} className={styles.blockquote}>
+          {renderInline(line.slice(2), styles)}
+        </blockquote>
+      );
+      i++;
+      continue;
+    }
+
+    // 5. Horizontal Rule
+    if (trimmed === '---' || trimmed === '***') {
+      elements.push(<hr key={`hr-${i}`} className={styles.hr} />);
+      i++;
+      continue;
+    }
+
+    // 6. Bullet Lists
+    if (line.startsWith('• ') || line.startsWith('- ') || line.startsWith('* ')) {
+      elements.push(
+        <div key={`bullet-${i}`} className="flex items-start gap-2 py-0.5">
+          <span className={`${styles.bullet} mt-1.5 flex-shrink-0 text-xs`}>•</span>
+          <span className={styles.listText}>{renderInline(line.replace(/^[•\-\*]\s+/, ''), styles)}</span>
+        </div>
+      );
+      i++;
+      continue;
+    }
+
+    // 7. Numbered Lists
+    if (/^\d+\. /.test(line)) {
+      const match = line.match(/^(\d+)\. (.*)/);
+      if (match) {
+        elements.push(
+          <div key={`num-${i}`} className="flex items-start gap-2 py-0.5">
+            <span className={`${styles.num} mt-1 flex-shrink-0`}>{match[1]}.</span>
+            <span className={styles.listText}>{renderInline(match[2], styles)}</span>
+          </div>
+        );
+        i++;
+        continue;
+      }
+    }
+
+    if (trimmed === '') {
+      elements.push(<div key={`blank-${i}`} className="h-1.5" />);
+    } else {
+      elements.push(
+        <p key={`p-${i}`} className={`py-0.5 ${styles.p}`}>
+          {renderInline(line, styles)}
+        </p>
+      );
+    }
+    i++;
+  }
+
   return (
-    <div className="prose prose-invert max-w-none text-slate-200 text-sm leading-relaxed space-y-2">
-      {lines.map((line, i) => {
-        const trimmed = line.trim();
-
-        // 1. Standalone image on line: ![alt](url)
-        const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
-        if (imgMatch) {
-          const alt = imgMatch[1];
-          const src = imgMatch[2];
-          return (
-            <figure key={i} className="my-5 rounded-2xl overflow-hidden border border-white/15 bg-slate-950/70 shadow-2xl group">
-              <div className="relative overflow-hidden bg-black/40 flex items-center justify-center p-2">
-                <img
-                  src={src}
-                  alt={alt || 'Document Photo'}
-                  loading="lazy"
-                  className="w-full h-auto max-h-[520px] object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
-                />
-              </div>
-              {alt && (
-                <figcaption className="px-4 py-2.5 bg-slate-900/90 border-t border-white/10 text-xs text-slate-300 font-mono flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-brand-400 flex-shrink-0 animate-pulse" />
-                  <span className="truncate">{alt}</span>
-                </figcaption>
-              )}
-            </figure>
-          );
-        }
-
-        // 2. Headings
-        if (line.startsWith('# ')) return <h1 key={i} className="text-xl font-bold text-white mt-4 mb-2">{line.slice(2)}</h1>;
-        if (line.startsWith('## ')) return <h2 key={i} className="text-lg font-semibold text-brand-200 mt-3 mb-1.5">{line.slice(3)}</h2>;
-        if (line.startsWith('### ')) return <h3 key={i} className="text-base font-semibold text-brand-300 mt-2.5 mb-1">{line.slice(4)}</h3>;
-
-        // 3. Blockquotes
-        if (line.startsWith('> ')) {
-          return (
-            <blockquote key={i} className="border-l-2 border-brand-400 pl-4 py-2 my-2 text-slate-300 italic bg-brand-500/10 rounded-r-xl font-sans">
-              {renderInline(line.slice(2))}
-            </blockquote>
-          );
-        }
-
-        // 4. Horizontal Rule
-        if (trimmed === '---' || trimmed === '***') {
-          return <hr key={i} className="border-white/10 my-4" />;
-        }
-
-        // 5. Bullet Lists
-        if (line.startsWith('• ') || line.startsWith('- ') || line.startsWith('* ')) {
-          return (
-            <div key={i} className="flex items-start gap-2 py-0.5">
-              <span className="text-brand-400 mt-1.5 flex-shrink-0 text-xs">•</span>
-              <span className="text-slate-200 leading-relaxed">{renderInline(line.replace(/^[•\-\*]\s+/, ''))}</span>
-            </div>
-          );
-        }
-
-        // 6. Numbered Lists
-        if (/^\d+\. /.test(line)) {
-          const match = line.match(/^(\d+)\. (.*)/);
-          if (match) {
-            return (
-              <div key={i} className="flex items-start gap-2 py-0.5">
-                <span className="text-brand-400 font-mono text-xs mt-1 flex-shrink-0">{match[1]}.</span>
-                <span className="text-slate-200 leading-relaxed">{renderInline(match[2])}</span>
-              </div>
-            );
-          }
-        }
-
-        if (trimmed === '') return <div key={i} className="h-1.5" />;
-        return <p key={i} className="py-0.5 text-slate-200 font-light leading-relaxed">{renderInline(line)}</p>;
-      })}
+    <div className={`max-w-none text-sm leading-relaxed space-y-1.5 ${styles.container}`}>
+      {elements}
     </div>
   );
 };
 
-const renderInline = (text: string) => {
+interface InlineStyles {
+  inlineStrong?: string;
+  inlineEm?: string;
+  inlineLink?: string;
+}
+
+const renderInline = (text: string, styles?: InlineStyles) => {
   const parts = text.split(/(!\[.*?\]\(.*?\)|\*\*.*?\*\*|_.*?_|\[.*?\]\(.*?\))/g);
   return parts.map((part, i) => {
     if (!part) return null;
@@ -224,11 +427,27 @@ const renderInline = (text: string) => {
         );
       }
     }
-    if (part.startsWith('**') && part.endsWith('**')) return <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>;
-    if (part.startsWith('_') && part.endsWith('_')) return <em key={i} className="text-slate-300 italic">{part.slice(1, -1)}</em>;
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className={styles?.inlineStrong || 'text-white font-bold'}>{part.slice(2, -2)}</strong>;
+    }
+    if (part.startsWith('_') && part.endsWith('_')) {
+      return <em key={i} className={styles?.inlineEm || 'text-slate-300 italic'}>{part.slice(1, -1)}</em>;
+    }
     if (part.startsWith('[') && part.endsWith(')')) {
       const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
-      if (linkMatch) return <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-brand-400 hover:text-brand-300 underline font-medium">{linkMatch[1]}</a>;
+      if (linkMatch) {
+        return (
+          <a
+            key={i}
+            href={linkMatch[2]}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles?.inlineLink || 'text-brand-400 hover:text-brand-300 underline font-medium'}
+          >
+            {linkMatch[1]}
+          </a>
+        );
+      }
     }
     return part;
   });
@@ -353,9 +572,13 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
     setEditingEntryId(null);
   }, [activeWeek?.id]);
 
+  // Matrix Red Pill vs Blue Pill Choice state for Week 6
+  const [week6Pill, setWeek6Pill] = useState<MatrixPillChoice>('all');
+
   // ── Computed ───────────────────────────────────────────────────────────────
   const numStr = activeWeek.weekNumber < 10 ? `0${activeWeek.weekNumber}` : `${activeWeek.weekNumber}`;
   const weekDisplayName = activeWeek.name || `Week ${numStr}`;
+  const isWeek6 = activeWeek.weekNumber === 6 || activeWeek.slug === 'week-06';
 
   const visibleEntries = (activeWeek.entries || []).filter(
     (entry) => isAdminAuthenticated || entry.status === 'PUBLISHED'
@@ -363,6 +586,15 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
   const sortedEntries = [...visibleEntries].sort((a, b) => {
     return new Date(a.date).getTime() - new Date(b.date).getTime();
   });
+
+  const displayedEntries = (isWeek6 && week6Pill !== 'all')
+    ? sortedEntries.filter((e) => {
+        const type = getWeek6EntryType(e);
+        if (week6Pill === 'laser') return type === 'laser';
+        if (week6Pill === '3d') return type === '3d';
+        return true;
+      })
+    : sortedEntries;
 
   // Stats for overview
   const totalPDFs = sortedEntries.reduce((s, e) => s + e.attachments.filter(a => a.type === 'PDF').length, 0);
@@ -845,8 +1077,24 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
           </div>
         )}
 
+        {/* ── Week 6 Morpheus Red Pill vs Blue Pill Choice ─────────────────── */}
+        {isWeek6 && (
+          <Week6MatrixChoice
+            currentChoice={week6Pill}
+            onSelectChoice={(choice) => {
+              setWeek6Pill(choice);
+              setTimeout(() => {
+                const el = document.getElementById('week-entries-timeline');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }, 80);
+            }}
+          />
+        )}
+
         {/* ── Timeline ────────────────────────────────────────────────────────── */}
-        {sortedEntries.length === 0 ? (
+        {displayedEntries.length === 0 ? (
           /* Empty State */
           <div className="glass-panel rounded-3xl p-12 sm:p-20 border border-white/10 text-center space-y-4">
             <div className="w-16 h-16 rounded-3xl bg-white/5 border border-white/10 mx-auto flex items-center justify-center text-slate-600">
@@ -856,10 +1104,15 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
               <h3 className="text-xl font-display font-bold text-white">Week {numStr}</h3>
               {activeWeek.name && <p className="text-sm text-brand-300 font-display">{activeWeek.name}</p>}
             </div>
-            <p className="text-sm font-mono text-slate-400 italic">No content published yet.</p>
-            <p className="text-xs text-slate-600 font-light max-w-xs mx-auto">
-              Your journey for this week will appear here once content is added and published.
-            </p>
+            <p className="text-sm font-mono text-slate-400 italic">No matching entries found.</p>
+            {isWeek6 && week6Pill !== 'all' && (
+              <button
+                onClick={() => setWeek6Pill('all')}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-mono bg-purple-600 hover:bg-purple-500 text-white font-semibold shadow-lg transition-all"
+              >
+                Show All Week 6 Entries
+              </button>
+            )}
             {isAdminAuthenticated && !showAddDateModal && (
               <button
                 onClick={() => { setShowAddDateModal(true); setNewEntryNotes(''); setNewEntryTitle(''); setNewEntryFiles([]); }}
@@ -871,30 +1124,61 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
             )}
           </div>
         ) : (
-          <div className="space-y-8">
-            {sortedEntries.map((entry, idx) => {
+          <div id="week-entries-timeline" className="space-y-8 scroll-mt-28">
+            {displayedEntries.map((entry, idx) => {
               const pdfs = entry.attachments.filter(a => a.type === 'PDF');
               const ppts = entry.attachments.filter(a => a.type === 'PPT');
               const images = entry.attachments.filter(a => a.type === 'IMAGE');
               const isEditing = isAdminAuthenticated && editingEntryId === entry.id;
 
+              // Week 6 Comical Identification
+              const week6Type = isWeek6 ? getWeek6EntryType(entry) : 'other';
+              const isLaser = week6Type === 'laser';
+              const is3D = week6Type === '3d';
+              const isCad = week6Type === 'cad';
+
               return (
-                <div key={entry.id} className="glass-panel-elevated rounded-3xl border border-white/15 overflow-hidden">
+                <div
+                  key={entry.id}
+                  className={`glass-panel-elevated rounded-3xl border transition-all duration-300 overflow-hidden ${
+                    isLaser ? 'border-red-500/40 shadow-xl shadow-red-950/20 bg-gradient-to-b from-red-950/10 to-transparent' :
+                    is3D ? 'border-cyan-500/40 shadow-xl shadow-cyan-950/20 bg-gradient-to-b from-cyan-950/10 to-transparent' :
+                    isCad ? 'border-purple-500/40 shadow-xl shadow-purple-950/20 bg-gradient-to-b from-purple-950/10 to-transparent' :
+                    'border-white/15'
+                  }`}
+                >
 
                   {/* Date Strip Header */}
                   <div className={`px-6 sm:px-8 py-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-3 ${
-                    entry.status === 'DRAFT' ? 'bg-amber-500/5' : ''
+                    entry.status === 'DRAFT' ? 'bg-amber-500/5' :
+                    isLaser ? 'bg-red-950/30' :
+                    is3D ? 'bg-cyan-950/30' :
+                    isCad ? 'bg-purple-950/30' : ''
                   }`}>
                     <div className="flex items-center gap-3">
-                      <div className="w-9 h-9 rounded-2xl bg-brand-500/20 border border-brand-500/30 flex items-center justify-center font-mono text-xs text-brand-300 font-bold">
+                      <div className={`w-9 h-9 rounded-2xl border flex items-center justify-center font-mono text-xs font-bold ${
+                        isLaser ? 'bg-red-500/20 border-red-500/40 text-red-300' :
+                        is3D ? 'bg-cyan-500/20 border-cyan-500/40 text-cyan-300' :
+                        isCad ? 'bg-purple-500/20 border-purple-500/40 text-purple-300' :
+                        'bg-brand-500/20 border-brand-500/30 text-brand-300'
+                      }`}>
                         {String(idx + 1).padStart(2, '0')}
                       </div>
                       <div>
-                        <span className="text-[11px] font-mono uppercase tracking-widest text-brand-300 font-bold">
+                        <span className={`text-[11px] font-mono uppercase tracking-widest font-bold ${
+                          isLaser ? 'text-red-400' :
+                          is3D ? 'text-cyan-400' :
+                          isCad ? 'text-purple-400' :
+                          'text-brand-300'
+                        }`}>
                           {formatDisplayDate(entry.date)}
                         </span>
                         {entry.title && (
-                          <h3 className="text-base sm:text-lg font-display font-bold text-white leading-tight">
+                          <h3 className={`text-base sm:text-lg font-display font-bold leading-tight mt-0.5 ${
+                            isLaser ? 'text-white' :
+                            is3D ? 'text-white' :
+                            'text-white'
+                          }`}>
                             {entry.title}
                           </h3>
                         )}
@@ -905,7 +1189,7 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                       {/* Status badge */}
                       <span className={`px-2.5 py-1 rounded-lg font-mono text-[10px] font-bold border ${
                         entry.status === 'PUBLISHED'
-                          ? 'bg-emerald-500/15 border-emerald-500/30 text-emerald-300'
+                          ? (isLaser ? 'bg-red-500/15 border-red-500/30 text-red-300' : is3D ? 'bg-cyan-500/15 border-cyan-500/30 text-cyan-300' : 'bg-emerald-500/15 border-emerald-500/30 text-emerald-300')
                           : 'bg-amber-500/15 border-amber-500/30 text-amber-300'
                       }`}>
                         {entry.status}
@@ -1012,47 +1296,102 @@ export const WeekWorkspace: React.FC<WeekWorkspaceProps> = ({
                         {/* Notes */}
                         {entry.notes && (
                           <div className="space-y-2.5">
-                            <h4 className="text-[10px] font-mono uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
-                              <FileText className="w-3 h-3 text-brand-400" /> Sprint Field Notes
+                            <h4 className={`text-[10px] font-mono uppercase tracking-wider flex items-center gap-1.5 font-bold ${
+                              isLaser ? 'text-red-400' :
+                              is3D ? 'text-cyan-400' :
+                              isCad ? 'text-purple-400' :
+                              'text-slate-500'
+                            }`}>
+                              <FileText className={`w-3 h-3 ${isLaser ? 'text-red-400' : is3D ? 'text-cyan-400' : isCad ? 'text-purple-400' : 'text-brand-400'}`} />
+                              Sprint Field Notes
                             </h4>
-                            <div className="bg-white/[0.02] rounded-2xl border border-white/5 p-5">
-                              {renderNotes(entry.notes)}
+                            <div className={`rounded-2xl border p-5 sm:p-7 ${
+                              isLaser ? 'border-red-500/20 bg-red-950/15' :
+                              is3D ? 'border-cyan-500/20 bg-cyan-950/15' :
+                              isCad ? 'border-purple-500/20 bg-purple-950/15' :
+                              'border-white/5 bg-white/[0.02]'
+                            }`}>
+                              {renderNotes(entry.notes, isLaser ? 'red' : is3D ? 'blue' : isCad ? 'purple' : 'brand')}
                             </div>
                           </div>
                         )}
 
-                        {/* PDFs */}
+                        {/* Documents & Source Files (PDF, STL, 3MF, AI, CAD, etc.) */}
                         {pdfs.length > 0 && (
                           <div className="space-y-2.5">
-                            <h4 className="text-[10px] font-mono uppercase tracking-wider text-rose-400 flex items-center gap-1.5">
-                              <FileText className="w-3 h-3" /> Documents ({pdfs.length})
+                            <h4 className={`text-[10px] font-mono uppercase tracking-wider flex items-center gap-1.5 font-bold ${
+                              isLaser ? 'text-red-400' :
+                              is3D ? 'text-cyan-400' :
+                              isCad ? 'text-purple-400' :
+                              'text-cyan-400'
+                            }`}>
+                              <Box className="w-3.5 h-3.5" /> Source Files & Documents ({pdfs.length})
                             </h4>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                              {pdfs.map(pdf => (
-                                <div key={pdf.id}
-                                  className="p-3.5 rounded-2xl bg-white/[0.02] border border-white/10 hover:border-rose-500/40 transition-all flex items-center gap-3 group">
-                                  <div className="w-9 h-9 rounded-xl bg-rose-500/20 border border-rose-500/30 flex items-center justify-center flex-shrink-0">
-                                    <FileText className="w-4.5 h-4.5 text-rose-400" />
+                              {pdfs.map(doc => {
+                                const isCadFile = /\.(stl|3mf|gcode|ai|dxf|step|stp|obj|cad)$/i.test(doc.name);
+                                const isPdf = /\.pdf$/i.test(doc.name);
+                                return (
+                                  <div key={doc.id}
+                                    className={`p-3.5 rounded-2xl border transition-all flex items-center gap-3 group ${
+                                      isLaser
+                                        ? 'border-red-500/30 hover:border-red-400 bg-red-950/20 hover:bg-red-950/40'
+                                        : is3D
+                                        ? 'border-cyan-500/30 hover:border-cyan-400 bg-cyan-950/20 hover:bg-cyan-950/40'
+                                        : isCadFile
+                                        ? 'border-cyan-500/20 hover:border-cyan-500/50 hover:bg-cyan-500/5'
+                                        : isPdf
+                                        ? 'border-rose-500/20 hover:border-rose-500/50 hover:bg-rose-500/5'
+                                        : 'border-white/10 hover:border-brand-500/40 bg-white/[0.02]'
+                                    }`}>
+                                    <div className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 border ${
+                                      isLaser
+                                        ? 'bg-red-500/20 border-red-500/40 text-red-300'
+                                        : is3D
+                                        ? 'bg-cyan-500/20 border-cyan-500/40 text-cyan-300'
+                                        : isCadFile
+                                        ? 'bg-cyan-500/20 border-cyan-500/30 text-cyan-300'
+                                        : isPdf
+                                        ? 'bg-rose-500/20 border-rose-500/30 text-rose-400'
+                                        : 'bg-brand-500/20 border-brand-500/30 text-brand-300'
+                                    }`}>
+                                      {isCadFile ? <Box className="w-4.5 h-4.5" /> : <FileText className="w-4.5 h-4.5" />}
+                                    </div>
+                                    <div className="flex-1 overflow-hidden">
+                                      <h5 className={`text-xs font-bold text-white truncate transition-colors ${
+                                        isLaser ? 'group-hover:text-red-200' : is3D ? 'group-hover:text-cyan-200' : 'group-hover:text-cyan-200'
+                                      }`}>
+                                        {doc.name}
+                                      </h5>
+                                      <p className="text-[10px] font-mono text-slate-400">
+                                        {isCadFile ? '3D / CAD Model' : isPdf ? 'PDF Document' : 'Project File'}
+                                        {doc.size ? ` • ${doc.size}` : ''}
+                                      </p>
+                                    </div>
+                                    <div className="flex items-center gap-1.5 flex-shrink-0">
+                                      <a href={doc.url} download={doc.name}
+                                        className={`px-2.5 py-1.5 rounded-xl text-xs font-mono font-semibold border flex items-center gap-1 transition-all ${
+                                          isLaser
+                                            ? 'bg-red-500/15 hover:bg-red-500/30 border-red-500/40 text-red-200'
+                                            : is3D
+                                            ? 'bg-cyan-500/15 hover:bg-cyan-500/30 border-cyan-500/40 text-cyan-200'
+                                            : 'bg-white/5 hover:bg-cyan-500/20 border-white/10 hover:border-cyan-500/40 text-slate-300 hover:text-cyan-200'
+                                        }`}
+                                        title={`Download ${doc.name}`}>
+                                        <Download className={`w-3.5 h-3.5 ${isLaser ? 'text-red-400' : 'text-cyan-400'}`} />
+                                        <span className="hidden sm:inline">Get</span>
+                                      </a>
+                                      {isAdminAuthenticated && (
+                                        <button
+                                          onClick={() => setConfirmDeleteAttachment({ entryId: entry.id, attachmentId: doc.id })}
+                                          className="p-1.5 rounded-xl text-rose-400 hover:bg-rose-500/20 transition-colors" title="Delete">
+                                          <Trash2 className="w-3.5 h-3.5" />
+                                        </button>
+                                      )}
+                                    </div>
                                   </div>
-                                  <div className="flex-1 overflow-hidden">
-                                    <h5 className="text-xs font-bold text-white truncate">{pdf.name}</h5>
-                                    <p className="text-[10px] font-mono text-slate-500">PDF{pdf.size ? ` • ${pdf.size}` : ''}</p>
-                                  </div>
-                                  <div className="flex items-center gap-1 flex-shrink-0">
-                                    <a href={pdf.url} download={pdf.name}
-                                      className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-white/10 transition-colors" title="Download">
-                                      <Download className="w-3.5 h-3.5" />
-                                    </a>
-                                    {isAdminAuthenticated && (
-                                      <button
-                                        onClick={() => setConfirmDeleteAttachment({ entryId: entry.id, attachmentId: pdf.id })}
-                                        className="p-1.5 rounded-xl text-rose-400 hover:bg-rose-500/20 transition-colors" title="Delete">
-                                        <Trash2 className="w-3.5 h-3.5" />
-                                      </button>
-                                    )}
-                                  </div>
-                                </div>
-                              ))}
+                                );
+                              })}
                             </div>
                           </div>
                         )}
