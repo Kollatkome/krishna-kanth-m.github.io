@@ -1,5 +1,5 @@
 {
-  "compiledAt": "2026-10-05T02:27:39.773Z",
+  "compiledAt": "2026-10-05T12:04:04.859Z",
   "days": {
     "Week_00/01_Monday": {
       "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -15,7 +15,7 @@
           "name": "sensor_telemetry.svg",
           "url": "assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
           "size": "538 B",
-          "uploadedAt": "2026-10-05T02:27:39.687Z",
+          "uploadedAt": "2026-10-05T12:04:04.847Z",
           "description": "Media asset from 01_Monday"
         },
         {
@@ -24,12 +24,12 @@
           "name": "system_architecture.svg",
           "url": "assets/weekly/Week_00/01_Monday/system_architecture.svg",
           "size": "1 KB",
-          "uploadedAt": "2026-10-05T02:27:39.688Z",
+          "uploadedAt": "2026-10-05T12:04:04.847Z",
           "description": "Media asset from 01_Monday"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.690Z",
-      "updatedAt": "2026-10-05T02:27:39.690Z"
+      "createdAt": "2026-10-05T12:04:04.848Z",
+      "updatedAt": "2026-10-05T12:04:04.848Z"
     },
     "Week_01/01_Monday": {
       "id": "entry-week-01-01_Monday-week-1-technology-design-thinking-and-retail",
@@ -39,8 +39,8 @@
       "notes": "# Week 1 — Technology, Design Thinking, and Retail\n\nThe first structured week focused on understanding technology, design thinking, and the retail industry. The emphasis was on looking at real-world business challenges and understanding how technology and creative problem-solving can be used to develop meaningful solutions.\n\nThe week began with discussions about recommendation systems and how data-driven technologies can influence digital experiences. Design thinking sessions introduced user-centric approaches to solving problems, emphasizing the importance of understanding users, their needs, and the context surrounding a problem.\n\nIndustry analysis formed another major part of the week. The food and beverage retail sector was explored through concepts such as value chains and SWOT analysis. This helped identify different stages of a business process, understand stakeholders, recognize opportunities, and examine challenges within an industry.\n\nThe sessions also introduced decision-making and consumer behavior. Understanding how people make decisions provided a connection between technology, business, and user needs. Alongside this, work on professional portfolios highlighted the importance of documenting skills, projects, and achievements effectively.\n\nThe later sessions focused on inspiration, leadership, entrepreneurship, and personal development. Discussions around goals, vision, career growth, innovation, and entrepreneurship provided a broader understanding of how technical skills can be combined with business awareness and creative thinking.\n\nBy the end of Week 1, the learning had moved beyond technology alone. The week established a foundation involving **technology, business understanding, design thinking, consumer behavior, communication, and personal development**.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-10-05T02:27:39.700Z",
-      "updatedAt": "2026-10-05T02:27:39.700Z"
+      "createdAt": "2026-10-05T12:04:04.848Z",
+      "updatedAt": "2026-10-05T12:04:04.848Z"
     },
     "Week_02/01_Monday": {
       "id": "entry-week-02-01_Monday-week-2-problem-identification-algorithms-and-application-development",
@@ -50,8 +50,8 @@
       "notes": "# Week 2 — Problem Identification, Algorithms, and Application Development\n\nWeek 2 focused on moving from identifying problems to developing logical and practical solutions. The activities emphasized problem-solving, computational thinking, validation, creativity, and rapid application development.\n\nThe week began with identifying challenges within the retail industry and developing problem statements around potential areas of improvement. The use of structured problem-solving methods helped bring attention to workplace organization, efficiency, and continuous improvement.\n\nAlgorithms were then introduced as a foundation for logical thinking and programming. Activities explored how algorithms work, how different approaches can solve a problem, and how the choice of an approach can influence performance. This strengthened computational thinking and encouraged a more structured way of approaching problems.\n\nScratch provided an introduction to visual programming. Creating an interactive project demonstrated how programming logic can be represented visually while making the learning process more engaging. The activity also connected programming concepts with creativity and experimentation.\n\nThe second half of the week shifted toward validation and application development. Problem statements were reviewed and refined to ensure that they addressed meaningful needs. These ideas were then transformed into functional mobile applications using MIT App Inventor, providing hands-on experience with rapid application development and prototyping.\n\nThe major progression during Week 2 was from **problem identification → logical thinking → validation → prototyping → functional application development**. The week demonstrated how an initial idea can gradually become a working digital solution.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-10-05T02:27:39.704Z",
-      "updatedAt": "2026-10-05T02:27:39.704Z"
+      "createdAt": "2026-10-05T12:04:04.849Z",
+      "updatedAt": "2026-10-05T12:04:04.849Z"
     },
     "Week_03/01_Monday": {
       "id": "entry-week-03-01_Monday-week-3-linux-automation-cloud-and-electronics",
@@ -61,8 +61,8 @@
       "notes": "# Week 3 — Linux, Automation, Cloud, and Electronics\n\nWeek 3 introduced a combination of software systems, automation, cloud concepts, and electronics. The week provided exposure to multiple areas of technology and demonstrated how different tools can work together within a development workflow.\n\nThe first part of the week focused on Linux and operating systems. Different Linux distributions were explored, along with the fundamentals of working in a Linux environment. A small project was developed within the environment to reinforce the concepts and provide practical familiarity with the operating system.\n\nThe next stage introduced terminal-based development, Docker, and cloud computing. Working with the command line strengthened programming and system interaction skills, while Docker demonstrated how containerization can simplify application deployment. Cloud technologies were also introduced through practical application of the developed project.\n\nAutomation became another important component. Tools for automating repetitive tasks were explored with the goal of improving productivity and maintaining consistency. A workflow was created to connect content management with the development process, demonstrating how automation can reduce repetitive manual work and keep project information updated.\n\nThe final part of the week shifted toward electronics. Basic electrical and electronic components were introduced through practical experiments and simulations. A multimeter was used to understand electrical measurements and troubleshoot circuits, while hands-on circuit building and soldering provided practical hardware experience.\n\nWeek 3 therefore connected several different areas: **Linux, programming, Docker, cloud computing, workflow automation, electronics, measurement, and hardware prototyping**. The combination helped demonstrate how software and hardware knowledge can complement each other in technical projects.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-10-05T02:27:39.707Z",
-      "updatedAt": "2026-10-05T02:27:39.707Z"
+      "createdAt": "2026-10-05T12:04:04.849Z",
+      "updatedAt": "2026-10-05T12:04:04.849Z"
     },
     "Week_04/01_Monday": {
       "id": "entry-week-04-01_Monday-week-4-electronics-microcontrollers-sensors-and-iot",
@@ -72,8 +72,8 @@
       "notes": "# Week 4 — Electronics, Microcontrollers, Sensors, and IoT\n\nWeek 4 focused extensively on electronics, microcontrollers, sensors, actuators, and IoT-based systems. The learning progressed from basic microcontroller concepts to integrating multiple components into interactive applications.\n\nThe week began with an introduction to Arduino Uno and the fundamentals of microcontroller-based systems. Basic concepts such as digital input and output, pins, and uploading programs to a board were explored. A simple LED project was used to understand the relationship between program instructions, digital signals, and physical output.\n\nThe next stage introduced sensors and actuators. Components such as PIR sensors, DHT11 temperature and humidity sensors, IR sensors, OLED displays, and joysticks were explored. The activities demonstrated how sensors provide input to a microcontroller, which can process that information and generate an appropriate output through actuators or displays.\n\nThe learning then progressed to ESP32-based systems. Components including an ultrasonic sensor, OLED display, and joystick were integrated with the ESP32 to understand how multiple devices can communicate with a single microcontroller. The ESP32 also introduced the concept of wireless connectivity and provided a stronger foundation for IoT applications.\n\nThe final part of the week involved developing interactive applications. A traffic controller simulation demonstrated how inputs, logical processing, and outputs could be combined into a working system. Another application involved an interactive digital pet using sensors and an OLED display, showing how sensor data could influence the state and behavior of a virtual system.\n\nWeek 4 provided a progression from **basic electronics → microcontrollers → sensors and actuators → ESP32 → IoT concepts → interactive applications**. It strengthened practical understanding of both hardware integration and software-controlled physical systems.\n",
       "status": "PUBLISHED",
       "attachments": [],
-      "createdAt": "2026-10-05T02:27:39.716Z",
-      "updatedAt": "2026-10-05T02:27:39.716Z"
+      "createdAt": "2026-10-05T12:04:04.849Z",
+      "updatedAt": "2026-10-05T12:04:04.849Z"
     },
     "Week_06/01_Monday": {
       "id": "entry-week-06-01_Monday-laser-cutting-scanning-workflow",
@@ -89,7 +89,7 @@
           "name": "rdworks_laser_preview.png",
           "url": "assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
           "size": "83 KB",
-          "uploadedAt": "2026-10-05T02:27:39.726Z",
+          "uploadedAt": "2026-10-05T12:04:04.851Z",
           "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         },
         {
@@ -98,7 +98,7 @@
           "name": "laser_cutting_operation.jpg",
           "url": "assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
           "size": "195 KB",
-          "uploadedAt": "2026-10-05T02:27:39.726Z",
+          "uploadedAt": "2026-10-05T12:04:04.851Z",
           "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         },
         {
@@ -107,7 +107,7 @@
           "name": "laser_engraved_output.jpg",
           "url": "assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg",
           "size": "122 KB",
-          "uploadedAt": "2026-10-05T02:27:39.727Z",
+          "uploadedAt": "2026-10-05T12:04:04.851Z",
           "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         },
         {
@@ -115,13 +115,13 @@
           "type": "PDF",
           "name": "krishnakanth.ai",
           "url": "assets/weekly/Week_06/01_Monday/krishnakanth.ai",
-          "size": "55 KB",
-          "uploadedAt": "2026-10-05T02:27:39.727Z",
+          "size": "54 KB",
+          "uploadedAt": "2026-10-05T12:04:04.851Z",
           "description": "Evidence linked in Laser Cutting & Scanning Workflow"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.727Z",
-      "updatedAt": "2026-10-05T02:27:39.727Z"
+      "createdAt": "2026-10-05T12:04:04.851Z",
+      "updatedAt": "2026-10-05T12:04:04.851Z"
     },
     "Week_06/02_Tuesday": {
       "id": "entry-week-06-02_Tuesday-3d-printing-slicing-optimization",
@@ -137,7 +137,7 @@
           "name": "bambu_lab_printing_session.jpg",
           "url": "assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
           "size": "183 KB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         },
         {
@@ -146,7 +146,7 @@
           "name": "bambu_h2s_print_plate.jpg",
           "url": "assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
           "size": "146 KB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         },
         {
@@ -155,7 +155,7 @@
           "name": "phone_stand_folded.jpg",
           "url": "assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg",
           "size": "106 KB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         },
         {
@@ -164,7 +164,7 @@
           "name": "phone_stand_adjustable.jpg",
           "url": "assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg",
           "size": "201 KB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         },
         {
@@ -173,7 +173,7 @@
           "name": "krishnakanth.stl",
           "url": "assets/weekly/Week_06/02_Tuesday/krishnakanth.stl",
           "size": "2.0 MB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         },
         {
@@ -182,12 +182,12 @@
           "name": "krishnakanth.gcode.3mf",
           "url": "assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf",
           "size": "2.4 MB",
-          "uploadedAt": "2026-10-05T02:27:39.744Z",
+          "uploadedAt": "2026-10-05T12:04:04.855Z",
           "description": "Evidence linked in 3D Printing & Slicing Optimization"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.744Z",
-      "updatedAt": "2026-10-05T02:27:39.744Z"
+      "createdAt": "2026-10-05T12:04:04.855Z",
+      "updatedAt": "2026-10-05T12:04:04.855Z"
     },
     "Week_06/06_Saturday": {
       "id": "entry-week-06-06_Saturday-designing-in-3d-clay-modelling",
@@ -203,7 +203,7 @@
           "name": "fusion_360_cylindrical_cad.png",
           "url": "assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png",
           "size": "478 KB",
-          "uploadedAt": "2026-10-05T02:27:39.748Z",
+          "uploadedAt": "2026-10-05T12:04:04.856Z",
           "description": "Evidence linked in Designing in 3D & Clay Modelling"
         },
         {
@@ -212,12 +212,12 @@
           "name": "fusion_360_design.png",
           "url": "assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
           "size": "478 KB",
-          "uploadedAt": "2026-10-05T02:27:39.748Z",
+          "uploadedAt": "2026-10-05T12:04:04.856Z",
           "description": "Media asset from 06_Saturday"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.749Z",
-      "updatedAt": "2026-10-05T02:27:39.749Z"
+      "createdAt": "2026-10-05T12:04:04.856Z",
+      "updatedAt": "2026-10-05T12:04:04.856Z"
     }
   },
   "weeks": [
@@ -242,7 +242,7 @@
               "name": "sensor_telemetry.svg",
               "url": "assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-10-05T02:27:39.687Z",
+              "uploadedAt": "2026-10-05T12:04:04.847Z",
               "description": "Media asset from 01_Monday"
             },
             {
@@ -251,12 +251,12 @@
               "name": "system_architecture.svg",
               "url": "assets/weekly/Week_00/01_Monday/system_architecture.svg",
               "size": "1 KB",
-              "uploadedAt": "2026-10-05T02:27:39.688Z",
+              "uploadedAt": "2026-10-05T12:04:04.847Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-10-05T02:27:39.688Z",
-          "updatedAt": "2026-10-05T02:27:39.688Z"
+          "createdAt": "2026-10-05T12:04:04.847Z",
+          "updatedAt": "2026-10-05T12:04:04.847Z"
         },
         {
           "id": "entry-week-00-01_Monday-problem-discovery-field-investigation",
@@ -272,7 +272,7 @@
               "name": "sensor_telemetry.svg",
               "url": "assets/weekly/Week_00/01_Monday/sensor_telemetry.svg",
               "size": "538 B",
-              "uploadedAt": "2026-10-05T02:27:39.687Z",
+              "uploadedAt": "2026-10-05T12:04:04.847Z",
               "description": "Media asset from 01_Monday"
             },
             {
@@ -281,16 +281,16 @@
               "name": "system_architecture.svg",
               "url": "assets/weekly/Week_00/01_Monday/system_architecture.svg",
               "size": "1 KB",
-              "uploadedAt": "2026-10-05T02:27:39.688Z",
+              "uploadedAt": "2026-10-05T12:04:04.847Z",
               "description": "Media asset from 01_Monday"
             }
           ],
-          "createdAt": "2026-10-05T02:27:39.690Z",
-          "updatedAt": "2026-10-05T02:27:39.690Z"
+          "createdAt": "2026-10-05T12:04:04.848Z",
+          "updatedAt": "2026-10-05T12:04:04.848Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.693Z",
-      "updatedAt": "2026-10-05T02:27:39.693Z"
+      "createdAt": "2026-10-05T12:04:04.848Z",
+      "updatedAt": "2026-10-05T12:04:04.848Z"
     },
     {
       "id": "week-01",
@@ -307,12 +307,12 @@
           "notes": "# Week 1 — Technology, Design Thinking, and Retail\n\nThe first structured week focused on understanding technology, design thinking, and the retail industry. The emphasis was on looking at real-world business challenges and understanding how technology and creative problem-solving can be used to develop meaningful solutions.\n\nThe week began with discussions about recommendation systems and how data-driven technologies can influence digital experiences. Design thinking sessions introduced user-centric approaches to solving problems, emphasizing the importance of understanding users, their needs, and the context surrounding a problem.\n\nIndustry analysis formed another major part of the week. The food and beverage retail sector was explored through concepts such as value chains and SWOT analysis. This helped identify different stages of a business process, understand stakeholders, recognize opportunities, and examine challenges within an industry.\n\nThe sessions also introduced decision-making and consumer behavior. Understanding how people make decisions provided a connection between technology, business, and user needs. Alongside this, work on professional portfolios highlighted the importance of documenting skills, projects, and achievements effectively.\n\nThe later sessions focused on inspiration, leadership, entrepreneurship, and personal development. Discussions around goals, vision, career growth, innovation, and entrepreneurship provided a broader understanding of how technical skills can be combined with business awareness and creative thinking.\n\nBy the end of Week 1, the learning had moved beyond technology alone. The week established a foundation involving **technology, business understanding, design thinking, consumer behavior, communication, and personal development**.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-10-05T02:27:39.700Z",
-          "updatedAt": "2026-10-05T02:27:39.700Z"
+          "createdAt": "2026-10-05T12:04:04.848Z",
+          "updatedAt": "2026-10-05T12:04:04.848Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.701Z",
-      "updatedAt": "2026-10-05T02:27:39.701Z"
+      "createdAt": "2026-10-05T12:04:04.848Z",
+      "updatedAt": "2026-10-05T12:04:04.848Z"
     },
     {
       "id": "week-02",
@@ -329,12 +329,12 @@
           "notes": "# Week 2 — Problem Identification, Algorithms, and Application Development\n\nWeek 2 focused on moving from identifying problems to developing logical and practical solutions. The activities emphasized problem-solving, computational thinking, validation, creativity, and rapid application development.\n\nThe week began with identifying challenges within the retail industry and developing problem statements around potential areas of improvement. The use of structured problem-solving methods helped bring attention to workplace organization, efficiency, and continuous improvement.\n\nAlgorithms were then introduced as a foundation for logical thinking and programming. Activities explored how algorithms work, how different approaches can solve a problem, and how the choice of an approach can influence performance. This strengthened computational thinking and encouraged a more structured way of approaching problems.\n\nScratch provided an introduction to visual programming. Creating an interactive project demonstrated how programming logic can be represented visually while making the learning process more engaging. The activity also connected programming concepts with creativity and experimentation.\n\nThe second half of the week shifted toward validation and application development. Problem statements were reviewed and refined to ensure that they addressed meaningful needs. These ideas were then transformed into functional mobile applications using MIT App Inventor, providing hands-on experience with rapid application development and prototyping.\n\nThe major progression during Week 2 was from **problem identification → logical thinking → validation → prototyping → functional application development**. The week demonstrated how an initial idea can gradually become a working digital solution.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-10-05T02:27:39.704Z",
-          "updatedAt": "2026-10-05T02:27:39.704Z"
+          "createdAt": "2026-10-05T12:04:04.849Z",
+          "updatedAt": "2026-10-05T12:04:04.849Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.705Z",
-      "updatedAt": "2026-10-05T02:27:39.705Z"
+      "createdAt": "2026-10-05T12:04:04.849Z",
+      "updatedAt": "2026-10-05T12:04:04.849Z"
     },
     {
       "id": "week-03",
@@ -351,12 +351,12 @@
           "notes": "# Week 3 — Linux, Automation, Cloud, and Electronics\n\nWeek 3 introduced a combination of software systems, automation, cloud concepts, and electronics. The week provided exposure to multiple areas of technology and demonstrated how different tools can work together within a development workflow.\n\nThe first part of the week focused on Linux and operating systems. Different Linux distributions were explored, along with the fundamentals of working in a Linux environment. A small project was developed within the environment to reinforce the concepts and provide practical familiarity with the operating system.\n\nThe next stage introduced terminal-based development, Docker, and cloud computing. Working with the command line strengthened programming and system interaction skills, while Docker demonstrated how containerization can simplify application deployment. Cloud technologies were also introduced through practical application of the developed project.\n\nAutomation became another important component. Tools for automating repetitive tasks were explored with the goal of improving productivity and maintaining consistency. A workflow was created to connect content management with the development process, demonstrating how automation can reduce repetitive manual work and keep project information updated.\n\nThe final part of the week shifted toward electronics. Basic electrical and electronic components were introduced through practical experiments and simulations. A multimeter was used to understand electrical measurements and troubleshoot circuits, while hands-on circuit building and soldering provided practical hardware experience.\n\nWeek 3 therefore connected several different areas: **Linux, programming, Docker, cloud computing, workflow automation, electronics, measurement, and hardware prototyping**. The combination helped demonstrate how software and hardware knowledge can complement each other in technical projects.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-10-05T02:27:39.707Z",
-          "updatedAt": "2026-10-05T02:27:39.707Z"
+          "createdAt": "2026-10-05T12:04:04.849Z",
+          "updatedAt": "2026-10-05T12:04:04.849Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.711Z",
-      "updatedAt": "2026-10-05T02:27:39.711Z"
+      "createdAt": "2026-10-05T12:04:04.849Z",
+      "updatedAt": "2026-10-05T12:04:04.849Z"
     },
     {
       "id": "week-04",
@@ -373,12 +373,12 @@
           "notes": "# Week 4 — Electronics, Microcontrollers, Sensors, and IoT\n\nWeek 4 focused extensively on electronics, microcontrollers, sensors, actuators, and IoT-based systems. The learning progressed from basic microcontroller concepts to integrating multiple components into interactive applications.\n\nThe week began with an introduction to Arduino Uno and the fundamentals of microcontroller-based systems. Basic concepts such as digital input and output, pins, and uploading programs to a board were explored. A simple LED project was used to understand the relationship between program instructions, digital signals, and physical output.\n\nThe next stage introduced sensors and actuators. Components such as PIR sensors, DHT11 temperature and humidity sensors, IR sensors, OLED displays, and joysticks were explored. The activities demonstrated how sensors provide input to a microcontroller, which can process that information and generate an appropriate output through actuators or displays.\n\nThe learning then progressed to ESP32-based systems. Components including an ultrasonic sensor, OLED display, and joystick were integrated with the ESP32 to understand how multiple devices can communicate with a single microcontroller. The ESP32 also introduced the concept of wireless connectivity and provided a stronger foundation for IoT applications.\n\nThe final part of the week involved developing interactive applications. A traffic controller simulation demonstrated how inputs, logical processing, and outputs could be combined into a working system. Another application involved an interactive digital pet using sensors and an OLED display, showing how sensor data could influence the state and behavior of a virtual system.\n\nWeek 4 provided a progression from **basic electronics → microcontrollers → sensors and actuators → ESP32 → IoT concepts → interactive applications**. It strengthened practical understanding of both hardware integration and software-controlled physical systems.\n",
           "status": "PUBLISHED",
           "attachments": [],
-          "createdAt": "2026-10-05T02:27:39.716Z",
-          "updatedAt": "2026-10-05T02:27:39.716Z"
+          "createdAt": "2026-10-05T12:04:04.849Z",
+          "updatedAt": "2026-10-05T12:04:04.849Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.717Z",
-      "updatedAt": "2026-10-05T02:27:39.717Z"
+      "createdAt": "2026-10-05T12:04:04.850Z",
+      "updatedAt": "2026-10-05T12:04:04.850Z"
     },
     {
       "id": "week-05",
@@ -387,8 +387,8 @@
       "name": "",
       "order": 5,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.720Z",
-      "updatedAt": "2026-10-05T02:27:39.720Z"
+      "createdAt": "2026-10-05T12:04:04.850Z",
+      "updatedAt": "2026-10-05T12:04:04.850Z"
     },
     {
       "id": "week-06",
@@ -411,7 +411,7 @@
               "name": "fusion_360_cylindrical_cad.png",
               "url": "assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png",
               "size": "478 KB",
-              "uploadedAt": "2026-10-05T02:27:39.748Z",
+              "uploadedAt": "2026-10-05T12:04:04.856Z",
               "description": "Evidence linked in Designing in 3D & Clay Modelling"
             },
             {
@@ -420,12 +420,12 @@
               "name": "fusion_360_design.png",
               "url": "assets/weekly/Week_06/06_Saturday/fusion_360_design.png",
               "size": "478 KB",
-              "uploadedAt": "2026-10-05T02:27:39.748Z",
+              "uploadedAt": "2026-10-05T12:04:04.856Z",
               "description": "Media asset from 06_Saturday"
             }
           ],
-          "createdAt": "2026-10-05T02:27:39.749Z",
-          "updatedAt": "2026-10-05T02:27:39.749Z"
+          "createdAt": "2026-10-05T12:04:04.856Z",
+          "updatedAt": "2026-10-05T12:04:04.856Z"
         },
         {
           "id": "entry-week-06-01_Monday-laser-cutting-scanning-workflow",
@@ -441,7 +441,7 @@
               "name": "rdworks_laser_preview.png",
               "url": "assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png",
               "size": "83 KB",
-              "uploadedAt": "2026-10-05T02:27:39.726Z",
+              "uploadedAt": "2026-10-05T12:04:04.851Z",
               "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             },
             {
@@ -450,7 +450,7 @@
               "name": "laser_cutting_operation.jpg",
               "url": "assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg",
               "size": "195 KB",
-              "uploadedAt": "2026-10-05T02:27:39.726Z",
+              "uploadedAt": "2026-10-05T12:04:04.851Z",
               "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             },
             {
@@ -459,7 +459,7 @@
               "name": "laser_engraved_output.jpg",
               "url": "assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg",
               "size": "122 KB",
-              "uploadedAt": "2026-10-05T02:27:39.727Z",
+              "uploadedAt": "2026-10-05T12:04:04.851Z",
               "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             },
             {
@@ -467,13 +467,13 @@
               "type": "PDF",
               "name": "krishnakanth.ai",
               "url": "assets/weekly/Week_06/01_Monday/krishnakanth.ai",
-              "size": "55 KB",
-              "uploadedAt": "2026-10-05T02:27:39.727Z",
+              "size": "54 KB",
+              "uploadedAt": "2026-10-05T12:04:04.851Z",
               "description": "Evidence linked in Laser Cutting & Scanning Workflow"
             }
           ],
-          "createdAt": "2026-10-05T02:27:39.727Z",
-          "updatedAt": "2026-10-05T02:27:39.727Z"
+          "createdAt": "2026-10-05T12:04:04.851Z",
+          "updatedAt": "2026-10-05T12:04:04.851Z"
         },
         {
           "id": "entry-week-06-02_Tuesday-3d-printing-slicing-optimization",
@@ -489,7 +489,7 @@
               "name": "bambu_lab_printing_session.jpg",
               "url": "assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg",
               "size": "183 KB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             },
             {
@@ -498,7 +498,7 @@
               "name": "bambu_h2s_print_plate.jpg",
               "url": "assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg",
               "size": "146 KB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             },
             {
@@ -507,7 +507,7 @@
               "name": "phone_stand_folded.jpg",
               "url": "assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg",
               "size": "106 KB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             },
             {
@@ -516,7 +516,7 @@
               "name": "phone_stand_adjustable.jpg",
               "url": "assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg",
               "size": "201 KB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             },
             {
@@ -525,7 +525,7 @@
               "name": "krishnakanth.stl",
               "url": "assets/weekly/Week_06/02_Tuesday/krishnakanth.stl",
               "size": "2.0 MB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             },
             {
@@ -534,16 +534,16 @@
               "name": "krishnakanth.gcode.3mf",
               "url": "assets/weekly/Week_06/02_Tuesday/krishnakanth.gcode.3mf",
               "size": "2.4 MB",
-              "uploadedAt": "2026-10-05T02:27:39.744Z",
+              "uploadedAt": "2026-10-05T12:04:04.855Z",
               "description": "Evidence linked in 3D Printing & Slicing Optimization"
             }
           ],
-          "createdAt": "2026-10-05T02:27:39.744Z",
-          "updatedAt": "2026-10-05T02:27:39.744Z"
+          "createdAt": "2026-10-05T12:04:04.855Z",
+          "updatedAt": "2026-10-05T12:04:04.855Z"
         }
       ],
-      "createdAt": "2026-10-05T02:27:39.749Z",
-      "updatedAt": "2026-10-05T02:27:39.749Z"
+      "createdAt": "2026-10-05T12:04:04.856Z",
+      "updatedAt": "2026-10-05T12:04:04.856Z"
     },
     {
       "id": "week-07",
@@ -552,8 +552,8 @@
       "name": "",
       "order": 7,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.751Z",
-      "updatedAt": "2026-10-05T02:27:39.751Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-08",
@@ -562,8 +562,8 @@
       "name": "",
       "order": 8,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.752Z",
-      "updatedAt": "2026-10-05T02:27:39.752Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-09",
@@ -572,8 +572,8 @@
       "name": "",
       "order": 9,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.754Z",
-      "updatedAt": "2026-10-05T02:27:39.754Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-10",
@@ -582,8 +582,8 @@
       "name": "",
       "order": 10,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.755Z",
-      "updatedAt": "2026-10-05T02:27:39.755Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-11",
@@ -592,8 +592,8 @@
       "name": "",
       "order": 11,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.756Z",
-      "updatedAt": "2026-10-05T02:27:39.756Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-12",
@@ -602,8 +602,8 @@
       "name": "",
       "order": 12,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.758Z",
-      "updatedAt": "2026-10-05T02:27:39.758Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-13",
@@ -612,8 +612,8 @@
       "name": "",
       "order": 13,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.759Z",
-      "updatedAt": "2026-10-05T02:27:39.759Z"
+      "createdAt": "2026-10-05T12:04:04.857Z",
+      "updatedAt": "2026-10-05T12:04:04.857Z"
     },
     {
       "id": "week-14",
@@ -622,8 +622,8 @@
       "name": "",
       "order": 14,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.761Z",
-      "updatedAt": "2026-10-05T02:27:39.761Z"
+      "createdAt": "2026-10-05T12:04:04.858Z",
+      "updatedAt": "2026-10-05T12:04:04.858Z"
     },
     {
       "id": "week-15",
@@ -632,8 +632,8 @@
       "name": "",
       "order": 15,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.764Z",
-      "updatedAt": "2026-10-05T02:27:39.764Z"
+      "createdAt": "2026-10-05T12:04:04.858Z",
+      "updatedAt": "2026-10-05T12:04:04.858Z"
     },
     {
       "id": "week-16",
@@ -642,8 +642,8 @@
       "name": "",
       "order": 16,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.765Z",
-      "updatedAt": "2026-10-05T02:27:39.765Z"
+      "createdAt": "2026-10-05T12:04:04.858Z",
+      "updatedAt": "2026-10-05T12:04:04.858Z"
     },
     {
       "id": "week-17",
@@ -652,8 +652,8 @@
       "name": "",
       "order": 17,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.767Z",
-      "updatedAt": "2026-10-05T02:27:39.767Z"
+      "createdAt": "2026-10-05T12:04:04.858Z",
+      "updatedAt": "2026-10-05T12:04:04.858Z"
     },
     {
       "id": "week-18",
@@ -662,8 +662,8 @@
       "name": "",
       "order": 18,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.771Z",
-      "updatedAt": "2026-10-05T02:27:39.771Z"
+      "createdAt": "2026-10-05T12:04:04.858Z",
+      "updatedAt": "2026-10-05T12:04:04.858Z"
     },
     {
       "id": "week-19",
@@ -672,8 +672,8 @@
       "name": "",
       "order": 19,
       "entries": [],
-      "createdAt": "2026-10-05T02:27:39.772Z",
-      "updatedAt": "2026-10-05T02:27:39.772Z"
+      "createdAt": "2026-10-05T12:04:04.859Z",
+      "updatedAt": "2026-10-05T12:04:04.859Z"
     }
   ],
   "evidence": [
