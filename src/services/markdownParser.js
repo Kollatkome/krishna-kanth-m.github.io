@@ -77,10 +77,18 @@ export function convertMarkdownLinks(content, { week, day }) {
 
   // 2. Convert standard markdown relative images: ![alt](filename.ext) or ![alt](./filename.ext)
   processed = processed.replace(/!\[([^\]]*)\]\((?:\.\/)?([^):]+)\)/g, (match, alt, target) => {
-    if (target.startsWith('http://') || target.startsWith('https://') || target.startsWith('/') || target.startsWith('data:')) {
+    const cleanTarget = target.trim();
+    if (
+      cleanTarget.startsWith('http://') ||
+      cleanTarget.startsWith('https://') ||
+      cleanTarget.startsWith('/') ||
+      cleanTarget.startsWith('data:') ||
+      cleanTarget.startsWith('assets/') ||
+      cleanTarget.includes('/')
+    ) {
       return match;
     }
-    return `![${alt}](${basePath}/${target.trim()})`;
+    return `![${alt}](${basePath}/${cleanTarget})`;
   });
 
   // 3. Convert document embeds/links: [[filename.pdf|Optional Label]] or [[filename.pdf]]
@@ -91,7 +99,10 @@ export function convertMarkdownLinks(content, { week, day }) {
     const displayText = (label || cleanTarget).trim();
 
     if (isDoc) {
-      return `[${displayText}](${basePath}/${cleanTarget})`;
+      const finalDocPath = (cleanTarget.startsWith('assets/') || cleanTarget.includes('/'))
+        ? cleanTarget
+        : `${basePath}/${cleanTarget}`;
+      return `[${displayText}](${finalDocPath})`;
     }
     return displayText;
   });

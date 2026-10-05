@@ -24,7 +24,7 @@ We started with the fundamentals of Autodesk Fusion 360, learning how simple geo
 - **Parametric Operations**: Extruding 2D sketches into 3D solid bodies, mirroring symmetrical elements, and applying fill/fillet operations.
 - **Design Thinking Integration**: Learning how simple digital tools gain immense power when combined with systematic design thinking.
 
-![Autodesk Fusion 360 3D Parametric Modeling Session](assets/weekly/Week_06/06_Saturday/assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png)
+![Autodesk Fusion 360 3D Parametric Modeling Session](assets/weekly/Week_06/06_Saturday/fusion_360_cylindrical_cad.png)
 
 ---
 
@@ -133,7 +133,7 @@ After loading the DXF into RDWorks V8, I verified geometry integrity and configu
 - Color-coded layers to ensure engraving precedes outer cutting (preventing workpiece shift during scanning).
 - Executed visual simulation preview to estimate process duration and confirm nozzle head pathing.
 
-![RDWorks V8 Laser Cutting & Scanning Toolpath Preview](assets/weekly/Week_06/01_Monday/assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)
+![RDWorks V8 Laser Cutting & Scanning Toolpath Preview](assets/weekly/Week_06/01_Monday/rdworks_laser_preview.png)
 
 ---
 
@@ -169,7 +169,7 @@ Final workpiece footprint: **50 × 50 mm**. Estimated simulation run time: **9.6
 6. Executed job: raster scanned emblem first, followed immediately by vector perimeter cut.
 7. Allowed exhaust dwell time before opening enclosure to retrieve finished part.
 
-![Observing the Laser Cutting Machine in Operation at Forge](assets/weekly/Week_06/01_Monday/assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)
+![Observing the Laser Cutting Machine in Operation at Forge](assets/weekly/Week_06/01_Monday/laser_cutting_operation.jpg)
 
 ---
 
@@ -177,7 +177,7 @@ Final workpiece footprint: **50 × 50 mm**. Estimated simulation run time: **9.6
 
 The completed acrylic workpiece yielded crisp, frosty raster definition and glass-smooth flame-polished edges:
 
-![Final 50 × 50 mm transparent acrylic piece with the engraved Transformers symbol](assets/weekly/Week_06/01_Monday/assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)
+![Final 50 × 50 mm transparent acrylic piece with the engraved Transformers symbol](assets/weekly/Week_06/01_Monday/laser_engraved_output.jpg)
 
 ---
 
@@ -230,7 +230,7 @@ The 3D printing activity was carried out using the **Bambu Lab H2S** industrial-
 | **Max Toolhead Speed** | Up to 1000 mm/s |
 | **Max Nozzle Temp** | 350°C |
 
-![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](assets/weekly/Week_06/02_Tuesday/assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)
+![Monitoring Print Precision and Layer Adhesion on the Bambu Lab 3D Printer](assets/weekly/Week_06/02_Tuesday/bambu_lab_printing_session.jpg)
 
 ---
 
@@ -258,7 +258,7 @@ During the print run, the Bambu Lab H2S demonstrated exceptional precision on co
 - **Functional Integrity**: Sturdy mechanical strength capable of supporting mobile devices in multiple orientations.
 - **Zero Print Failures**: 100% first-pass yield with zero spaghetti, warping, or layer shifts.
 
-![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts on Build Plate](assets/weekly/Week_06/02_Tuesday/assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)
+![Bambu Lab H2S 3D Printer with AMS 2 and Printed Phone Holder Parts on Build Plate](assets/weekly/Week_06/02_Tuesday/bambu_h2s_print_plate.jpg)
 
 ---
 
@@ -325,12 +325,12 @@ The phone stand printed flawlessly in white PLA Basic:
 ### Folded Compact State
 The entire assembly collapses into an ultra-slim pocket profile:
 
-![Final 3D-printed white PLA phone stand after successful printing (folded state)](assets/weekly/Week_06/02_Tuesday/assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg)
+![Final 3D-printed white PLA phone stand after successful printing (folded state)](assets/weekly/Week_06/02_Tuesday/phone_stand_folded.jpg)
 
 ### Extended Articulating Tripod Stand
 The legs extend outward smoothly to provide a stable, weighted base for mobile devices:
 
-![Adjustable sections and tripod base of the completed phone stand](assets/weekly/Week_06/02_Tuesday/assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg)
+![Adjustable sections and tripod base of the completed phone stand](assets/weekly/Week_06/02_Tuesday/phone_stand_adjustable.jpg)
 
 ---
 

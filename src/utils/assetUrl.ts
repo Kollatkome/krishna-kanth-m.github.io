@@ -27,6 +27,12 @@ export function resolveAssetUrl(url: string | undefined | null): string {
     cleanPath = cleanPath.slice(1);
   }
 
+  // Deduplicate any repeated segments (e.g. assets/weekly/Week_06/.../assets/weekly/Week_06/...)
+  const duplicateMatch = cleanPath.match(/(assets\/weekly\/[^\/]+\/[^\/]+\/)\1+(.*)/);
+  if (duplicateMatch) {
+    cleanPath = `${duplicateMatch[1]}${duplicateMatch[2]}`;
+  }
+
   const base = import.meta.env.BASE_URL || './';
   const normalizedBase = base.endsWith('/') ? base : `${base}/`;
 

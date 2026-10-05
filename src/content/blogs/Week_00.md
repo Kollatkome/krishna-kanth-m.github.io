@@ -37,7 +37,7 @@ Overall, Week 0 established a foundation for the program by combining technology
 Conducted on-site surveys with manufacturing floor technicians. Documented initial system diagrams and architecture layout.
 
 ## 📸 System Architecture Diagram
-![High-Level Architecture Schematic](assets/weekly/Week_00/01_Monday/assets/weekly/Week_00/01_Monday/system_architecture.svg)
+![High-Level Architecture Schematic](assets/weekly/Week_00/01_Monday/system_architecture.svg)
 
 ## 💡 Key Learnings & Reflections
 - First-hand field observations reveal friction points that theoretical models overlook.
